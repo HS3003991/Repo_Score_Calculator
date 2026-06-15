@@ -1,0 +1,4435 @@
+{
+  "layer": "iac",
+  "created": "2026-06-15",
+  "benchmark_size": 369,
+  "repos": [
+    {
+      "name": "public-apis/public-apis",
+      "source_language": "python",
+      "iac_loc": 74,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "EbookFoundation/free-programming-books",
+      "source_language": "python",
+      "iac_loc": 632,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "donnemartin/system-design-primer",
+      "source_language": "python",
+      "iac_loc": 3,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "vinta/awesome-python",
+      "source_language": "python",
+      "iac_loc": 93,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "TheAlgorithms/Python",
+      "source_language": "python",
+      "iac_loc": 371,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 21.5633423180593
+    },
+    {
+      "name": "NousResearch/hermes-agent",
+      "source_language": "python",
+      "iac_loc": 8709,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 1,
+        "LOW": 1
+      },
+      "iac_density": 1.3778849466069585
+    },
+    {
+      "name": "Significant-Gravitas/AutoGPT",
+      "source_language": "python",
+      "iac_loc": 21082,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 11,
+        "MEDIUM": 0,
+        "LOW": 5
+      },
+      "iac_density": 3.889574044208329
+    },
+    {
+      "name": "yt-dlp/yt-dlp",
+      "source_language": "python",
+      "iac_loc": 2395,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 1,
+        "LOW": 1
+      },
+      "iac_density": 5.010438413361169
+    },
+    {
+      "name": "AUTOMATIC1111/stable-diffusion-webui",
+      "source_language": "python",
+      "iac_loc": 737,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "521xueweihan/HelloGitHub",
+      "source_language": "python",
+      "iac_loc": 197,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "microsoft/markitdown",
+      "source_language": "python",
+      "iac_loc": 83,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 2
+      },
+      "iac_density": 24.096385542168672
+    },
+    {
+      "name": "langflow-ai/langflow",
+      "source_language": "python",
+      "iac_loc": 10446,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 14,
+        "MEDIUM": 3,
+        "LOW": 17
+      },
+      "iac_density": 12.157763737315719
+    },
+    {
+      "name": "open-webui/open-webui",
+      "source_language": "python",
+      "iac_loc": 947,
+      "iac": {
+        "CRITICAL": 2,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 19.00739176346357
+    },
+    {
+      "name": "ytdl-org/youtube-dl",
+      "source_language": "python",
+      "iac_loc": 435,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "langchain-ai/langchain",
+      "source_language": "python",
+      "iac_loc": 5543,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 0.18040772145047806
+    },
+    {
+      "name": "anthropics/claude-code",
+      "source_language": "python",
+      "iac_loc": 1141,
+      "iac": {
+        "CRITICAL": 1,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 8.76424189307625
+    },
+    {
+      "name": "Comfy-Org/ComfyUI",
+      "source_language": "python",
+      "iac_loc": 7542,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "Shubhamsaboo/awesome-llm-apps",
+      "source_language": "python",
+      "iac_loc": 33904,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 9,
+        "MEDIUM": 1,
+        "LOW": 12
+      },
+      "iac_density": 2.330108541764983
+    },
+    {
+      "name": "github/spec-kit",
+      "source_language": "python",
+      "iac_loc": 4735,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "deepseek-ai/DeepSeek-V3",
+      "source_language": "python",
+      "iac_loc": 29,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "openai/whisper",
+      "source_language": "python",
+      "iac_loc": 152,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "fastapi/fastapi",
+      "source_language": "python",
+      "iac_loc": 7125,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "browser-use/browser-use",
+      "source_language": "python",
+      "iac_loc": 1599,
+      "iac": {
+        "CRITICAL": 1,
+        "HIGH": 3,
+        "MEDIUM": 3,
+        "LOW": 5
+      },
+      "iac_density": 29.39337085678549
+    },
+    {
+      "name": "nvbn/thefuck",
+      "source_language": "python",
+      "iac_loc": 99,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 80.8080808080808
+    },
+    {
+      "name": "hacksider/Deep-Live-Cam",
+      "source_language": "python",
+      "iac_loc": 14,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "source_language": "python",
+      "iac_loc": 89,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "django/django",
+      "source_language": "python",
+      "iac_loc": 1251,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "3b1b/manim",
+      "source_language": "python",
+      "iac_loc": 880,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "harry0703/MoneyPrinterTurbo",
+      "source_language": "python",
+      "iac_loc": 231,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 2,
+        "MEDIUM": 0,
+        "LOW": 2
+      },
+      "iac_density": 69.26406926406926
+    },
+    {
+      "name": "TauricResearch/TradingAgents",
+      "source_language": "python",
+      "iac_loc": 51,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 19.607843137254903
+    },
+    {
+      "name": "sherlock-project/sherlock",
+      "source_language": "python",
+      "iac_loc": 506,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 5,
+        "MEDIUM": 1,
+        "LOW": 2
+      },
+      "iac_density": 81.02766798418972
+    },
+    {
+      "name": "bregman-arie/devops-exercises",
+      "source_language": "python",
+      "iac_loc": 158,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 18,
+        "MEDIUM": 17,
+        "LOW": 29
+      },
+      "iac_density": 1411.392405063291
+    },
+    {
+      "name": "vllm-project/vllm",
+      "source_language": "python",
+      "iac_loc": 15601,
+      "iac": {
+        "CRITICAL": 2,
+        "HIGH": 34,
+        "MEDIUM": 61,
+        "LOW": 37
+      },
+      "iac_density": 34.420870457021984
+    },
+    {
+      "name": "infiniflow/ragflow",
+      "source_language": "python",
+      "iac_loc": 3075,
+      "iac": {
+        "CRITICAL": 1,
+        "HIGH": 20,
+        "MEDIUM": 22,
+        "LOW": 59
+      },
+      "iac_density": 96.260162601626
+    },
+    {
+      "name": "PaddlePaddle/PaddleOCR",
+      "source_language": "python",
+      "iac_loc": 26828,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 5,
+        "MEDIUM": 29,
+        "LOW": 28
+      },
+      "iac_density": 6.672133591769793
+    },
+    {
+      "name": "fighting41love/funNLP",
+      "source_language": "python",
+      "iac_loc": 1,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "swisskyrepo/PayloadsAllTheThings",
+      "source_language": "python",
+      "iac_loc": 126,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "d2l-ai/d2l-zh",
+      "source_language": "python",
+      "iac_loc": 459,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 5,
+        "MEDIUM": 1,
+        "LOW": 19
+      },
+      "iac_density": 126.36165577342048
+    },
+    {
+      "name": "tensorflow/models",
+      "source_language": "python",
+      "iac_loc": 20950,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 11,
+        "MEDIUM": 8,
+        "LOW": 5
+      },
+      "iac_density": 5.441527446300716
+    },
+    {
+      "name": "Z4nzu/hackingtool",
+      "source_language": "python",
+      "iac_loc": 98,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 1,
+        "LOW": 1
+      },
+      "iac_density": 122.44897959183673
+    },
+    {
+      "name": "OpenHands/OpenHands",
+      "source_language": "python",
+      "iac_loc": 3451,
+      "iac": {
+        "CRITICAL": 3,
+        "HIGH": 23,
+        "MEDIUM": 14,
+        "LOW": 25
+      },
+      "iac_density": 77.94842074760939
+    },
+    {
+      "name": "python/cpython",
+      "source_language": "python",
+      "iac_loc": 2724,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "hiyouga/LlamaFactory",
+      "source_language": "python",
+      "iac_loc": 2965,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 10,
+        "MEDIUM": 0,
+        "LOW": 5
+      },
+      "iac_density": 25.295109612141655
+    },
+    {
+      "name": "pallets/flask",
+      "source_language": "python",
+      "iac_loc": 241,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "bytedance/deer-flow",
+      "source_language": "python",
+      "iac_loc": 11139,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 4,
+        "MEDIUM": 3,
+        "LOW": 3
+      },
+      "iac_density": 3.8603106203429394
+    },
+    {
+      "name": "binary-husky/gpt_academic",
+      "source_language": "python",
+      "iac_loc": 631,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 3,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 34.865293185419965
+    },
+    {
+      "name": "pewdiepie-archdaemon/odysseus",
+      "source_language": "python",
+      "iac_loc": 1223,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 6.541291905151267
+    },
+    {
+      "name": "OpenBB-finance/OpenBB",
+      "source_language": "python",
+      "iac_loc": 1189034,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 2,
+        "MEDIUM": 0,
+        "LOW": 2
+      },
+      "iac_density": 0.01345630150189145
+    },
+    {
+      "name": "ansible/ansible",
+      "source_language": "python",
+      "iac_loc": 81339,
+      "iac": {
+        "CRITICAL": 1,
+        "HIGH": 0,
+        "MEDIUM": 1,
+        "LOW": 1
+      },
+      "iac_density": 0.17211915563259936
+    },
+    {
+      "name": "FoundationAgents/MetaGPT",
+      "source_language": "python",
+      "iac_loc": 1351,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 5.921539600296077
+    },
+    {
+      "name": "unclecode/crawl4ai",
+      "source_language": "python",
+      "iac_loc": 900,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 7.777777777777778
+    },
+    {
+      "name": "opendatalab/MinerU",
+      "source_language": "python",
+      "iac_loc": 1448,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 21,
+        "MEDIUM": 1,
+        "LOW": 11
+      },
+      "iac_density": 111.87845303867404
+    },
+    {
+      "name": "labmlai/annotated_deep_learning_paper_implementations",
+      "source_language": "python",
+      "iac_loc": 21,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "safishamsi/graphify",
+      "source_language": "python",
+      "iac_loc": 138,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 7.246376811594202
+    },
+    {
+      "name": "unslothai/unsloth",
+      "source_language": "python",
+      "iac_loc": 14917,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "shareAI-lab/learn-claude-code",
+      "source_language": "python",
+      "iac_loc": 61,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "xtekky/gpt4free",
+      "source_language": "python",
+      "iac_loc": 672,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 2,
+        "MEDIUM": 1,
+        "LOW": 2
+      },
+      "iac_density": 29.76190476190476
+    },
+    {
+      "name": "scikit-learn/scikit-learn",
+      "source_language": "python",
+      "iac_loc": 2211,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "666ghj/MiroFish",
+      "source_language": "python",
+      "iac_loc": 68,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 1,
+        "LOW": 1
+      },
+      "iac_density": 176.47058823529412
+    },
+    {
+      "name": "localstack/localstack",
+      "source_language": "python",
+      "iac_loc": 19559,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 3,
+        "MEDIUM": 1,
+        "LOW": 14
+      },
+      "iac_density": 1.993966971726571
+    },
+    {
+      "name": "Asabeneh/30-Days-Of-Python",
+      "source_language": "python",
+      "iac_loc": 3,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "ComposioHQ/awesome-claude-skills",
+      "source_language": "python",
+      "iac_loc": 141,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "keras-team/keras",
+      "source_language": "python",
+      "iac_loc": 944,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "openinterpreter/openinterpreter",
+      "source_language": "python",
+      "iac_loc": 7477,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 1,
+        "LOW": 3
+      },
+      "iac_density": 0.9362043600374481
+    },
+    {
+      "name": "D4Vinci/Scrapling",
+      "source_language": "python",
+      "iac_loc": 637,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 2,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 23.547880690737834
+    },
+    {
+      "name": "pathwaycom/pathway",
+      "source_language": "python",
+      "iac_loc": 1781,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 27,
+        "MEDIUM": 3,
+        "LOW": 26
+      },
+      "iac_density": 127.45648512071871
+    },
+    {
+      "name": "scrapy/scrapy",
+      "source_language": "python",
+      "iac_loc": 382,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "docling-project/docling",
+      "source_language": "python",
+      "iac_loc": 3456,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 2,
+        "MEDIUM": 1,
+        "LOW": 2
+      },
+      "iac_density": 5.787037037037037
+    },
+    {
+      "name": "virattt/ai-hedge-fund",
+      "source_language": "python",
+      "iac_loc": 3504,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 2.2831050228310503
+    },
+    {
+      "name": "CorentinJ/Real-Time-Voice-Cloning",
+      "source_language": "python",
+      "iac_loc": 25,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "sansan0/TrendRadar",
+      "source_language": "python",
+      "iac_loc": 1229,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 2,
+        "MEDIUM": 0,
+        "LOW": 2
+      },
+      "iac_density": 13.018714401952806
+    },
+    {
+      "name": "datawhalechina/hello-agents",
+      "source_language": "python",
+      "iac_loc": 5368,
+      "iac": {
+        "CRITICAL": 1,
+        "HIGH": 4,
+        "MEDIUM": 0,
+        "LOW": 3
+      },
+      "iac_density": 7.451564828614009
+    },
+    {
+      "name": "RVC-Boss/GPT-SoVITS",
+      "source_language": "python",
+      "iac_loc": 723,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 11.065006915629322
+    },
+    {
+      "name": "mem0ai/mem0",
+      "source_language": "python",
+      "iac_loc": 26366,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 3,
+        "MEDIUM": 0,
+        "LOW": 5
+      },
+      "iac_density": 0.9861184859288478
+    },
+    {
+      "name": "ultralytics/ultralytics",
+      "source_language": "python",
+      "iac_loc": 11749,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 0.6809090135330667
+    },
+    {
+      "name": "ultralytics/yolov5",
+      "source_language": "python",
+      "iac_loc": 5133,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 2,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 2.922267679719462
+    },
+    {
+      "name": "zylon-ai/private-gpt",
+      "source_language": "python",
+      "iac_loc": 1456,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 5.4945054945054945
+    },
+    {
+      "name": "soimort/you-get",
+      "source_language": "python",
+      "iac_loc": 31,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "Textualize/rich",
+      "source_language": "python",
+      "iac_loc": 232,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "FoundationAgents/OpenManus",
+      "source_language": "python",
+      "iac_loc": 417,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 19.18465227817746
+    },
+    {
+      "name": "ageitgey/face_recognition",
+      "source_language": "python",
+      "iac_loc": 238,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 9,
+        "MEDIUM": 5,
+        "LOW": 6
+      },
+      "iac_density": 373.9495798319328
+    },
+    {
+      "name": "MemPalace/mempalace",
+      "source_language": "python",
+      "iac_loc": 727,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 2
+      },
+      "iac_density": 2.751031636863824
+    },
+    {
+      "name": "deepfakes/faceswap",
+      "source_language": "python",
+      "iac_loc": 173,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "AntonOsika/gpt-engineer",
+      "source_language": "python",
+      "iac_loc": 202,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 39.603960396039604
+    },
+    {
+      "name": "Zie619/n8n-workflows",
+      "source_language": "python",
+      "iac_loc": 1228,
+      "iac": {
+        "CRITICAL": 1,
+        "HIGH": 2,
+        "MEDIUM": 8,
+        "LOW": 11
+      },
+      "iac_density": 53.74592833876222
+    },
+    {
+      "name": "psf/requests",
+      "source_language": "python",
+      "iac_loc": 364,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "crewAIInc/crewAI",
+      "source_language": "python",
+      "iac_loc": 214414,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "freqtrade/freqtrade",
+      "source_language": "python",
+      "iac_loc": 1459,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 7,
+        "MEDIUM": 0,
+        "LOW": 8
+      },
+      "iac_density": 39.06785469499657
+    },
+    {
+      "name": "NanmiCoder/MediaCrawler",
+      "source_language": "python",
+      "iac_loc": 79,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "charlax/professional-programming",
+      "source_language": "python",
+      "iac_loc": 18,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "lllyasviel/Fooocus",
+      "source_language": "python",
+      "iac_loc": 1116,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 7.168458781362006
+    },
+    {
+      "name": "run-llama/llama_index",
+      "source_language": "python",
+      "iac_loc": 11304,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "pandas-dev/pandas",
+      "source_language": "python",
+      "iac_loc": 2643,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "oobabooga/textgen",
+      "source_language": "python",
+      "iac_loc": 1608,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 5,
+        "MEDIUM": 0,
+        "LOW": 5
+      },
+      "iac_density": 24.87562189054726
+    },
+    {
+      "name": "hesreallyhim/awesome-claude-code",
+      "source_language": "python",
+      "iac_loc": 2547,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "Aider-AI/aider",
+      "source_language": "python",
+      "iac_loc": 15806,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 6,
+        "MEDIUM": 2,
+        "LOW": 3
+      },
+      "iac_density": 3.353157028976338
+    },
+    {
+      "name": "apache/airflow",
+      "source_language": "python",
+      "iac_loc": 109268,
+      "iac": {
+        "CRITICAL": 6,
+        "HIGH": 36,
+        "MEDIUM": 71,
+        "LOW": 186
+      },
+      "iac_density": 7.101804736976974
+    },
+    {
+      "name": "coqui-ai/TTS",
+      "source_language": "python",
+      "iac_loc": 938,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 4,
+        "MEDIUM": 0,
+        "LOW": 5
+      },
+      "iac_density": 35.18123667377399
+    },
+    {
+      "name": "exo-explore/exo",
+      "source_language": "python",
+      "iac_loc": 615,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "zhayujie/CowAgent",
+      "source_language": "python",
+      "iac_loc": 318,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 2,
+        "MEDIUM": 2,
+        "LOW": 4
+      },
+      "iac_density": 81.76100628930817
+    },
+    {
+      "name": "9001/copyparty",
+      "source_language": "python",
+      "iac_loc": 912,
+      "iac": {
+        "CRITICAL": 1,
+        "HIGH": 15,
+        "MEDIUM": 19,
+        "LOW": 11
+      },
+      "iac_density": 220.39473684210526
+    },
+    {
+      "name": "hiroi-sora/Umi-OCR",
+      "source_language": "python",
+      "iac_loc": 91,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "streamlit/streamlit",
+      "source_language": "python",
+      "iac_loc": 7414,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 3,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 2.967359050445104
+    },
+    {
+      "name": "SimplifyJobs/Summer2026-Internships",
+      "source_language": "python",
+      "iac_loc": 508,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "microsoft/qlib",
+      "source_language": "python",
+      "iac_loc": 6208,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 2,
+        "MEDIUM": 1,
+        "LOW": 1
+      },
+      "iac_density": 3.060567010309278
+    },
+    {
+      "name": "HKUDS/nanobot",
+      "source_language": "python",
+      "iac_loc": 304,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 3.2894736842105265
+    },
+    {
+      "name": "getsentry/sentry",
+      "source_language": "python",
+      "iac_loc": 19625,
+      "iac": {
+        "CRITICAL": 1,
+        "HIGH": 1,
+        "MEDIUM": 1,
+        "LOW": 1
+      },
+      "iac_density": 1.070063694267516
+    },
+    {
+      "name": "roboflow/supervision",
+      "source_language": "python",
+      "iac_loc": 939,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "mitmproxy/mitmproxy",
+      "source_language": "python",
+      "iac_loc": 552,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 2,
+        "MEDIUM": 1,
+        "LOW": 2
+      },
+      "iac_density": 36.23188405797101
+    },
+    {
+      "name": "gradio-app/gradio",
+      "source_language": "python",
+      "iac_loc": 15264,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "HKUDS/CLI-Anything",
+      "source_language": "python",
+      "iac_loc": 922,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "ray-project/ray",
+      "source_language": "python",
+      "iac_loc": 27226,
+      "iac": {
+        "CRITICAL": 8,
+        "HIGH": 65,
+        "MEDIUM": 47,
+        "LOW": 88
+      },
+      "iac_density": 29.493866157349593
+    },
+    {
+      "name": "faif/python-patterns",
+      "source_language": "python",
+      "iac_loc": 269,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "deepspeedai/DeepSpeed",
+      "source_language": "python",
+      "iac_loc": 2833,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 9,
+        "MEDIUM": 7,
+        "LOW": 6
+      },
+      "iac_density": 34.23932227320861
+    },
+    {
+      "name": "ZhuLinsen/daily_stock_analysis",
+      "source_language": "python",
+      "iac_loc": 2293,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 3.0527692978630614
+    },
+    {
+      "name": "mingrammer/diagrams",
+      "source_language": "python",
+      "iac_loc": 141,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 2,
+        "MEDIUM": 0,
+        "LOW": 2
+      },
+      "iac_density": 113.47517730496455
+    },
+    {
+      "name": "apachecn/ailearning",
+      "source_language": "python",
+      "iac_loc": 2,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 4000.0
+    },
+    {
+      "name": "paperless-ngx/paperless-ngx",
+      "source_language": "python",
+      "iac_loc": 14883,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 4,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 1.948531882013035
+    },
+    {
+      "name": "vnpy/vnpy",
+      "source_language": "python",
+      "iac_loc": 64,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "psf/black",
+      "source_language": "python",
+      "iac_loc": 1235,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 1,
+        "LOW": 1
+      },
+      "iac_density": 9.7165991902834
+    },
+    {
+      "name": "chubin/cheat.sh",
+      "source_language": "python",
+      "iac_loc": 93,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 86.02150537634408
+    },
+    {
+      "name": "hpcaitech/ColossalAI",
+      "source_language": "python",
+      "iac_loc": 2680,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 8,
+        "MEDIUM": 6,
+        "LOW": 3
+      },
+      "iac_density": 30.970149253731343
+    },
+    {
+      "name": "666ghj/BettaFish",
+      "source_language": "python",
+      "iac_loc": 155,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 51.612903225806456
+    },
+    {
+      "name": "zai-org/ChatGLM-6B",
+      "source_language": "python",
+      "iac_loc": 90,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "mvanhorn/last30days-skill",
+      "source_language": "python",
+      "iac_loc": 177,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "agno-agi/agno",
+      "source_language": "python",
+      "iac_loc": 2449,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "sickn33/antigravity-awesome-skills",
+      "source_language": "python",
+      "iac_loc": 2026,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 6,
+        "MEDIUM": 9,
+        "LOW": 33
+      },
+      "iac_density": 54.78775913129319
+    },
+    {
+      "name": "lm-sys/FastChat",
+      "source_language": "python",
+      "iac_loc": 114,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 2,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 131.57894736842104
+    },
+    {
+      "name": "2noise/ChatTTS",
+      "source_language": "python",
+      "iac_loc": 240,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "QuivrHQ/quivr",
+      "source_language": "python",
+      "iac_loc": 659,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 2,
+        "MEDIUM": 1,
+        "LOW": 1
+      },
+      "iac_density": 28.831562974203337
+    },
+    {
+      "name": "ManimCommunity/manim",
+      "source_language": "python",
+      "iac_loc": 621,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 1.6103059581320451
+    },
+    {
+      "name": "httpie/cli",
+      "source_language": "python",
+      "iac_loc": 750,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 6,
+        "MEDIUM": 0,
+        "LOW": 2
+      },
+      "iac_density": 58.666666666666664
+    },
+    {
+      "name": "chatchat-space/Langchain-Chatchat",
+      "source_language": "python",
+      "iac_loc": 645,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 12.403100775193797
+    },
+    {
+      "name": "sqlmapproject/sqlmap",
+      "source_language": "python",
+      "iac_loc": 894,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "TencentARC/GFPGAN",
+      "source_language": "python",
+      "iac_loc": 562,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "LAION-AI/Open-Assistant",
+      "source_language": "python",
+      "iac_loc": 3111,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 8,
+        "MEDIUM": 2,
+        "LOW": 12
+      },
+      "iac_density": 24.429443908711022
+    },
+    {
+      "name": "openai/gym",
+      "source_language": "python",
+      "iac_loc": 130,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 1,
+        "LOW": 1
+      },
+      "iac_density": 92.3076923076923
+    },
+    {
+      "name": "luongnv89/claude-howto",
+      "source_language": "python",
+      "iac_loc": 568,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "satwikkansal/wtfpython",
+      "source_language": "python",
+      "iac_loc": 42,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "babysor/MockingBird",
+      "source_language": "python",
+      "iac_loc": 32,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 2,
+        "MEDIUM": 1,
+        "LOW": 1
+      },
+      "iac_density": 593.75
+    },
+    {
+      "name": "google/langextract",
+      "source_language": "python",
+      "iac_loc": 1404,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 2,
+        "MEDIUM": 0,
+        "LOW": 2
+      },
+      "iac_density": 11.396011396011398
+    },
+    {
+      "name": "huggingface/pytorch-image-models",
+      "source_language": "python",
+      "iac_loc": 294,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "wshobson/agents",
+      "source_language": "python",
+      "iac_loc": 1786,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 2,
+        "MEDIUM": 3,
+        "LOW": 11
+      },
+      "iac_density": 20.716685330347143
+    },
+    {
+      "name": "HKUDS/LightRAG",
+      "source_language": "python",
+      "iac_loc": 2008,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 6,
+        "MEDIUM": 8,
+        "LOW": 10
+      },
+      "iac_density": 41.832669322709165
+    },
+    {
+      "name": "hankcs/HanLP",
+      "source_language": "python",
+      "iac_loc": 76,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "Textualize/textual",
+      "source_language": "python",
+      "iac_loc": 623,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "datalab-to/marker",
+      "source_language": "python",
+      "iac_loc": 157,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "RVC-Project/Retrieval-based-Voice-Conversion-WebUI",
+      "source_language": "python",
+      "iac_loc": 450,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 3,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 48.888888888888886
+    },
+    {
+      "name": "XingangPan/DragGAN",
+      "source_language": "python",
+      "iac_loc": 78,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 102.56410256410257
+    },
+    {
+      "name": "jax-ml/jax",
+      "source_language": "python",
+      "iac_loc": 4947,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 13,
+        "MEDIUM": 5,
+        "LOW": 13
+      },
+      "iac_density": 25.06569638164544
+    },
+    {
+      "name": "xinntao/Real-ESRGAN",
+      "source_language": "python",
+      "iac_loc": 995,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "frappe/erpnext",
+      "source_language": "python",
+      "iac_loc": 1360,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "khoj-ai/khoj",
+      "source_language": "python",
+      "iac_loc": 1404,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 4,
+        "MEDIUM": 3,
+        "LOW": 5
+      },
+      "iac_density": 32.05128205128205
+    },
+    {
+      "name": "geekcomputers/Python",
+      "source_language": "python",
+      "iac_loc": 145,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "stanfordnlp/dspy",
+      "source_language": "python",
+      "iac_loc": 1104,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "github/awesome-copilot",
+      "source_language": "python",
+      "iac_loc": 12033,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "PDFMathTranslate/PDFMathTranslate",
+      "source_language": "python",
+      "iac_loc": 1434,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 4,
+        "MEDIUM": 0,
+        "LOW": 3
+      },
+      "iac_density": 21.617852161785216
+    },
+    {
+      "name": "langchain-ai/langgraph",
+      "source_language": "python",
+      "iac_loc": 2641,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 3.029155622870125
+    },
+    {
+      "name": "AstrBotDevs/AstrBot",
+      "source_language": "python",
+      "iac_loc": 7374,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 11,
+        "MEDIUM": 20,
+        "LOW": 33
+      },
+      "iac_density": 25.766205587198264
+    },
+    {
+      "name": "facebookresearch/detectron2",
+      "source_language": "python",
+      "iac_loc": 4631,
+      "iac": {
+        "CRITICAL": 1,
+        "HIGH": 2,
+        "MEDIUM": 2,
+        "LOW": 2
+      },
+      "iac_density": 7.1258907363420425
+    },
+    {
+      "name": "python-poetry/poetry",
+      "source_language": "python",
+      "iac_loc": 769,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "Alishahryar1/free-claude-code",
+      "source_language": "python",
+      "iac_loc": 74,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "testerSunshine/12306",
+      "source_language": "python",
+      "iac_loc": 36,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 0,
+        "LOW": 2
+      },
+      "iac_density": 250.00000000000003
+    },
+    {
+      "name": "chenfei-wu/TaskMatrix",
+      "source_language": "python",
+      "iac_loc": 12,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 3,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 1833.3333333333333
+    },
+    {
+      "name": "lllyasviel/ControlNet",
+      "source_language": "python",
+      "iac_loc": 190,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "ocrmypdf/OCRmyPDF",
+      "source_language": "python",
+      "iac_loc": 898,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 3,
+        "MEDIUM": 1,
+        "LOW": 2
+      },
+      "iac_density": 30.066815144766146
+    },
+    {
+      "name": "huggingface/diffusers",
+      "source_language": "python",
+      "iac_loc": 5088,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 14,
+        "MEDIUM": 0,
+        "LOW": 7
+      },
+      "iac_density": 20.63679245283019
+    },
+    {
+      "name": "Pythagora-io/gpt-pilot",
+      "source_language": "python",
+      "iac_loc": 392,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 0,
+        "LOW": 11
+      },
+      "iac_density": 45.91836734693877
+    },
+    {
+      "name": "microsoft/graphrag",
+      "source_language": "python",
+      "iac_loc": 1081,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 3,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 20.351526364477337
+    },
+    {
+      "name": "explosion/spaCy",
+      "source_language": "python",
+      "iac_loc": 700,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 1.4285714285714286
+    },
+    {
+      "name": "XX-net/XX-Net",
+      "source_language": "python",
+      "iac_loc": 110,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "kovidgoyal/kitty",
+      "source_language": "python",
+      "iac_loc": 293,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "freeCodeCamp/freeCodeCamp",
+      "source_language": "typescript",
+      "iac_loc": 26199,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 2,
+        "MEDIUM": 2,
+        "LOW": 2
+      },
+      "iac_density": 0.9160654986831558
+    },
+    {
+      "name": "openclaw/openclaw",
+      "source_language": "typescript",
+      "iac_loc": 58483,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 4,
+        "MEDIUM": 3,
+        "LOW": 16
+      },
+      "iac_density": 0.9575432176871912
+    },
+    {
+      "name": "nilbuild/developer-roadmap",
+      "source_language": "typescript",
+      "iac_loc": 8481,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "vuejs/vue",
+      "source_language": "typescript",
+      "iac_loc": 6181,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "n8n-io/n8n",
+      "source_language": "typescript",
+      "iac_loc": 50227,
+      "iac": {
+        "CRITICAL": 2,
+        "HIGH": 4,
+        "MEDIUM": 7,
+        "LOW": 8
+      },
+      "iac_density": 1.6325880502518566
+    },
+    {
+      "name": "anomalyco/opencode",
+      "source_language": "typescript",
+      "iac_loc": 2384,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 8,
+        "MEDIUM": 2,
+        "LOW": 7
+      },
+      "iac_density": 29.781879194630875
+    },
+    {
+      "name": "langgenius/dify",
+      "source_language": "typescript",
+      "iac_loc": 36684,
+      "iac": {
+        "CRITICAL": 1,
+        "HIGH": 3,
+        "MEDIUM": 1,
+        "LOW": 5
+      },
+      "iac_density": 1.063133791298659
+    },
+    {
+      "name": "yangshun/tech-interview-handbook",
+      "source_language": "typescript",
+      "iac_loc": 10919,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "firecrawl/firecrawl",
+      "source_language": "typescript",
+      "iac_loc": 28095,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 52,
+        "MEDIUM": 75,
+        "LOW": 153
+      },
+      "iac_density": 29.079907456842857
+    },
+    {
+      "name": "excalidraw/excalidraw",
+      "source_language": "typescript",
+      "iac_loc": 370,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 3,
+        "MEDIUM": 0,
+        "LOW": 2
+      },
+      "iac_density": 62.16216216216216
+    },
+    {
+      "name": "clash-verge-rev/clash-verge-rev",
+      "source_language": "typescript",
+      "iac_loc": 10181,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "iptv-org/iptv",
+      "source_language": "typescript",
+      "iac_loc": 464,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "shadcn-ui/ui",
+      "source_language": "typescript",
+      "iac_loc": 46977,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 2,
+        "MEDIUM": 0,
+        "LOW": 2
+      },
+      "iac_density": 0.34059220469591506
+    },
+    {
+      "name": "garrytan/gstack",
+      "source_language": "typescript",
+      "iac_loc": 878,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 9.111617312072893
+    },
+    {
+      "name": "microsoft/TypeScript",
+      "source_language": "typescript",
+      "iac_loc": 2832,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "google-gemini/gemini-cli",
+      "source_language": "typescript",
+      "iac_loc": 7708,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 2,
+        "MEDIUM": 0,
+        "LOW": 3
+      },
+      "iac_density": 2.2055007784120395
+    },
+    {
+      "name": "supabase/supabase",
+      "source_language": "typescript",
+      "iac_loc": 90763,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 2,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 0.16526558178993642
+    },
+    {
+      "name": "immich-app/immich",
+      "source_language": "typescript",
+      "iac_loc": 25996,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 6,
+        "MEDIUM": 3,
+        "LOW": 4
+      },
+      "iac_density": 2.231112478842899
+    },
+    {
+      "name": "angular/angular",
+      "source_language": "typescript",
+      "iac_loc": 123297,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "ant-design/ant-design",
+      "source_language": "typescript",
+      "iac_loc": 2039,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "tailwindlabs/tailwindcss",
+      "source_language": "typescript",
+      "iac_loc": 5493,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "puppeteer/puppeteer",
+      "source_language": "typescript",
+      "iac_loc": 1649,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 0.6064281382656155
+    },
+    {
+      "name": "microsoft/playwright",
+      "source_language": "typescript",
+      "iac_loc": 6361,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 2,
+        "MEDIUM": 2,
+        "LOW": 2
+      },
+      "iac_density": 3.7729916679767332
+    },
+    {
+      "name": "storybookjs/storybook",
+      "source_language": "typescript",
+      "iac_loc": 4438,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "mermaid-js/mermaid",
+      "source_language": "typescript",
+      "iac_loc": 22424,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 0.35676061362825545
+    },
+    {
+      "name": "ChatGPTNextWeb/NextChat",
+      "source_language": "typescript",
+      "iac_loc": 621,
+      "iac": {
+        "CRITICAL": 2,
+        "HIGH": 2,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 53.14009661835749
+    },
+    {
+      "name": "modelcontextprotocol/servers",
+      "source_language": "typescript",
+      "iac_loc": 624,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 8,
+        "MEDIUM": 0,
+        "LOW": 10
+      },
+      "iac_density": 105.76923076923077
+    },
+    {
+      "name": "realworld-apps/realworld",
+      "source_language": "typescript",
+      "iac_loc": 1106,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "vitejs/vite",
+      "source_language": "typescript",
+      "iac_loc": 12956,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "Stirling-Tools/Stirling-PDF",
+      "source_language": "typescript",
+      "iac_loc": 11164,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 7,
+        "MEDIUM": 2,
+        "LOW": 5
+      },
+      "iac_density": 5.553565030455034
+    },
+    {
+      "name": "hoppscotch/hoppscotch",
+      "source_language": "typescript",
+      "iac_loc": 25456,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 4,
+        "MEDIUM": 4,
+        "LOW": 3
+      },
+      "iac_density": 1.8463230672532998
+    },
+    {
+      "name": "lobehub/lobehub",
+      "source_language": "typescript",
+      "iac_loc": 8244,
+      "iac": {
+        "CRITICAL": 83,
+        "HIGH": 0,
+        "MEDIUM": 2,
+        "LOW": 1
+      },
+      "iac_density": 91.70305676855895
+    },
+    {
+      "name": "coder/code-server",
+      "source_language": "typescript",
+      "iac_loc": 1611,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 5,
+        "MEDIUM": 9,
+        "LOW": 25
+      },
+      "iac_density": 59.5903165735568
+    },
+    {
+      "name": "nestjs/nest",
+      "source_language": "typescript",
+      "iac_loc": 643,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "grafana/grafana",
+      "source_language": "typescript",
+      "iac_loc": 23112,
+      "iac": {
+        "CRITICAL": 2,
+        "HIGH": 36,
+        "MEDIUM": 10,
+        "LOW": 55
+      },
+      "iac_density": 15.792661820699205
+    },
+    {
+      "name": "apache/superset",
+      "source_language": "typescript",
+      "iac_loc": 32023,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 18,
+        "MEDIUM": 1,
+        "LOW": 7
+      },
+      "iac_density": 4.278175061674421
+    },
+    {
+      "name": "abi/screenshot-to-code",
+      "source_language": "typescript",
+      "iac_loc": 6878,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 2,
+        "MEDIUM": 0,
+        "LOW": 2
+      },
+      "iac_density": 2.326257633032858
+    },
+    {
+      "name": "daytonaio/daytona",
+      "source_language": "typescript",
+      "iac_loc": 34117,
+      "iac": {
+        "CRITICAL": 1,
+        "HIGH": 16,
+        "MEDIUM": 6,
+        "LOW": 19
+      },
+      "iac_density": 4.806987718732597
+    },
+    {
+      "name": "strapi/strapi",
+      "source_language": "typescript",
+      "iac_loc": 4659,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "Eugeny/tabby",
+      "source_language": "typescript",
+      "iac_loc": 1250,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "paperclipai/paperclip",
+      "source_language": "typescript",
+      "iac_loc": 15072,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 3,
+        "MEDIUM": 0,
+        "LOW": 13
+      },
+      "iac_density": 2.25583864118896
+    },
+    {
+      "name": "toeverything/AFFiNE",
+      "source_language": "typescript",
+      "iac_loc": 5066,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 6,
+        "MEDIUM": 8,
+        "LOW": 15
+      },
+      "iac_density": 17.568101065929728
+    },
+    {
+      "name": "apache/echarts",
+      "source_language": "typescript",
+      "iac_loc": 810,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "facebook/docusaurus",
+      "source_language": "typescript",
+      "iac_loc": 23135,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "nexu-io/open-design",
+      "source_language": "typescript",
+      "iac_loc": 20060,
+      "iac": {
+        "CRITICAL": 1,
+        "HIGH": 5,
+        "MEDIUM": 11,
+        "LOW": 29
+      },
+      "iac_density": 5.832502492522433
+    },
+    {
+      "name": "nocodb/nocodb",
+      "source_language": "typescript",
+      "iac_loc": 43156,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "socketio/socket.io",
+      "source_language": "typescript",
+      "iac_loc": 946,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 7,
+        "MEDIUM": 0,
+        "LOW": 7
+      },
+      "iac_density": 59.19661733615222
+    },
+    {
+      "name": "earendil-works/pi",
+      "source_language": "typescript",
+      "iac_loc": 715,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "code-yeongyu/oh-my-openagent",
+      "source_language": "typescript",
+      "iac_loc": 3093,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "reduxjs/redux",
+      "source_language": "typescript",
+      "iac_loc": 308,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "nuxt/nuxt",
+      "source_language": "typescript",
+      "iac_loc": 17317,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 2,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 0.866200843102154
+    },
+    {
+      "name": "withastro/astro",
+      "source_language": "typescript",
+      "iac_loc": 24274,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 23,
+        "MEDIUM": 0,
+        "LOW": 22
+      },
+      "iac_density": 7.538930542967784
+    },
+    {
+      "name": "ruvnet/ruflo",
+      "source_language": "typescript",
+      "iac_loc": 27977,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 9,
+        "MEDIUM": 5,
+        "LOW": 13
+      },
+      "iac_density": 3.4313900704149836
+    },
+    {
+      "name": "pmndrs/zustand",
+      "source_language": "typescript",
+      "iac_loc": 4712,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "Egonex-AI/Understand-Anything",
+      "source_language": "typescript",
+      "iac_loc": 8388,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "marktext/marktext",
+      "source_language": "typescript",
+      "iac_loc": 17335,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "upstash/context7",
+      "source_language": "typescript",
+      "iac_loc": 5413,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 1.4779235174579715
+    },
+    {
+      "name": "remix-run/react-router",
+      "source_language": "typescript",
+      "iac_loc": 16517,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "koala73/worldmonitor",
+      "source_language": "typescript",
+      "iac_loc": 50631,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 7,
+        "MEDIUM": 0,
+        "LOW": 6
+      },
+      "iac_density": 1.0862910074855325
+    },
+    {
+      "name": "appwrite/appwrite",
+      "source_language": "typescript",
+      "iac_loc": 8394,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 2,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 1.7869907076483202
+    },
+    {
+      "name": "OpenCut-app/OpenCut",
+      "source_language": "typescript",
+      "iac_loc": 177,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "laurent22/joplin",
+      "source_language": "typescript",
+      "iac_loc": 1184,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 2,
+        "MEDIUM": 0,
+        "LOW": 2
+      },
+      "iac_density": 13.513513513513514
+    },
+    {
+      "name": "Fission-AI/OpenSpec",
+      "source_language": "typescript",
+      "iac_loc": 3101,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "vuejs/core",
+      "source_language": "typescript",
+      "iac_loc": 5328,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "FlowiseAI/Flowise",
+      "source_language": "typescript",
+      "iac_loc": 42808,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 3,
+        "MEDIUM": 0,
+        "LOW": 3
+      },
+      "iac_density": 0.560642870491497
+    },
+    {
+      "name": "ionic-team/ionic-framework",
+      "source_language": "typescript",
+      "iac_loc": 2219,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 3.605227579990987
+    },
+    {
+      "name": "lyswhut/lx-music-desktop",
+      "source_language": "typescript",
+      "iac_loc": 521,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "DefinitelyTyped/DefinitelyTyped",
+      "source_language": "typescript",
+      "iac_loc": 387,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "makeplane/plane",
+      "source_language": "typescript",
+      "iac_loc": 16922,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 14,
+        "MEDIUM": 1,
+        "LOW": 10
+      },
+      "iac_density": 6.618603002009219
+    },
+    {
+      "name": "expo/expo",
+      "source_language": "typescript",
+      "iac_loc": 45789,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "remotion-dev/remotion",
+      "source_language": "typescript",
+      "iac_loc": 711,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 19,
+        "MEDIUM": 2,
+        "LOW": 9
+      },
+      "iac_density": 210.9704641350211
+    },
+    {
+      "name": "twentyhq/twenty",
+      "source_language": "typescript",
+      "iac_loc": 9254,
+      "iac": {
+        "CRITICAL": 1,
+        "HIGH": 26,
+        "MEDIUM": 46,
+        "LOW": 81
+      },
+      "iac_density": 49.2759887616166
+    },
+    {
+      "name": "cypress-io/cypress",
+      "source_language": "typescript",
+      "iac_loc": 5613,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 1.4252627828255833
+    },
+    {
+      "name": "TanStack/query",
+      "source_language": "typescript",
+      "iac_loc": 27041,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "chenglou/pretext",
+      "source_language": "typescript",
+      "iac_loc": 38,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "type-challenges/type-challenges",
+      "source_language": "typescript",
+      "iac_loc": 4167,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "colbymchenry/codegraph",
+      "source_language": "typescript",
+      "iac_loc": 165,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "tldraw/tldraw",
+      "source_language": "typescript",
+      "iac_loc": 2221,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 3.6019810895992794
+    },
+    {
+      "name": "pixijs/pixijs",
+      "source_language": "typescript",
+      "iac_loc": 542,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "CherryHQ/cherry-studio",
+      "source_language": "typescript",
+      "iac_loc": 27943,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "slab/quill",
+      "source_language": "typescript",
+      "iac_loc": 171,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "slidevjs/slidev",
+      "source_language": "typescript",
+      "iac_loc": 13650,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "typescript-cheatsheets/react",
+      "source_language": "typescript",
+      "iac_loc": 25,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "prisma/prisma",
+      "source_language": "typescript",
+      "iac_loc": 55960,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 4,
+        "MEDIUM": 1,
+        "LOW": 3
+      },
+      "iac_density": 0.6254467476769121
+    },
+    {
+      "name": "upscayl/upscayl",
+      "source_language": "typescript",
+      "iac_loc": 990,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "calcom/cal.diy",
+      "source_language": "typescript",
+      "iac_loc": 4671,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 2,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 3.211303789338471
+    },
+    {
+      "name": "RocketChat/Rocket.Chat",
+      "source_language": "typescript",
+      "iac_loc": 4450,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 4,
+        "MEDIUM": 2,
+        "LOW": 11
+      },
+      "iac_density": 10.561797752808989
+    },
+    {
+      "name": "jestjs/jest",
+      "source_language": "typescript",
+      "iac_loc": 910,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "react-hook-form/react-hook-form",
+      "source_language": "typescript",
+      "iac_loc": 8205,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "DIYgod/RSSHub",
+      "source_language": "typescript",
+      "iac_loc": 11322,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 0.7065889418830595
+    },
+    {
+      "name": "vercel/hyper",
+      "source_language": "typescript",
+      "iac_loc": 9170,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "KeygraphHQ/shannon",
+      "source_language": "typescript",
+      "iac_loc": 3342,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 2,
+        "LOW": 1
+      },
+      "iac_density": 4.78755236385398
+    },
+    {
+      "name": "siyuan-note/siyuan",
+      "source_language": "typescript",
+      "iac_loc": 5322,
+      "iac": {
+        "CRITICAL": 1,
+        "HIGH": 1,
+        "MEDIUM": 1,
+        "LOW": 5
+      },
+      "iac_density": 4.697482149567832
+    },
+    {
+      "name": "AykutSarac/jsoncrack.com",
+      "source_language": "typescript",
+      "iac_loc": 7316,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 1.0934937124111537
+    },
+    {
+      "name": "streamich/react-use",
+      "source_language": "typescript",
+      "iac_loc": 228,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "babel/babel",
+      "source_language": "typescript",
+      "iac_loc": 1655,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "fastapi/full-stack-fastapi-template",
+      "source_language": "typescript",
+      "iac_loc": 1239,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 4,
+        "MEDIUM": 0,
+        "LOW": 3
+      },
+      "iac_density": 25.02017756255044
+    },
+    {
+      "name": "ChromeDevTools/chrome-devtools-mcp",
+      "source_language": "typescript",
+      "iac_loc": 454,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "FuelLabs/fuels-ts",
+      "source_language": "typescript",
+      "iac_loc": 23804,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "janhq/jan",
+      "source_language": "typescript",
+      "iac_loc": 3427,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "payloadcms/payload",
+      "source_language": "typescript",
+      "iac_loc": 122277,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 3,
+        "MEDIUM": 0,
+        "LOW": 11
+      },
+      "iac_density": 0.26170089223647947
+    },
+    {
+      "name": "colinhacks/zod",
+      "source_language": "typescript",
+      "iac_loc": 13480,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "HeyPuter/puter",
+      "source_language": "typescript",
+      "iac_loc": 561,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "abhigyanpatwari/GitNexus",
+      "source_language": "typescript",
+      "iac_loc": 4341,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 2,
+        "MEDIUM": 1,
+        "LOW": 4
+      },
+      "iac_density": 5.06795669200645
+    },
+    {
+      "name": "hexojs/hexo",
+      "source_language": "typescript",
+      "iac_loc": 442,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "mifi/lossless-cut",
+      "source_language": "typescript",
+      "iac_loc": 350,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "styled-components/styled-components",
+      "source_language": "typescript",
+      "iac_loc": 11308,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "vuetifyjs/vuetify",
+      "source_language": "typescript",
+      "iac_loc": 14728,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 0.5431830526887561
+    },
+    {
+      "name": "moeru-ai/airi",
+      "source_language": "typescript",
+      "iac_loc": 54181,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 3,
+        "MEDIUM": 0,
+        "LOW": 3
+      },
+      "iac_density": 0.4429597091231244
+    },
+    {
+      "name": "MHSanaei/3x-ui",
+      "source_language": "typescript",
+      "iac_loc": 1189,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 1,
+        "LOW": 1
+      },
+      "iac_density": 10.09251471825063
+    },
+    {
+      "name": "chatboxai/chatbox",
+      "source_language": "typescript",
+      "iac_loc": 23165,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 0.34534858622922515
+    },
+    {
+      "name": "chakra-ui/chakra-ui",
+      "source_language": "typescript",
+      "iac_loc": 20072,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 0.3985651654045437
+    },
+    {
+      "name": "trpc/trpc",
+      "source_language": "typescript",
+      "iac_loc": 37120,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "appsmithorg/appsmith",
+      "source_language": "typescript",
+      "iac_loc": 9533,
+      "iac": {
+        "CRITICAL": 5,
+        "HIGH": 4,
+        "MEDIUM": 1,
+        "LOW": 4
+      },
+      "iac_density": 8.496800587433128
+    },
+    {
+      "name": "novuhq/novu",
+      "source_language": "typescript",
+      "iac_loc": 56010,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 3,
+        "MEDIUM": 0,
+        "LOW": 7
+      },
+      "iac_density": 0.49991073022674526
+    },
+    {
+      "name": "danny-avila/LibreChat",
+      "source_language": "typescript",
+      "iac_loc": 4910,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 4,
+        "MEDIUM": 0,
+        "LOW": 4
+      },
+      "iac_density": 6.517311608961303
+    },
+    {
+      "name": "outline/outline",
+      "source_language": "typescript",
+      "iac_loc": 753,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 3,
+        "MEDIUM": 1,
+        "LOW": 1
+      },
+      "iac_density": 34.52855245683931
+    },
+    {
+      "name": "vadimdemedes/ink",
+      "source_language": "typescript",
+      "iac_loc": 22,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "siddharthvaddem/openscreen",
+      "source_language": "typescript",
+      "iac_loc": 1163,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "Kong/insomnia",
+      "source_language": "typescript",
+      "iac_loc": 10682,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 3,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 2.059539412095113
+    },
+    {
+      "name": "RSSNext/Folo",
+      "source_language": "typescript",
+      "iac_loc": 33241,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "amruthpillai/reactive-resume",
+      "source_language": "typescript",
+      "iac_loc": 12153,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 0.6582736772813297
+    },
+    {
+      "name": "ant-design/ant-design-pro",
+      "source_language": "typescript",
+      "iac_loc": 242,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "portainer/portainer",
+      "source_language": "typescript",
+      "iac_loc": 15592,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 7,
+        "MEDIUM": 3,
+        "LOW": 6
+      },
+      "iac_density": 4.297075423293997
+    },
+    {
+      "name": "mattermost/mattermost",
+      "source_language": "typescript",
+      "iac_loc": 38723,
+      "iac": {
+        "CRITICAL": 1,
+        "HIGH": 12,
+        "MEDIUM": 1,
+        "LOW": 10
+      },
+      "iac_density": 2.763215659943703
+    },
+    {
+      "name": "NervJS/taro",
+      "source_language": "typescript",
+      "iac_loc": 28217,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "ueberdosis/tiptap",
+      "source_language": "typescript",
+      "iac_loc": 10715,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "umami-software/umami",
+      "source_language": "typescript",
+      "iac_loc": 9510,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 0.10515247108307045
+    },
+    {
+      "name": "xyflow/xyflow",
+      "source_language": "typescript",
+      "iac_loc": 9618,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "date-fns/date-fns",
+      "source_language": "typescript",
+      "iac_loc": 10100,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 1,
+        "LOW": 1
+      },
+      "iac_density": 1.188118811881188
+    },
+    {
+      "name": "typeorm/typeorm",
+      "source_language": "typescript",
+      "iac_loc": 21295,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "inkonchain/ink-kit",
+      "source_language": "typescript",
+      "iac_loc": 10444,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 0.7659900421294522
+    },
+    {
+      "name": "TriliumNext/Trilium",
+      "source_language": "typescript",
+      "iac_loc": 31623,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 3,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.664073617303861
+    },
+    {
+      "name": "bytedance/UI-TARS-desktop",
+      "source_language": "typescript",
+      "iac_loc": 65375,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 0,
+        "LOW": 3
+      },
+      "iac_density": 0.15296367112810708
+    },
+    {
+      "name": "Yeachan-Heo/oh-my-claudecode",
+      "source_language": "typescript",
+      "iac_loc": 874,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 2,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 16.018306636155607
+    },
+    {
+      "name": "reworkd/AgentGPT",
+      "source_language": "typescript",
+      "iac_loc": 508,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 4,
+        "MEDIUM": 0,
+        "LOW": 4
+      },
+      "iac_density": 62.99212598425197
+    },
+    {
+      "name": "lerna/lerna",
+      "source_language": "typescript",
+      "iac_loc": 491,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "directus/directus",
+      "source_language": "typescript",
+      "iac_loc": 154613,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 0.006467761443086933
+    },
+    {
+      "name": "solidjs/solid",
+      "source_language": "typescript",
+      "iac_loc": 5609,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "nativefier/nativefier",
+      "source_language": "typescript",
+      "iac_loc": 366,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 21.85792349726776
+    },
+    {
+      "name": "alan2207/bulletproof-react",
+      "source_language": "typescript",
+      "iac_loc": 186,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "ItzCrazyKns/Vane",
+      "source_language": "typescript",
+      "iac_loc": 273,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 6,
+        "MEDIUM": 1,
+        "LOW": 2
+      },
+      "iac_density": 175.82417582417582
+    },
+    {
+      "name": "musistudio/claude-code-router",
+      "source_language": "typescript",
+      "iac_loc": 16569,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.4224757076468103
+    },
+    {
+      "name": "refinedev/refine",
+      "source_language": "typescript",
+      "iac_loc": 63666,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 3,
+        "MEDIUM": 5,
+        "LOW": 13
+      },
+      "iac_density": 0.8481764206955047
+    },
+    {
+      "name": "Dokploy/dokploy",
+      "source_language": "typescript",
+      "iac_loc": 18096,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 12,
+        "MEDIUM": 0,
+        "LOW": 5
+      },
+      "iac_density": 4.918213969938108
+    },
+    {
+      "name": "drizzle-team/drizzle-orm",
+      "source_language": "typescript",
+      "iac_loc": 15441,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "ZuodaoTech/everyone-can-use-english",
+      "source_language": "typescript",
+      "iac_loc": 470,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "jaredpalmer/formik",
+      "source_language": "typescript",
+      "iac_loc": 190,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "medusajs/medusa",
+      "source_language": "typescript",
+      "iac_loc": 394749,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "balena-io/etcher",
+      "source_language": "typescript",
+      "iac_loc": 14052,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "microsoft/playwright-mcp",
+      "source_language": "typescript",
+      "iac_loc": 233,
+      "iac": {
+        "CRITICAL": 1,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 42.918454935622314
+    },
+    {
+      "name": "blakeblackshear/frigate",
+      "source_language": "typescript",
+      "iac_loc": 9879,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 18,
+        "MEDIUM": 19,
+        "LOW": 5
+      },
+      "iac_density": 20.953537807470394
+    },
+    {
+      "name": "continuedev/continue",
+      "source_language": "typescript",
+      "iac_loc": 5107,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 8,
+        "MEDIUM": 1,
+        "LOW": 3
+      },
+      "iac_density": 12.336009398864304
+    },
+    {
+      "name": "backstage/backstage",
+      "source_language": "typescript",
+      "iac_loc": 20005,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 53,
+        "MEDIUM": 65,
+        "LOW": 127
+      },
+      "iac_density": 37.89052736815796
+    },
+    {
+      "name": "lissy93/web-check",
+      "source_language": "typescript",
+      "iac_loc": 3828,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 2,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 3.918495297805643
+    },
+    {
+      "name": "mckaywrigley/chatbot-ui",
+      "source_language": "typescript",
+      "iac_loc": 1,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "NginxProxyManager/nginx-proxy-manager",
+      "source_language": "typescript",
+      "iac_loc": 1680,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 3,
+        "MEDIUM": 2,
+        "LOW": 2
+      },
+      "iac_density": 18.452380952380953
+    },
+    {
+      "name": "immutable-js/immutable-js",
+      "source_language": "typescript",
+      "iac_loc": 223,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "remix-run/remix",
+      "source_language": "typescript",
+      "iac_loc": 8859,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "floating-ui/floating-ui",
+      "source_language": "typescript",
+      "iac_loc": 16615,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "vercel/swr",
+      "source_language": "typescript",
+      "iac_loc": 6011,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "motiondivision/motion",
+      "source_language": "typescript",
+      "iac_loc": 162,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 49.382716049382715
+    },
+    {
+      "name": "hasura/graphql-engine",
+      "source_language": "typescript",
+      "iac_loc": 105464,
+      "iac": {
+        "CRITICAL": 1,
+        "HIGH": 53,
+        "MEDIUM": 31,
+        "LOW": 76
+      },
+      "iac_density": 5.499506940757036
+    },
+    {
+      "name": "pear-devs/pear-desktop",
+      "source_language": "typescript",
+      "iac_loc": 7595,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "niklasvh/html2canvas",
+      "source_language": "typescript",
+      "iac_loc": 394,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "DayuanJiang/next-ai-draw-io",
+      "source_language": "typescript",
+      "iac_loc": 462,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 2.1645021645021645
+    },
+    {
+      "name": "gitroomhq/postiz-app",
+      "source_language": "typescript",
+      "iac_loc": 33423,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 0.2393561320049068
+    },
+    {
+      "name": "codex-team/editor.js",
+      "source_language": "typescript",
+      "iac_loc": 268,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "ianstormtaylor/slate",
+      "source_language": "typescript",
+      "iac_loc": 259,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 2,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 57.915057915057915
+    },
+    {
+      "name": "ReactiveX/rxjs",
+      "source_language": "typescript",
+      "iac_loc": 619,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 12.924071082390954
+    },
+    {
+      "name": "refined-github/refined-github",
+      "source_language": "typescript",
+      "iac_loc": 476,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "shardeum/shardeum",
+      "source_language": "typescript",
+      "iac_loc": 265,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 3.773584905660377
+    },
+    {
+      "name": "mantinedev/mantine",
+      "source_language": "typescript",
+      "iac_loc": 189,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "fabricjs/fabric.js",
+      "source_language": "typescript",
+      "iac_loc": 4262,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "pmndrs/react-three-fiber",
+      "source_language": "typescript",
+      "iac_loc": 133,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "honojs/hono",
+      "source_language": "typescript",
+      "iac_loc": 563,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 14.209591474245117
+    },
+    {
+      "name": "Yeachan-Heo/oh-my-codex",
+      "source_language": "typescript",
+      "iac_loc": 1181,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "transloadit/uppy",
+      "source_language": "typescript",
+      "iac_loc": 844,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 5,
+        "MEDIUM": 7,
+        "LOW": 11
+      },
+      "iac_density": 87.67772511848341
+    },
+    {
+      "name": "linshenkx/prompt-optimizer",
+      "source_language": "typescript",
+      "iac_loc": 9537,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 0.8388382090804235
+    },
+    {
+      "name": "Crosstalk-Solutions/project-nomad",
+      "source_language": "typescript",
+      "iac_loc": 802,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 4,
+        "MEDIUM": 0,
+        "LOW": 6
+      },
+      "iac_density": 42.394014962593516
+    },
+    {
+      "name": "cheeriojs/cheerio",
+      "source_language": "typescript",
+      "iac_loc": 355,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "sequelize/sequelize",
+      "source_language": "typescript",
+      "iac_loc": 938,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "nanocoai/nanoclaw",
+      "source_language": "typescript",
+      "iac_loc": 2676,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 0.37369207772795215
+    },
+    {
+      "name": "jamiepine/voicebox",
+      "source_language": "typescript",
+      "iac_loc": 397,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 1,
+        "LOW": 0
+      },
+      "iac_density": 10.075566750629722
+    },
+    {
+      "name": "statelyai/xstate",
+      "source_language": "typescript",
+      "iac_loc": 40035,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "the1812/Bilibili-Evolved",
+      "source_language": "typescript",
+      "iac_loc": 6774,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "lfnovo/open-notebook",
+      "source_language": "typescript",
+      "iac_loc": 1158,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 3,
+        "MEDIUM": 0,
+        "LOW": 2
+      },
+      "iac_density": 19.86183074265976
+    },
+    {
+      "name": "jitsi/jitsi-meet",
+      "source_language": "typescript",
+      "iac_loc": 787,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "slymnoyann/hey-1",
+      "source_language": "typescript",
+      "iac_loc": 10646,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "pmndrs/react-spring",
+      "source_language": "typescript",
+      "iac_loc": 10646,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 0.7514559458951718
+    },
+    {
+      "name": "langfuse/langfuse",
+      "source_language": "typescript",
+      "iac_loc": 44018,
+      "iac": {
+        "CRITICAL": 1,
+        "HIGH": 1,
+        "MEDIUM": 0,
+        "LOW": 3
+      },
+      "iac_density": 0.4316416011631605
+    },
+    {
+      "name": "t3-oss/create-t3-app",
+      "source_language": "typescript",
+      "iac_loc": 10964,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "postcss/postcss",
+      "source_language": "typescript",
+      "iac_loc": 2648,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "GitbookIO/gitbook",
+      "source_language": "typescript",
+      "iac_loc": 2433,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "nrwl/nx",
+      "source_language": "typescript",
+      "iac_loc": 48166,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "voideditor/void",
+      "source_language": "typescript",
+      "iac_loc": 4749,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 0,
+        "LOW": 2
+      },
+      "iac_density": 1.8951358180669615
+    },
+    {
+      "name": "simstudioai/sim",
+      "source_language": "typescript",
+      "iac_loc": 7356,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 1,
+        "LOW": 4
+      },
+      "iac_density": 2.039151712887439
+    }
+  ]
+}

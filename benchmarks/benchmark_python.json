@@ -1,0 +1,5356 @@
+{
+  "language": "python",
+  "ruleset": "p/default",
+  "created": "2026-06-14",
+  "benchmark_size": 191,
+  "repos": [
+    {
+      "name": "public-apis/public-apis",
+      "stars": 441166,
+      "loc": 822,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sast_density": 0.0,
+      "dependencies": 5,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 6,
+        "MEDIUM": 10,
+        "LOW": 1
+      },
+      "sca_density": 16.6,
+      "iac_loc": 74,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "EbookFoundation/free-programming-books",
+      "stars": 390165,
+      "loc": 250,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sast_density": 0.0,
+      "dependencies": 0,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 632,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "donnemartin/system-design-primer",
+      "stars": 352839,
+      "loc": 655,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sast_density": 0.0,
+      "dependencies": 0,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 3,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "vinta/awesome-python",
+      "stars": 302660,
+      "loc": 2216,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 5,
+        "LOW": 0
+      },
+      "sast_density": 9.025270758122742,
+      "dependencies": 0,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 93,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "TheAlgorithms/Python",
+      "stars": 221910,
+      "loc": 46905,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 6,
+        "LOW": 0
+      },
+      "sast_density": 0.5116725295810681,
+      "dependencies": 0,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 371,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 21.5633423180593
+    },
+    {
+      "name": "NousResearch/hermes-agent",
+      "stars": 192291,
+      "loc": 743988,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 109,
+        "MEDIUM": 238,
+        "LOW": 10
+      },
+      "sast_density": 2.3185857836416717,
+      "dependencies": 2,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 8709,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 1,
+        "LOW": 1
+      },
+      "iac_density": 1.3778849466069585
+    },
+    {
+      "name": "Significant-Gravitas/AutoGPT",
+      "stars": 184923,
+      "loc": 323096,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 10,
+        "MEDIUM": 39,
+        "LOW": 0
+      },
+      "sast_density": 0.6994825067472207,
+      "dependencies": 652,
+      "sca": {
+        "CRITICAL": 2,
+        "HIGH": 47,
+        "MEDIUM": 66,
+        "LOW": 23
+      },
+      "sca_density": 0.9723926380368099,
+      "iac_loc": 21082,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 11,
+        "MEDIUM": 0,
+        "LOW": 5
+      },
+      "iac_density": 3.889574044208329
+    },
+    {
+      "name": "yt-dlp/yt-dlp",
+      "stars": 170251,
+      "loc": 206661,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 36,
+        "MEDIUM": 20,
+        "LOW": 0
+      },
+      "sast_density": 1.6064956619778283,
+      "dependencies": 0,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 2395,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 1,
+        "LOW": 1
+      },
+      "iac_density": 5.010438413361169
+    },
+    {
+      "name": "AUTOMATIC1111/stable-diffusion-webui",
+      "stars": 163666,
+      "loc": 30953,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 15,
+        "MEDIUM": 11,
+        "LOW": 0
+      },
+      "sast_density": 4.813749878848577,
+      "dependencies": 73,
+      "sca": {
+        "CRITICAL": 4,
+        "HIGH": 21,
+        "MEDIUM": 27,
+        "LOW": 4
+      },
+      "sca_density": 4.041095890410959,
+      "iac_loc": 737,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "521xueweihan/HelloGitHub",
+      "stars": 161127,
+      "loc": 181,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sast_density": 0.0,
+      "dependencies": 1,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 197,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "microsoft/markitdown",
+      "stars": 152349,
+      "loc": 8679,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sast_density": 0.0,
+      "dependencies": 0,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 83,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 2
+      },
+      "iac_density": 24.096385542168672
+    },
+    {
+      "name": "anthropics/skills",
+      "stars": 150098,
+      "loc": 5985,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 17,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sast_density": 19.883040935672515,
+      "dependencies": 6,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 0,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "langflow-ai/langflow",
+      "stars": 149611,
+      "loc": 386252,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 37,
+        "MEDIUM": 83,
+        "LOW": 2
+      },
+      "sast_density": 1.5352671313028798,
+      "dependencies": 2,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 10446,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 14,
+        "MEDIUM": 3,
+        "LOW": 17
+      },
+      "iac_density": 12.157763737315719
+    },
+    {
+      "name": "open-webui/open-webui",
+      "stars": 141310,
+      "loc": 69195,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 33,
+        "MEDIUM": 23,
+        "LOW": 0
+      },
+      "sast_density": 4.667967338680541,
+      "dependencies": 170,
+      "sca": {
+        "CRITICAL": 1,
+        "HIGH": 7,
+        "MEDIUM": 25,
+        "LOW": 1
+      },
+      "sca_density": 0.9352941176470588,
+      "iac_loc": 947,
+      "iac": {
+        "CRITICAL": 2,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 19.00739176346357
+    },
+    {
+      "name": "ytdl-org/youtube-dl",
+      "stars": 140494,
+      "loc": 139638,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 13,
+        "MEDIUM": 18,
+        "LOW": 0
+      },
+      "sast_density": 1.1673040289892436,
+      "dependencies": 0,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 435,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "langchain-ai/langchain",
+      "stars": 139172,
+      "loc": 250055,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 41,
+        "MEDIUM": 53,
+        "LOW": 0
+      },
+      "sast_density": 1.9955609765851512,
+      "dependencies": 0,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 5543,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 0.18040772145047806
+    },
+    {
+      "name": "anthropics/claude-code",
+      "stars": 132139,
+      "loc": 4327,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 2,
+        "LOW": 0
+      },
+      "sast_density": 1.8488560203374163,
+      "dependencies": 0,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 1141,
+      "iac": {
+        "CRITICAL": 1,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 8.76424189307625
+    },
+    {
+      "name": "Comfy-Org/ComfyUI",
+      "stars": 116801,
+      "loc": 176242,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 8,
+        "MEDIUM": 59,
+        "LOW": 0
+      },
+      "sast_density": 1.6568127915025932,
+      "dependencies": 39,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 7542,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "Shubhamsaboo/awesome-llm-apps",
+      "stars": 114395,
+      "loc": 48143,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 13,
+        "MEDIUM": 10,
+        "LOW": 0
+      },
+      "sast_density": 2.7210601748956234,
+      "dependencies": 1079,
+      "sca": {
+        "CRITICAL": 12,
+        "HIGH": 96,
+        "MEDIUM": 120,
+        "LOW": 37
+      },
+      "sca_density": 1.2020389249304912,
+      "iac_loc": 33904,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 9,
+        "MEDIUM": 1,
+        "LOW": 12
+      },
+      "iac_density": 2.330108541764983
+    },
+    {
+      "name": "github/spec-kit",
+      "stars": 111833,
+      "loc": 48468,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 2,
+        "LOW": 0
+      },
+      "sast_density": 0.30948254518445156,
+      "dependencies": 0,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 4735,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "deepseek-ai/DeepSeek-V3",
+      "stars": 103748,
+      "loc": 722,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sast_density": 0.0,
+      "dependencies": 4,
+      "sca": {
+        "CRITICAL": 1,
+        "HIGH": 3,
+        "MEDIUM": 14,
+        "LOW": 6
+      },
+      "sca_density": 23.0,
+      "iac_loc": 29,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "openai/whisper",
+      "stars": 102600,
+      "loc": 3164,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 3,
+        "LOW": 0
+      },
+      "sast_density": 6.005056890012642,
+      "dependencies": 7,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 152,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "fastapi/fastapi",
+      "stars": 99165,
+      "loc": 85454,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 6,
+        "MEDIUM": 10,
+        "LOW": 2
+      },
+      "sast_density": 0.9829849977765817,
+      "dependencies": 0,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 7125,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "browser-use/browser-use",
+      "stars": 98568,
+      "loc": 72979,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 3,
+        "MEDIUM": 25,
+        "LOW": 2
+      },
+      "sast_density": 1.6854163526493924,
+      "dependencies": 10,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 1599,
+      "iac": {
+        "CRITICAL": 1,
+        "HIGH": 3,
+        "MEDIUM": 3,
+        "LOW": 5
+      },
+      "iac_density": 29.39337085678549
+    },
+    {
+      "name": "nvbn/thefuck",
+      "stars": 97322,
+      "loc": 10535,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 3,
+        "MEDIUM": 4,
+        "LOW": 0
+      },
+      "sast_density": 3.5121025154247745,
+      "dependencies": 11,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 99,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 80.8080808080808
+    },
+    {
+      "name": "hacksider/Deep-Live-Cam",
+      "stars": 93777,
+      "loc": 5449,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 2,
+        "LOW": 0
+      },
+      "sast_density": 2.7527986786566343,
+      "dependencies": 17,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 8,
+        "MEDIUM": 5,
+        "LOW": 0
+      },
+      "sca_density": 4.470588235294118,
+      "iac_loc": 14,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "stars": 91085,
+      "loc": 5100,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sast_density": 0.0,
+      "dependencies": 6,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 89,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "django/django",
+      "stars": 87845,
+      "loc": 392869,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 77,
+        "MEDIUM": 457,
+        "LOW": 8
+      },
+      "sast_density": 6.0452720881515205,
+      "dependencies": 5,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 1251,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "3b1b/manim",
+      "stars": 87560,
+      "loc": 18308,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 5,
+        "LOW": 0
+      },
+      "sast_density": 1.4747651299978153,
+      "dependencies": 36,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 880,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "harry0703/MoneyPrinterTurbo",
+      "stars": 86950,
+      "loc": 8686,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 1,
+        "LOW": 0
+      },
+      "sast_density": 0.46051116739580933,
+      "dependencies": 18,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 231,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 2,
+        "MEDIUM": 0,
+        "LOW": 2
+      },
+      "iac_density": 69.26406926406926
+    },
+    {
+      "name": "karpathy/autoresearch",
+      "stars": 86455,
+      "loc": 758,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 2,
+        "MEDIUM": 2,
+        "LOW": 0
+      },
+      "sast_density": 29.023746701846964,
+      "dependencies": 0,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 0,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "TauricResearch/TradingAgents",
+      "stars": 85581,
+      "loc": 8387,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 3,
+        "LOW": 0
+      },
+      "sast_density": 2.2654107547394777,
+      "dependencies": 1,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 51,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 19.607843137254903
+    },
+    {
+      "name": "sherlock-project/sherlock",
+      "stars": 84946,
+      "loc": 1297,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sast_density": 0.0,
+      "dependencies": 0,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 506,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 5,
+        "MEDIUM": 1,
+        "LOW": 2
+      },
+      "iac_density": 81.02766798418972
+    },
+    {
+      "name": "bregman-arie/devops-exercises",
+      "stars": 82747,
+      "loc": 478,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 4,
+        "LOW": 0
+      },
+      "sast_density": 33.47280334728033,
+      "dependencies": 3,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 158,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 18,
+        "MEDIUM": 17,
+        "LOW": 29
+      },
+      "iac_density": 1411.392405063291
+    },
+    {
+      "name": "vllm-project/vllm",
+      "stars": 82747,
+      "loc": 810593,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 19,
+        "MEDIUM": 293,
+        "LOW": 32
+      },
+      "sast_density": 1.6494097531066763,
+      "dependencies": 7,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 15601,
+      "iac": {
+        "CRITICAL": 2,
+        "HIGH": 34,
+        "MEDIUM": 61,
+        "LOW": 37
+      },
+      "iac_density": 34.420870457021984
+    },
+    {
+      "name": "infiniflow/ragflow",
+      "stars": 82615,
+      "loc": 191608,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 6,
+        "MEDIUM": 60,
+        "LOW": 8
+      },
+      "sast_density": 1.5135067429334892,
+      "dependencies": 24,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 3075,
+      "iac": {
+        "CRITICAL": 1,
+        "HIGH": 20,
+        "MEDIUM": 22,
+        "LOW": 59
+      },
+      "iac_density": 96.260162601626
+    },
+    {
+      "name": "PaddlePaddle/PaddleOCR",
+      "stars": 82068,
+      "loc": 90697,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 2,
+        "MEDIUM": 77,
+        "LOW": 1
+      },
+      "sast_density": 3.561308532807039,
+      "dependencies": 52,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 26828,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 5,
+        "MEDIUM": 29,
+        "LOW": 28
+      },
+      "iac_density": 6.672133591769793
+    },
+    {
+      "name": "fighting41love/funNLP",
+      "stars": 81239,
+      "loc": 13,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sast_density": 0.0,
+      "dependencies": 0,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 1,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "swisskyrepo/PayloadsAllTheThings",
+      "stars": 78364,
+      "loc": 1212,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 2
+      },
+      "sast_density": 1.6501650165016502,
+      "dependencies": 0,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 126,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "d2l-ai/d2l-zh",
+      "stars": 78313,
+      "loc": 7479,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 2,
+        "MEDIUM": 15,
+        "LOW": 0
+      },
+      "sast_density": 9.89437090520123,
+      "dependencies": 0,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 459,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 5,
+        "MEDIUM": 1,
+        "LOW": 19
+      },
+      "iac_density": 126.36165577342048
+    },
+    {
+      "name": "tensorflow/models",
+      "stars": 77666,
+      "loc": 383632,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 27,
+        "MEDIUM": 63,
+        "LOW": 0
+      },
+      "sast_density": 1.1495391416774408,
+      "dependencies": 90,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 4,
+        "MEDIUM": 6,
+        "LOW": 5
+      },
+      "sca_density": 0.6333333333333333,
+      "iac_loc": 20950,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 11,
+        "MEDIUM": 8,
+        "LOW": 5
+      },
+      "iac_density": 5.441527446300716
+    },
+    {
+      "name": "Z4nzu/hackingtool",
+      "stars": 77413,
+      "loc": 4008,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 4,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sast_density": 6.986027944111776,
+      "dependencies": 1,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 98,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 1,
+        "LOW": 1
+      },
+      "iac_density": 122.44897959183673
+    },
+    {
+      "name": "OpenHands/OpenHands",
+      "stars": 76729,
+      "loc": 138526,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 7,
+        "MEDIUM": 64,
+        "LOW": 2
+      },
+      "sast_density": 2.216190462440264,
+      "dependencies": 1078,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 15,
+        "LOW": 2
+      },
+      "sca_density": 0.0575139146567718,
+      "iac_loc": 3451,
+      "iac": {
+        "CRITICAL": 3,
+        "HIGH": 23,
+        "MEDIUM": 14,
+        "LOW": 25
+      },
+      "iac_density": 77.94842074760939
+    },
+    {
+      "name": "python/cpython",
+      "stars": 73197,
+      "loc": 773288,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 26,
+        "MEDIUM": 173,
+        "LOW": 1
+      },
+      "sast_density": 1.1315318484187005,
+      "dependencies": 10,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 2724,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "josephmisiti/awesome-machine-learning",
+      "stars": 72757,
+      "loc": 19,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 2,
+        "LOW": 0
+      },
+      "sast_density": 421.0526315789474,
+      "dependencies": 3,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 0,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "hiyouga/LlamaFactory",
+      "stars": 72126,
+      "loc": 40024,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 12,
+        "MEDIUM": 3,
+        "LOW": 2
+      },
+      "sast_density": 2.4485308814711173,
+      "dependencies": 3,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 2965,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 10,
+        "MEDIUM": 0,
+        "LOW": 5
+      },
+      "iac_density": 25.295109612141655
+    },
+    {
+      "name": "pallets/flask",
+      "stars": 71636,
+      "loc": 10412,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 4,
+        "LOW": 0
+      },
+      "sast_density": 1.536688436419516,
+      "dependencies": 21,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 11,
+        "LOW": 1
+      },
+      "sca_density": 2.4761904761904763,
+      "iac_loc": 241,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "bytedance/deer-flow",
+      "stars": 71086,
+      "loc": 102527,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 22,
+        "MEDIUM": 28,
+        "LOW": 1
+      },
+      "sast_density": 2.6041920664800493,
+      "dependencies": 0,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 11139,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 4,
+        "MEDIUM": 3,
+        "LOW": 3
+      },
+      "iac_density": 3.8603106203429394
+    },
+    {
+      "name": "binary-husky/gpt_academic",
+      "stars": 70872,
+      "loc": 37827,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 15,
+        "MEDIUM": 32,
+        "LOW": 2
+      },
+      "sast_density": 6.21249372141592,
+      "dependencies": 98,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 6,
+        "MEDIUM": 4,
+        "LOW": 0
+      },
+      "sca_density": 0.5918367346938775,
+      "iac_loc": 631,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 3,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 34.865293185419965
+    },
+    {
+      "name": "pewdiepie-archdaemon/odysseus",
+      "stars": 69622,
+      "loc": 111830,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 58,
+        "MEDIUM": 29,
+        "LOW": 4
+      },
+      "sast_density": 4.703567915586158,
+      "dependencies": 33,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 1223,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 6.541291905151267
+    },
+    {
+      "name": "OpenBB-finance/OpenBB",
+      "stars": 69042,
+      "loc": 190300,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 11,
+        "MEDIUM": 14,
+        "LOW": 309
+      },
+      "sast_density": 2.3226484498160795,
+      "dependencies": 3130,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 156,
+        "LOW": 0
+      },
+      "sca_density": 0.19936102236421724,
+      "iac_loc": 1189034,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 2,
+        "MEDIUM": 0,
+        "LOW": 2
+      },
+      "iac_density": 0.01345630150189145
+    },
+    {
+      "name": "ansible/ansible",
+      "stars": 68888,
+      "loc": 150685,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 17,
+        "MEDIUM": 53,
+        "LOW": 0
+      },
+      "sast_density": 2.196635365165743,
+      "dependencies": 12,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 81339,
+      "iac": {
+        "CRITICAL": 1,
+        "HIGH": 0,
+        "MEDIUM": 1,
+        "LOW": 1
+      },
+      "iac_density": 0.17211915563259936
+    },
+    {
+      "name": "FoundationAgents/MetaGPT",
+      "stars": 68761,
+      "loc": 53902,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 4,
+        "MEDIUM": 21,
+        "LOW": 0
+      },
+      "sast_density": 2.077844977922897,
+      "dependencies": 77,
+      "sca": {
+        "CRITICAL": 3,
+        "HIGH": 10,
+        "MEDIUM": 15,
+        "LOW": 12
+      },
+      "sca_density": 2.1948051948051948,
+      "iac_loc": 1351,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 5.921539600296077
+    },
+    {
+      "name": "unclecode/crawl4ai",
+      "stars": 68367,
+      "loc": 90805,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 23,
+        "MEDIUM": 30,
+        "LOW": 3
+      },
+      "sast_density": 3.1275810803369857,
+      "dependencies": 70,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.1,
+      "iac_loc": 900,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 7.777777777777778
+    },
+    {
+      "name": "opendatalab/MinerU",
+      "stars": 67404,
+      "loc": 53271,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 6,
+        "MEDIUM": 16,
+        "LOW": 0
+      },
+      "sast_density": 1.989825608680145,
+      "dependencies": 4,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 1448,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 21,
+        "MEDIUM": 1,
+        "LOW": 11
+      },
+      "iac_density": 111.87845303867404
+    },
+    {
+      "name": "labmlai/annotated_deep_learning_paper_implementations",
+      "stars": 66925,
+      "loc": 14540,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 3,
+        "MEDIUM": 21,
+        "LOW": 0
+      },
+      "sast_density": 7.221458046767538,
+      "dependencies": 12,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 21,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "safishamsi/graphify",
+      "stars": 66446,
+      "loc": 39340,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 8,
+        "LOW": 0
+      },
+      "sast_density": 0.813421453990849,
+      "dependencies": 0,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 138,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 7.246376811594202
+    },
+    {
+      "name": "unslothai/unsloth",
+      "stars": 66398,
+      "loc": 218697,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 31,
+        "MEDIUM": 135,
+        "LOW": 0
+      },
+      "sast_density": 3.4614100787848026,
+      "dependencies": 5,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 14917,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "shareAI-lab/learn-claude-code",
+      "stars": 66350,
+      "loc": 13498,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 40,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sast_density": 20.743813898355313,
+      "dependencies": 3,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 61,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "xtekky/gpt4free",
+      "stars": 66327,
+      "loc": 46479,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 13,
+        "MEDIUM": 7,
+        "LOW": 2
+      },
+      "sast_density": 2.6033262333526968,
+      "dependencies": 51,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 672,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 2,
+        "MEDIUM": 1,
+        "LOW": 2
+      },
+      "iac_density": 29.76190476190476
+    },
+    {
+      "name": "scikit-learn/scikit-learn",
+      "stars": 66316,
+      "loc": 242952,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 3,
+        "MEDIUM": 31,
+        "LOW": 0
+      },
+      "sast_density": 0.5968257104283974,
+      "dependencies": 8,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 2211,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "666ghj/MiroFish",
+      "stars": 66282,
+      "loc": 12789,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sast_density": 0.5473453749315819,
+      "dependencies": 11,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 68,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 1,
+        "LOW": 1
+      },
+      "iac_density": 176.47058823529412
+    },
+    {
+      "name": "localstack/localstack",
+      "stars": 65043,
+      "loc": 414975,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 19,
+        "MEDIUM": 44,
+        "LOW": 2
+      },
+      "sast_density": 0.749442737514308,
+      "dependencies": 771,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 19559,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 3,
+        "MEDIUM": 1,
+        "LOW": 14
+      },
+      "iac_density": 1.993966971726571
+    },
+    {
+      "name": "Asabeneh/30-Days-Of-Python",
+      "stars": 64694,
+      "loc": 3473,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 2,
+        "LOW": 1
+      },
+      "sast_density": 2.591419522027066,
+      "dependencies": 6,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 3,
+        "MEDIUM": 9,
+        "LOW": 2
+      },
+      "sca_density": 9.833333333333334,
+      "iac_loc": 3,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "ComposioHQ/awesome-claude-skills",
+      "stars": 64382,
+      "loc": 8194,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 8,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sast_density": 6.8342689773004635,
+      "dependencies": 6,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 141,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "keras-team/keras",
+      "stars": 64086,
+      "loc": 221763,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 5,
+        "MEDIUM": 49,
+        "LOW": 0
+      },
+      "sast_density": 1.0416525750463332,
+      "dependencies": 59,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 944,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "openinterpreter/openinterpreter",
+      "stars": 63903,
+      "loc": 19797,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 4,
+        "MEDIUM": 9,
+        "LOW": 0
+      },
+      "sast_density": 3.2328130524826992,
+      "dependencies": 0,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 7477,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 1,
+        "LOW": 3
+      },
+      "iac_density": 0.9362043600374481
+    },
+    {
+      "name": "D4Vinci/Scrapling",
+      "stars": 63367,
+      "loc": 17769,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 2,
+        "MEDIUM": 3,
+        "LOW": 0
+      },
+      "sast_density": 1.4632224660926334,
+      "dependencies": 16,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 637,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 2,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 23.547880690737834
+    },
+    {
+      "name": "pathwaycom/pathway",
+      "stars": 63006,
+      "loc": 105802,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 20,
+        "MEDIUM": 40,
+        "LOW": 15
+      },
+      "sast_density": 2.977259409084894,
+      "dependencies": 44,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "sca_density": 0.18181818181818182,
+      "iac_loc": 1781,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 27,
+        "MEDIUM": 3,
+        "LOW": 26
+      },
+      "iac_density": 127.45648512071871
+    },
+    {
+      "name": "scrapy/scrapy",
+      "stars": 62225,
+      "loc": 57371,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 28,
+        "LOW": 2
+      },
+      "sast_density": 2.1090795000958673,
+      "dependencies": 71,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 5,
+        "MEDIUM": 2,
+        "LOW": 1
+      },
+      "sca_density": 0.6197183098591549,
+      "iac_loc": 382,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "docling-project/docling",
+      "stars": 61480,
+      "loc": 64072,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sast_density": 0.0,
+      "dependencies": 2,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 3456,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 2,
+        "MEDIUM": 1,
+        "LOW": 2
+      },
+      "iac_density": 5.787037037037037
+    },
+    {
+      "name": "virattt/ai-hedge-fund",
+      "stars": 60013,
+      "loc": 15913,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 4,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sast_density": 1.7595676490919374,
+      "dependencies": 126,
+      "sca": {
+        "CRITICAL": 1,
+        "HIGH": 21,
+        "MEDIUM": 24,
+        "LOW": 13
+      },
+      "sca_density": 2.1031746031746033,
+      "iac_loc": 3504,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 2.2831050228310503
+    },
+    {
+      "name": "CorentinJ/Real-Time-Voice-Cloning",
+      "stars": 59906,
+      "loc": 4326,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 10,
+        "MEDIUM": 11,
+        "LOW": 0
+      },
+      "sast_density": 26.35228848821082,
+      "dependencies": 0,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 25,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "karpathy/nanoGPT",
+      "stars": 59548,
+      "loc": 808,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 3,
+        "MEDIUM": 9,
+        "LOW": 0
+      },
+      "sast_density": 70.54455445544554,
+      "dependencies": 0,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 0,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "meta-llama/llama",
+      "stars": 59453,
+      "loc": 665,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sast_density": 10.526315789473683,
+      "dependencies": 4,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 0,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "sansan0/TrendRadar",
+      "stars": 59373,
+      "loc": 19565,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 11,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sast_density": 3.9355992844364933,
+      "dependencies": 10,
+      "sca": {
+        "CRITICAL": 3,
+        "HIGH": 9,
+        "MEDIUM": 3,
+        "LOW": 0
+      },
+      "sca_density": 10.2,
+      "iac_loc": 1229,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 2,
+        "MEDIUM": 0,
+        "LOW": 2
+      },
+      "iac_density": 13.018714401952806
+    },
+    {
+      "name": "datawhalechina/hello-agents",
+      "stars": 58855,
+      "loc": 66064,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 8,
+        "MEDIUM": 34,
+        "LOW": 0
+      },
+      "sast_density": 2.90627270525551,
+      "dependencies": 437,
+      "sca": {
+        "CRITICAL": 3,
+        "HIGH": 26,
+        "MEDIUM": 105,
+        "LOW": 29
+      },
+      "sca_density": 1.505720823798627,
+      "iac_loc": 5368,
+      "iac": {
+        "CRITICAL": 1,
+        "HIGH": 4,
+        "MEDIUM": 0,
+        "LOW": 3
+      },
+      "iac_density": 7.451564828614009
+    },
+    {
+      "name": "RVC-Boss/GPT-SoVITS",
+      "stars": 58637,
+      "loc": 36523,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 61,
+        "MEDIUM": 25,
+        "LOW": 0
+      },
+      "sast_density": 14.429263751608573,
+      "dependencies": 55,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 723,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 11.065006915629322
+    },
+    {
+      "name": "mem0ai/mem0",
+      "stars": 58469,
+      "loc": 55047,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 33,
+        "MEDIUM": 37,
+        "LOW": 0
+      },
+      "sast_density": 6.885025523643432,
+      "dependencies": 314,
+      "sca": {
+        "CRITICAL": 1,
+        "HIGH": 19,
+        "MEDIUM": 21,
+        "LOW": 5
+      },
+      "sca_density": 0.7356687898089171,
+      "iac_loc": 26366,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 3,
+        "MEDIUM": 0,
+        "LOW": 5
+      },
+      "iac_density": 0.9861184859288478
+    },
+    {
+      "name": "ultralytics/ultralytics",
+      "stars": 58345,
+      "loc": 45205,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 16,
+        "MEDIUM": 16,
+        "LOW": 0
+      },
+      "sast_density": 3.893374626700586,
+      "dependencies": 26,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 11749,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 0.6809090135330667
+    },
+    {
+      "name": "ultralytics/yolov5",
+      "stars": 57520,
+      "loc": 11122,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 17,
+        "MEDIUM": 23,
+        "LOW": 0
+      },
+      "sast_density": 18.971408020140263,
+      "dependencies": 19,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 5133,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 2,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 2.922267679719462
+    },
+    {
+      "name": "zylon-ai/private-gpt",
+      "stars": 57240,
+      "loc": 85445,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 12,
+        "MEDIUM": 10,
+        "LOW": 0
+      },
+      "sast_density": 1.4512259348118675,
+      "dependencies": 0,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 1456,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 5.4945054945054945
+    },
+    {
+      "name": "soimort/you-get",
+      "stars": 56838,
+      "loc": 11221,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 2,
+        "MEDIUM": 19,
+        "LOW": 0
+      },
+      "sast_density": 8.020675519115944,
+      "dependencies": 1,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 31,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "Textualize/rich",
+      "stars": 56621,
+      "loc": 41137,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 2,
+        "MEDIUM": 6,
+        "LOW": 0
+      },
+      "sast_density": 0.9237426161363249,
+      "dependencies": 49,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "sca_density": 0.02040816326530612,
+      "iac_loc": 232,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "FoundationAgents/OpenManus",
+      "stars": 56537,
+      "loc": 8625,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 1,
+        "LOW": 0
+      },
+      "sast_density": 1.2753623188405796,
+      "dependencies": 35,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 417,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 19.18465227817746
+    },
+    {
+      "name": "ageitgey/face_recognition",
+      "stars": 56488,
+      "loc": 1435,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 4,
+        "MEDIUM": 8,
+        "LOW": 2
+      },
+      "sast_density": 43.20557491289198,
+      "dependencies": 21,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 238,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 9,
+        "MEDIUM": 5,
+        "LOW": 6
+      },
+      "iac_density": 373.9495798319328
+    },
+    {
+      "name": "MemPalace/mempalace",
+      "stars": 55499,
+      "loc": 63931,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 11,
+        "MEDIUM": 22,
+        "LOW": 0
+      },
+      "sast_density": 2.580907540942579,
+      "dependencies": 0,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 727,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 2
+      },
+      "iac_density": 2.751031636863824
+    },
+    {
+      "name": "deepfakes/faceswap",
+      "stars": 55276,
+      "loc": 51980,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 8,
+        "MEDIUM": 42,
+        "LOW": 0
+      },
+      "sast_density": 4.309349749903809,
+      "dependencies": 17,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 173,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "AntonOsika/gpt-engineer",
+      "stars": 55206,
+      "loc": 5098,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 2,
+        "MEDIUM": 1,
+        "LOW": 0
+      },
+      "sast_density": 3.5307963907414672,
+      "dependencies": 189,
+      "sca": {
+        "CRITICAL": 2,
+        "HIGH": 19,
+        "MEDIUM": 31,
+        "LOW": 16
+      },
+      "sca_density": 1.5396825396825398,
+      "iac_loc": 202,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 39.603960396039604
+    },
+    {
+      "name": "Zie619/n8n-workflows",
+      "stars": 55111,
+      "loc": 3809,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 5,
+        "MEDIUM": 2,
+        "LOW": 0
+      },
+      "sast_density": 11.289052244683644,
+      "dependencies": 11,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 6,
+        "MEDIUM": 4,
+        "LOW": 0
+      },
+      "sca_density": 5.2727272727272725,
+      "iac_loc": 1228,
+      "iac": {
+        "CRITICAL": 1,
+        "HIGH": 2,
+        "MEDIUM": 8,
+        "LOW": 11
+      },
+      "iac_density": 53.74592833876222
+    },
+    {
+      "name": "karpathy/nanochat",
+      "stars": 54973,
+      "loc": 5829,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 8,
+        "MEDIUM": 10,
+        "LOW": 0
+      },
+      "sast_density": 16.46937725167267,
+      "dependencies": 0,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 0,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "psf/requests",
+      "stars": 54039,
+      "loc": 7729,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 3,
+        "LOW": 0
+      },
+      "sast_density": 1.5525941260188898,
+      "dependencies": 7,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 364,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "crewAIInc/crewAI",
+      "stars": 53409,
+      "loc": 180318,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 6,
+        "MEDIUM": 32,
+        "LOW": 0
+      },
+      "sast_density": 0.9427788684435274,
+      "dependencies": 0,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 214414,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "xai-org/grok-1",
+      "stars": 51691,
+      "loc": 1810,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 2,
+        "LOW": 0
+      },
+      "sast_density": 4.419889502762431,
+      "dependencies": 4,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 1.75,
+      "iac_loc": 0,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "jingyaogong/minimind",
+      "stars": 51690,
+      "loc": 3838,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 18,
+        "MEDIUM": 6,
+        "LOW": 0
+      },
+      "sast_density": 39.08285565398645,
+      "dependencies": 28,
+      "sca": {
+        "CRITICAL": 1,
+        "HIGH": 9,
+        "MEDIUM": 16,
+        "LOW": 1
+      },
+      "sca_density": 4.892857142857143,
+      "iac_loc": 0,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "freqtrade/freqtrade",
+      "stars": 51404,
+      "loc": 104678,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 23,
+        "MEDIUM": 6,
+        "LOW": 0
+      },
+      "sast_density": 1.76732455721355,
+      "dependencies": 90,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 1459,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 7,
+        "MEDIUM": 0,
+        "LOW": 8
+      },
+      "iac_density": 39.06785469499657
+    },
+    {
+      "name": "NanmiCoder/MediaCrawler",
+      "stars": 51135,
+      "loc": 15350,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 6,
+        "MEDIUM": 3,
+        "LOW": 0
+      },
+      "sast_density": 3.5179153094462543,
+      "dependencies": 31,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 4,
+        "MEDIUM": 6,
+        "LOW": 0
+      },
+      "sca_density": 1.6774193548387097,
+      "iac_loc": 79,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "charlax/professional-programming",
+      "stars": 51110,
+      "loc": 50,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sast_density": 0.0,
+      "dependencies": 0,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 18,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "lllyasviel/Fooocus",
+      "stars": 50109,
+      "loc": 38919,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 18,
+        "MEDIUM": 42,
+        "LOW": 0
+      },
+      "sast_density": 7.554150928852232,
+      "dependencies": 26,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 1116,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 7.168458781362006
+    },
+    {
+      "name": "run-llama/llama_index",
+      "stars": 50102,
+      "loc": 310273,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 147,
+        "MEDIUM": 57,
+        "LOW": 2
+      },
+      "sast_density": 4.057716913814608,
+      "dependencies": 147,
+      "sca": {
+        "CRITICAL": 1,
+        "HIGH": 33,
+        "MEDIUM": 37,
+        "LOW": 16
+      },
+      "sca_density": 2.748299319727891,
+      "iac_loc": 11304,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "microsoft/VibeVoice",
+      "stars": 49299,
+      "loc": 10893,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 4,
+        "MEDIUM": 4,
+        "LOW": 0
+      },
+      "sast_density": 4.039291287983108,
+      "dependencies": 0,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 0,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "pandas-dev/pandas",
+      "stars": 48969,
+      "loc": 428360,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 14,
+        "MEDIUM": 18,
+        "LOW": 0
+      },
+      "sast_density": 0.3968624521430572,
+      "dependencies": 85,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 2643,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "minimaxir/big-list-of-naughty-strings",
+      "stars": 47673,
+      "loc": 19,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sast_density": 0.0,
+      "dependencies": 0,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 0,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "oobabooga/textgen",
+      "stars": 47297,
+      "loc": 18903,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 2,
+        "MEDIUM": 5,
+        "LOW": 0
+      },
+      "sast_density": 1.7986562979421257,
+      "dependencies": 515,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 1608,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 5,
+        "MEDIUM": 0,
+        "LOW": 5
+      },
+      "iac_density": 24.87562189054726
+    },
+    {
+      "name": "hesreallyhim/awesome-claude-code",
+      "stars": 46322,
+      "loc": 9993,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sast_density": 0.0,
+      "dependencies": 0,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 2547,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "Aider-AI/aider",
+      "stars": 46107,
+      "loc": 26055,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 10,
+        "MEDIUM": 2,
+        "LOW": 2
+      },
+      "sast_density": 3.070427940894262,
+      "dependencies": 304,
+      "sca": {
+        "CRITICAL": 2,
+        "HIGH": 14,
+        "MEDIUM": 13,
+        "LOW": 7
+      },
+      "sca_density": 0.5756578947368421,
+      "iac_loc": 15806,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 6,
+        "MEDIUM": 2,
+        "LOW": 3
+      },
+      "iac_density": 3.353157028976338
+    },
+    {
+      "name": "apache/airflow",
+      "stars": 45795,
+      "loc": 982425,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 56,
+        "MEDIUM": 134,
+        "LOW": 9
+      },
+      "sast_density": 0.9537623737180956,
+      "dependencies": 10,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 109268,
+      "iac": {
+        "CRITICAL": 6,
+        "HIGH": 36,
+        "MEDIUM": 71,
+        "LOW": 186
+      },
+      "iac_density": 7.101804736976974
+    },
+    {
+      "name": "coqui-ai/TTS",
+      "stars": 45552,
+      "loc": 51803,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 33,
+        "MEDIUM": 58,
+        "LOW": 0
+      },
+      "sast_density": 8.937706310445341,
+      "dependencies": 61,
+      "sca": {
+        "CRITICAL": 3,
+        "HIGH": 16,
+        "MEDIUM": 16,
+        "LOW": 2
+      },
+      "sca_density": 3.360655737704918,
+      "iac_loc": 938,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 4,
+        "MEDIUM": 0,
+        "LOW": 5
+      },
+      "iac_density": 35.18123667377399
+    },
+    {
+      "name": "exo-explore/exo",
+      "stars": 45335,
+      "loc": 56467,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 11,
+        "LOW": 1
+      },
+      "sast_density": 0.7969256379832469,
+      "dependencies": 0,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 615,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "zhayujie/CowAgent",
+      "stars": 45267,
+      "loc": 48398,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 4,
+        "MEDIUM": 20,
+        "LOW": 1
+      },
+      "sast_density": 2.25215918013141,
+      "dependencies": 34,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 318,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 2,
+        "MEDIUM": 2,
+        "LOW": 4
+      },
+      "iac_density": 81.76100628930817
+    },
+    {
+      "name": "9001/copyparty",
+      "stars": 45206,
+      "loc": 42259,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 14,
+        "MEDIUM": 22,
+        "LOW": 0
+      },
+      "sast_density": 4.40142928133652,
+      "dependencies": 0,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 912,
+      "iac": {
+        "CRITICAL": 1,
+        "HIGH": 15,
+        "MEDIUM": 19,
+        "LOW": 11
+      },
+      "iac_density": 220.39473684210526
+    },
+    {
+      "name": "hiroi-sora/Umi-OCR",
+      "stars": 45172,
+      "loc": 8825,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 7,
+        "MEDIUM": 11,
+        "LOW": 2
+      },
+      "sast_density": 10.76487252124646,
+      "dependencies": 0,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 91,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "streamlit/streamlit",
+      "stars": 44960,
+      "loc": 178552,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 5,
+        "MEDIUM": 16,
+        "LOW": 1
+      },
+      "sast_density": 0.5600609346296878,
+      "dependencies": 0,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 7414,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 3,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 2.967359050445104
+    },
+    {
+      "name": "SimplifyJobs/Summer2026-Internships",
+      "stars": 44901,
+      "loc": 2045,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sast_density": 0.0,
+      "dependencies": 0,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 508,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "microsoft/qlib",
+      "stars": 44329,
+      "loc": 43097,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 73,
+        "MEDIUM": 70,
+        "LOW": 4
+      },
+      "sast_density": 18.44675963524143,
+      "dependencies": 203,
+      "sca": {
+        "CRITICAL": 38,
+        "HIGH": 164,
+        "MEDIUM": 282,
+        "LOW": 190
+      },
+      "sca_density": 13.832512315270936,
+      "iac_loc": 6208,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 2,
+        "MEDIUM": 1,
+        "LOW": 1
+      },
+      "iac_density": 3.060567010309278
+    },
+    {
+      "name": "HKUDS/nanobot",
+      "stars": 44142,
+      "loc": 116592,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 4,
+        "MEDIUM": 12,
+        "LOW": 0
+      },
+      "sast_density": 0.651845752710306,
+      "dependencies": 0,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 304,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 3.2894736842105265
+    },
+    {
+      "name": "getsentry/sentry",
+      "stars": 44098,
+      "loc": 1249444,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 15,
+        "MEDIUM": 184,
+        "LOW": 8
+      },
+      "sast_density": 0.6795022425975074,
+      "dependencies": 0,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 19625,
+      "iac": {
+        "CRITICAL": 1,
+        "HIGH": 1,
+        "MEDIUM": 1,
+        "LOW": 1
+      },
+      "iac_density": 1.070063694267516
+    },
+    {
+      "name": "roboflow/supervision",
+      "stars": 44004,
+      "loc": 41535,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sast_density": 0.0,
+      "dependencies": 34,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 939,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "mitmproxy/mitmproxy",
+      "stars": 43895,
+      "loc": 67912,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 2,
+        "MEDIUM": 8,
+        "LOW": 3
+      },
+      "sast_density": 0.7215219696077276,
+      "dependencies": 0,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 552,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 2,
+        "MEDIUM": 1,
+        "LOW": 2
+      },
+      "iac_density": 36.23188405797101
+    },
+    {
+      "name": "gradio-app/gradio",
+      "stars": 42909,
+      "loc": 85971,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 11,
+        "MEDIUM": 15,
+        "LOW": 0
+      },
+      "sast_density": 1.5935606192785938,
+      "dependencies": 387,
+      "sca": {
+        "CRITICAL": 3,
+        "HIGH": 4,
+        "MEDIUM": 6,
+        "LOW": 11
+      },
+      "sca_density": 0.23255813953488372,
+      "iac_loc": 15264,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "HKUDS/CLI-Anything",
+      "stars": 42889,
+      "loc": 195666,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 19,
+        "MEDIUM": 22,
+        "LOW": 1
+      },
+      "sast_density": 1.1345864892214284,
+      "dependencies": 0,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 922,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "ray-project/ray",
+      "stars": 42857,
+      "loc": 823599,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 77,
+        "MEDIUM": 282,
+        "LOW": 16
+      },
+      "sast_density": 2.0434701839123166,
+      "dependencies": 5229,
+      "sca": {
+        "CRITICAL": 4,
+        "HIGH": 17,
+        "MEDIUM": 28,
+        "LOW": 14
+      },
+      "sca_density": 0.053738764582138075,
+      "iac_loc": 27226,
+      "iac": {
+        "CRITICAL": 8,
+        "HIGH": 65,
+        "MEDIUM": 47,
+        "LOW": 88
+      },
+      "iac_density": 29.493866157349593
+    },
+    {
+      "name": "faif/python-patterns",
+      "stars": 42803,
+      "loc": 2204,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sast_density": 0.0,
+      "dependencies": 41,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 1,
+        "LOW": 1
+      },
+      "sca_density": 0.2926829268292683,
+      "iac_loc": 269,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "deepspeedai/DeepSpeed",
+      "stars": 42507,
+      "loc": 114356,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 56,
+        "MEDIUM": 27,
+        "LOW": 0
+      },
+      "sast_density": 4.3723110287173395,
+      "dependencies": 61,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 2833,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 9,
+        "MEDIUM": 7,
+        "LOW": 6
+      },
+      "iac_density": 34.23932227320861
+    },
+    {
+      "name": "ZhuLinsen/daily_stock_analysis",
+      "stars": 42368,
+      "loc": 147932,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 28,
+        "LOW": 3
+      },
+      "sast_density": 0.824703242030122,
+      "dependencies": 42,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 2293,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 3.0527692978630614
+    },
+    {
+      "name": "mingrammer/diagrams",
+      "stars": 42346,
+      "loc": 7852,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 2,
+        "LOW": 0
+      },
+      "sast_density": 1.0188487009679061,
+      "dependencies": 41,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 3,
+        "LOW": 0
+      },
+      "sca_density": 0.2926829268292683,
+      "iac_loc": 141,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 2,
+        "MEDIUM": 0,
+        "LOW": 2
+      },
+      "iac_density": 113.47517730496455
+    },
+    {
+      "name": "apachecn/ailearning",
+      "stars": 42316,
+      "loc": 11068,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 2,
+        "MEDIUM": 19,
+        "LOW": 0
+      },
+      "sast_density": 8.131550415612578,
+      "dependencies": 6,
+      "sca": {
+        "CRITICAL": 4,
+        "HIGH": 110,
+        "MEDIUM": 191,
+        "LOW": 98
+      },
+      "sca_density": 278.0,
+      "iac_loc": 2,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 4000.0
+    },
+    {
+      "name": "paperless-ngx/paperless-ngx",
+      "stars": 42111,
+      "loc": 80652,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 3,
+        "MEDIUM": 18,
+        "LOW": 0
+      },
+      "sast_density": 1.1531022169320042,
+      "dependencies": 0,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 14883,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 4,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 1.948531882013035
+    },
+    {
+      "name": "vnpy/vnpy",
+      "stars": 41585,
+      "loc": 8747,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 10,
+        "LOW": 0
+      },
+      "sast_density": 4.572996455927747,
+      "dependencies": 0,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 64,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "psf/black",
+      "stars": 41559,
+      "loc": 117043,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 2,
+        "MEDIUM": 8,
+        "LOW": 0
+      },
+      "sast_density": 0.3930179506677033,
+      "dependencies": 0,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 1235,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 1,
+        "LOW": 1
+      },
+      "iac_density": 9.7165991902834
+    },
+    {
+      "name": "chubin/cheat.sh",
+      "stars": 41448,
+      "loc": 3981,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sast_density": 1.7583521728208993,
+      "dependencies": 19,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 93,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 86.02150537634408
+    },
+    {
+      "name": "hpcaitech/ColossalAI",
+      "stars": 41397,
+      "loc": 204484,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 48,
+        "MEDIUM": 70,
+        "LOW": 0
+      },
+      "sast_density": 3.0124606326167327,
+      "dependencies": 303,
+      "sca": {
+        "CRITICAL": 23,
+        "HIGH": 71,
+        "MEDIUM": 131,
+        "LOW": 38
+      },
+      "sca_density": 4.178217821782178,
+      "iac_loc": 2680,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 8,
+        "MEDIUM": 6,
+        "LOW": 3
+      },
+      "iac_density": 30.970149253731343
+    },
+    {
+      "name": "666ghj/BettaFish",
+      "stars": 41361,
+      "loc": 29921,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 13,
+        "MEDIUM": 12,
+        "LOW": 0
+      },
+      "sast_density": 4.645566658868353,
+      "dependencies": 128,
+      "sca": {
+        "CRITICAL": 4,
+        "HIGH": 7,
+        "MEDIUM": 15,
+        "LOW": 5
+      },
+      "sca_density": 1.171875,
+      "iac_loc": 155,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 51.612903225806456
+    },
+    {
+      "name": "zai-org/ChatGLM-6B",
+      "stars": 41042,
+      "loc": 3818,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 15,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sast_density": 27.50130958617077,
+      "dependencies": 8,
+      "sca": {
+        "CRITICAL": 1,
+        "HIGH": 4,
+        "MEDIUM": 12,
+        "LOW": 2
+      },
+      "sca_density": 10.875,
+      "iac_loc": 90,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "mvanhorn/last30days-skill",
+      "stars": 40738,
+      "loc": 33056,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 8,
+        "MEDIUM": 19,
+        "LOW": 0
+      },
+      "sast_density": 3.9932236205227496,
+      "dependencies": 0,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 177,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "agno-agi/agno",
+      "stars": 40669,
+      "loc": 492815,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 132,
+        "MEDIUM": 33,
+        "LOW": 1
+      },
+      "sast_density": 2.144821078903848,
+      "dependencies": 664,
+      "sca": {
+        "CRITICAL": 3,
+        "HIGH": 53,
+        "MEDIUM": 37,
+        "LOW": 15
+      },
+      "sca_density": 0.8448795180722891,
+      "iac_loc": 2449,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "sickn33/antigravity-awesome-skills",
+      "stars": 40564,
+      "loc": 71375,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 106,
+        "MEDIUM": 83,
+        "LOW": 0
+      },
+      "sast_density": 15.047285464098074,
+      "dependencies": 118,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 2026,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 6,
+        "MEDIUM": 9,
+        "LOW": 33
+      },
+      "iac_density": 54.78775913129319
+    },
+    {
+      "name": "google-research/bert",
+      "stars": 40026,
+      "loc": 3898,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sast_density": 0.0,
+      "dependencies": 1,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 0,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "floodsung/Deep-Learning-Papers-Reading-Roadmap",
+      "stars": 39511,
+      "loc": 114,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sast_density": 0.0,
+      "dependencies": 3,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 0,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "lm-sys/FastChat",
+      "stars": 39470,
+      "loc": 27307,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 19,
+        "MEDIUM": 4,
+        "LOW": 0
+      },
+      "sast_density": 5.456476361372542,
+      "dependencies": 0,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 114,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 2,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 131.57894736842104
+    },
+    {
+      "name": "2noise/ChatTTS",
+      "stars": 39441,
+      "loc": 9465,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 2,
+        "MEDIUM": 3,
+        "LOW": 2
+      },
+      "sast_density": 2.958267300581088,
+      "dependencies": 19,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 240,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "microsoft/BitNet",
+      "stars": 39295,
+      "loc": 7155,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 8,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sast_density": 7.826694619147449,
+      "dependencies": 9,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 0,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "QuivrHQ/quivr",
+      "stars": 39158,
+      "loc": 5648,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 4,
+        "LOW": 1
+      },
+      "sast_density": 3.009915014164306,
+      "dependencies": 0,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 659,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 2,
+        "MEDIUM": 1,
+        "LOW": 1
+      },
+      "iac_density": 28.831562974203337
+    },
+    {
+      "name": "ManimCommunity/manim",
+      "stars": 38961,
+      "loc": 48352,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 2,
+        "MEDIUM": 6,
+        "LOW": 0
+      },
+      "sast_density": 0.7859033752481801,
+      "dependencies": 8,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 621,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 1.6103059581320451
+    },
+    {
+      "name": "gto76/python-cheatsheet",
+      "stars": 38487,
+      "loc": 223,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sast_density": 0.0,
+      "dependencies": 0,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 0,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "httpie/cli",
+      "stars": 38198,
+      "loc": 13601,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 2,
+        "LOW": 1
+      },
+      "sast_density": 1.1763840894051907,
+      "dependencies": 0,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 750,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 6,
+        "MEDIUM": 0,
+        "LOW": 2
+      },
+      "iac_density": 58.666666666666664
+    },
+    {
+      "name": "chatchat-space/Langchain-Chatchat",
+      "stars": 38164,
+      "loc": 20507,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 17,
+        "MEDIUM": 3,
+        "LOW": 0
+      },
+      "sast_density": 6.388062612766372,
+      "dependencies": 0,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 645,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 12.403100775193797
+    },
+    {
+      "name": "sqlmapproject/sqlmap",
+      "stars": 37652,
+      "loc": 85049,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 13,
+        "MEDIUM": 61,
+        "LOW": 2
+      },
+      "sast_density": 3.962421662806147,
+      "dependencies": 0,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 894,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "TencentARC/GFPGAN",
+      "stars": 37471,
+      "loc": 3551,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 4,
+        "MEDIUM": 6,
+        "LOW": 0
+      },
+      "sast_density": 14.643762320473105,
+      "dependencies": 12,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 562,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "LAION-AI/Open-Assistant",
+      "stars": 37397,
+      "loc": 34823,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 9,
+        "MEDIUM": 28,
+        "LOW": 0
+      },
+      "sast_density": 5.0254142377164515,
+      "dependencies": 307,
+      "sca": {
+        "CRITICAL": 18,
+        "HIGH": 57,
+        "MEDIUM": 120,
+        "LOW": 43
+      },
+      "sca_density": 3.530944625407166,
+      "iac_loc": 3111,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 8,
+        "MEDIUM": 2,
+        "LOW": 12
+      },
+      "iac_density": 24.429443908711022
+    },
+    {
+      "name": "0voice/interview_internal_reference",
+      "stars": 37239,
+      "loc": 37,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sast_density": 0.0,
+      "dependencies": 0,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 0,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "openai/gym",
+      "stars": 37224,
+      "loc": 19230,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 3,
+        "LOW": 0
+      },
+      "sast_density": 0.62402496099844,
+      "dependencies": 15,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 130,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 1,
+        "LOW": 1
+      },
+      "iac_density": 92.3076923076923
+    },
+    {
+      "name": "luongnv89/claude-howto",
+      "stars": 37031,
+      "loc": 4389,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 4,
+        "LOW": 0
+      },
+      "sast_density": 3.6454773296878558,
+      "dependencies": 14,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 3,
+        "MEDIUM": 6,
+        "LOW": 0
+      },
+      "sca_density": 3.2142857142857144,
+      "iac_loc": 568,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "satwikkansal/wtfpython",
+      "stars": 36988,
+      "loc": 408,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sast_density": 0.0,
+      "dependencies": 10,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 3,
+        "LOW": 0
+      },
+      "sca_density": 1.2,
+      "iac_loc": 42,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "babysor/MockingBird",
+      "stars": 36901,
+      "loc": 14442,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 29,
+        "MEDIUM": 23,
+        "LOW": 0
+      },
+      "sast_density": 20.42653372109126,
+      "dependencies": 34,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 4,
+        "LOW": 0
+      },
+      "sca_density": 0.47058823529411764,
+      "iac_loc": 32,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 2,
+        "MEDIUM": 1,
+        "LOW": 1
+      },
+      "iac_density": 593.75
+    },
+    {
+      "name": "google/langextract",
+      "stars": 36880,
+      "loc": 23818,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 7,
+        "LOW": 0
+      },
+      "sast_density": 1.175581492988496,
+      "dependencies": 0,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 1404,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 2,
+        "MEDIUM": 0,
+        "LOW": 2
+      },
+      "iac_density": 11.396011396011398
+    },
+    {
+      "name": "huggingface/pytorch-image-models",
+      "stars": 36880,
+      "loc": 96424,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 11,
+        "MEDIUM": 7,
+        "LOW": 0
+      },
+      "sast_density": 1.0889405127354186,
+      "dependencies": 11,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 294,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "myshell-ai/OpenVoice",
+      "stars": 36689,
+      "loc": 2887,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 2,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sast_density": 4.849324558365085,
+      "dependencies": 16,
+      "sca": {
+        "CRITICAL": 3,
+        "HIGH": 14,
+        "MEDIUM": 16,
+        "LOW": 2
+      },
+      "sca_density": 11.9375,
+      "iac_loc": 0,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "wshobson/agents",
+      "stars": 36683,
+      "loc": 9231,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 1,
+        "LOW": 0
+      },
+      "sast_density": 0.4333225002708266,
+      "dependencies": 0,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 1786,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 2,
+        "MEDIUM": 3,
+        "LOW": 11
+      },
+      "iac_density": 20.716685330347143
+    },
+    {
+      "name": "HKUDS/LightRAG",
+      "stars": 36517,
+      "loc": 127489,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 29,
+        "MEDIUM": 34,
+        "LOW": 0
+      },
+      "sast_density": 2.6590529379005248,
+      "dependencies": 50,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 2008,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 6,
+        "MEDIUM": 8,
+        "LOW": 10
+      },
+      "iac_density": 41.832669322709165
+    },
+    {
+      "name": "hankcs/HanLP",
+      "stars": 36398,
+      "loc": 39179,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 7,
+        "MEDIUM": 14,
+        "LOW": 0
+      },
+      "sast_density": 2.6800071466857243,
+      "dependencies": 0,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 76,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "Textualize/textual",
+      "stars": 36255,
+      "loc": 85119,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 9,
+        "LOW": 0
+      },
+      "sast_density": 0.4229372995453424,
+      "dependencies": 111,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "sca_density": 0.009009009009009009,
+      "iac_loc": 623,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "datalab-to/marker",
+      "stars": 36047,
+      "loc": 13280,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 5,
+        "LOW": 0
+      },
+      "sast_density": 2.033132530120482,
+      "dependencies": 230,
+      "sca": {
+        "CRITICAL": 1,
+        "HIGH": 13,
+        "MEDIUM": 16,
+        "LOW": 3
+      },
+      "sca_density": 0.7260869565217392,
+      "iac_loc": 157,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "mouredev/Hello-Python",
+      "stars": 36011,
+      "loc": 968,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 4,
+        "MEDIUM": 2,
+        "LOW": 0
+      },
+      "sast_density": 37.1900826446281,
+      "dependencies": 5,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 0,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "RVC-Project/Retrieval-based-Voice-Conversion-WebUI",
+      "stars": 35978,
+      "loc": 16466,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 36,
+        "MEDIUM": 19,
+        "LOW": 0
+      },
+      "sast_density": 19.919834811125956,
+      "dependencies": 149,
+      "sca": {
+        "CRITICAL": 8,
+        "HIGH": 51,
+        "MEDIUM": 70,
+        "LOW": 22
+      },
+      "sca_density": 4.906040268456376,
+      "iac_loc": 450,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 3,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 48.888888888888886
+    },
+    {
+      "name": "XingangPan/DragGAN",
+      "stars": 35825,
+      "loc": 18448,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 16,
+        "MEDIUM": 187,
+        "LOW": 0
+      },
+      "sast_density": 46.617519514310494,
+      "dependencies": 13,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 78,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 102.56410256410257
+    },
+    {
+      "name": "jax-ml/jax",
+      "stars": 35812,
+      "loc": 393300,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 2,
+        "MEDIUM": 15,
+        "LOW": 2
+      },
+      "sast_density": 0.1932367149758454,
+      "dependencies": 576,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 4947,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 13,
+        "MEDIUM": 5,
+        "LOW": 13
+      },
+      "iac_density": 25.06569638164544
+    },
+    {
+      "name": "xinntao/Real-ESRGAN",
+      "stars": 35765,
+      "loc": 1986,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 4,
+        "MEDIUM": 5,
+        "LOW": 0
+      },
+      "sast_density": 24.169184290030213,
+      "dependencies": 9,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 995,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "frappe/erpnext",
+      "stars": 35540,
+      "loc": 269018,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sast_density": 0.0,
+      "dependencies": 0,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 1360,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "khoj-ai/khoj",
+      "stars": 35099,
+      "loc": 30153,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 3,
+        "MEDIUM": 21,
+        "LOW": 0
+      },
+      "sast_density": 3.482240573077306,
+      "dependencies": 4,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 1404,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 4,
+        "MEDIUM": 3,
+        "LOW": 5
+      },
+      "iac_density": 32.05128205128205
+    },
+    {
+      "name": "geekcomputers/Python",
+      "stars": 35085,
+      "loc": 129364,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 52,
+        "MEDIUM": 126,
+        "LOW": 10
+      },
+      "sast_density": 6.787050493182028,
+      "dependencies": 69,
+      "sca": {
+        "CRITICAL": 2,
+        "HIGH": 15,
+        "MEDIUM": 23,
+        "LOW": 8
+      },
+      "sca_density": 3.2318840579710146,
+      "iac_loc": 145,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "fxsjy/jieba",
+      "stars": 35018,
+      "loc": 194901,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 9,
+        "LOW": 0
+      },
+      "sast_density": 0.18470916003509474,
+      "dependencies": 0,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 0,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "stanfordnlp/dspy",
+      "stars": 35002,
+      "loc": 41832,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 6,
+        "LOW": 0
+      },
+      "sast_density": 0.741059475999235,
+      "dependencies": 10,
+      "sca": {
+        "CRITICAL": 2,
+        "HIGH": 11,
+        "MEDIUM": 14,
+        "LOW": 12
+      },
+      "sca_density": 16.3,
+      "iac_loc": 1104,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "github/awesome-copilot",
+      "stars": 34936,
+      "loc": 13620,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 5,
+        "MEDIUM": 5,
+        "LOW": 0
+      },
+      "sast_density": 4.038179148311307,
+      "dependencies": 1,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 12033,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "PDFMathTranslate/PDFMathTranslate",
+      "stars": 34807,
+      "loc": 5417,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "sast_density": 1.4768321949418497,
+      "dependencies": 0,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 1434,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 4,
+        "MEDIUM": 0,
+        "LOW": 3
+      },
+      "iac_density": 21.617852161785216
+    },
+    {
+      "name": "langchain-ai/langgraph",
+      "stars": 34599,
+      "loc": 129323,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 20,
+        "MEDIUM": 20,
+        "LOW": 0
+      },
+      "sast_density": 1.7011668458046905,
+      "dependencies": 15,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 1,
+        "LOW": 0
+      },
+      "sca_density": 0.7333333333333333,
+      "iac_loc": 2641,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 3.029155622870125
+    },
+    {
+      "name": "AstrBotDevs/AstrBot",
+      "stars": 34573,
+      "loc": 121361,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 8,
+        "MEDIUM": 16,
+        "LOW": 0
+      },
+      "sast_density": 0.9887855241799259,
+      "dependencies": 57,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 7374,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 11,
+        "MEDIUM": 20,
+        "LOW": 33
+      },
+      "iac_density": 25.766205587198264
+    },
+    {
+      "name": "facebookresearch/detectron2",
+      "stars": 34548,
+      "loc": 47056,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 18,
+        "MEDIUM": 42,
+        "LOW": 5
+      },
+      "sast_density": 6.354131247874873,
+      "dependencies": 21,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 4631,
+      "iac": {
+        "CRITICAL": 1,
+        "HIGH": 2,
+        "MEDIUM": 2,
+        "LOW": 2
+      },
+      "iac_density": 7.1258907363420425
+    },
+    {
+      "name": "python-poetry/poetry",
+      "stars": 34279,
+      "loc": 56378,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 2,
+        "LOW": 0
+      },
+      "sast_density": 0.26606122955762884,
+      "dependencies": 118,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 4,
+        "MEDIUM": 2,
+        "LOW": 1
+      },
+      "sca_density": 0.3135593220338983,
+      "iac_loc": 769,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "Alishahryar1/free-claude-code",
+      "stars": 34172,
+      "loc": 44879,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 2,
+        "MEDIUM": 1,
+        "LOW": 0
+      },
+      "sast_density": 0.40107845540230397,
+      "dependencies": 0,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 74,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "testerSunshine/12306",
+      "stars": 34148,
+      "loc": 3359,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 2,
+        "LOW": 2
+      },
+      "sast_density": 2.977076510866329,
+      "dependencies": 22,
+      "sca": {
+        "CRITICAL": 4,
+        "HIGH": 111,
+        "MEDIUM": 195,
+        "LOW": 99
+      },
+      "sca_density": 76.9090909090909,
+      "iac_loc": 36,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 0,
+        "LOW": 2
+      },
+      "iac_density": 250.00000000000003
+    },
+    {
+      "name": "chenfei-wu/TaskMatrix",
+      "stars": 34086,
+      "loc": 1482,
+      "semgrep": {
+        "CRITICAL": 1,
+        "HIGH": 1,
+        "MEDIUM": 0,
+        "LOW": 4
+      },
+      "sast_density": 13.49527665317139,
+      "dependencies": 35,
+      "sca": {
+        "CRITICAL": 13,
+        "HIGH": 9,
+        "MEDIUM": 9,
+        "LOW": 9
+      },
+      "sca_density": 6.428571428571429,
+      "iac_loc": 12,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 3,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 1833.3333333333333
+    },
+    {
+      "name": "lllyasviel/ControlNet",
+      "stars": 33935,
+      "loc": 37629,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 27,
+        "MEDIUM": 36,
+        "LOW": 0
+      },
+      "sast_density": 8.849557522123895,
+      "dependencies": 0,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 190,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "ocrmypdf/OCRmyPDF",
+      "stars": 33869,
+      "loc": 22391,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 3,
+        "MEDIUM": 4,
+        "LOW": 0
+      },
+      "sast_density": 1.6524496449466304,
+      "dependencies": 0,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 898,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 3,
+        "MEDIUM": 1,
+        "LOW": 2
+      },
+      "iac_density": 30.066815144766146
+    },
+    {
+      "name": "huggingface/diffusers",
+      "stars": 33840,
+      "loc": 662102,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 156,
+        "MEDIUM": 286,
+        "LOW": 0
+      },
+      "sast_density": 3.377123162292215,
+      "dependencies": 479,
+      "sca": {
+        "CRITICAL": 2,
+        "HIGH": 21,
+        "MEDIUM": 68,
+        "LOW": 22
+      },
+      "sca_density": 0.9582463465553236,
+      "iac_loc": 5088,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 14,
+        "MEDIUM": 0,
+        "LOW": 7
+      },
+      "iac_density": 20.63679245283019
+    },
+    {
+      "name": "Pythagora-io/gpt-pilot",
+      "stars": 33747,
+      "loc": 15506,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 4,
+        "LOW": 0
+      },
+      "sast_density": 1.0318586353669548,
+      "dependencies": 38,
+      "sca": {
+        "CRITICAL": 1,
+        "HIGH": 6,
+        "MEDIUM": 9,
+        "LOW": 0
+      },
+      "sca_density": 2.289473684210526,
+      "iac_loc": 392,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 0,
+        "LOW": 11
+      },
+      "iac_density": 45.91836734693877
+    },
+    {
+      "name": "microsoft/graphrag",
+      "stars": 33688,
+      "loc": 31747,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sast_density": 0.0,
+      "dependencies": 0,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 1081,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 3,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 20.351526364477337
+    },
+    {
+      "name": "explosion/spaCy",
+      "stars": 33659,
+      "loc": 91872,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 7,
+        "LOW": 0
+      },
+      "sast_density": 0.3047718564959944,
+      "dependencies": 35,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 700,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 1.4285714285714286
+    },
+    {
+      "name": "shadowsocks/shadowsocks",
+      "stars": 33584,
+      "loc": 0,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sast_density": 0.0,
+      "dependencies": 0,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 0,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "XX-net/XX-Net",
+      "stars": 33452,
+      "loc": 82997,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 4,
+        "MEDIUM": 26,
+        "LOW": 2
+      },
+      "sast_density": 1.6145161873320721,
+      "dependencies": 10,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "sca_density": 0.1,
+      "iac_loc": 110,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "kovidgoyal/kitty",
+      "stars": 33425,
+      "loc": 63385,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 13,
+        "MEDIUM": 27,
+        "LOW": 0
+      },
+      "sast_density": 3.139544056164708,
+      "dependencies": 7,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 293,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    }
+  ]
+}

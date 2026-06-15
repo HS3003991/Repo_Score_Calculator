@@ -1,0 +1,5524 @@
+{
+  "language": "typescript",
+  "ruleset": "p/default",
+  "created": "2026-06-13",
+  "benchmark_size": 197,
+  "repos": [
+    {
+      "name": "freeCodeCamp/freeCodeCamp",
+      "stars": 446701,
+      "loc": 125065,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 46,
+        "LOW": 1
+      },
+      "sast_density": 1.5352016951185383,
+      "dependencies": 389,
+      "sca": {
+        "CRITICAL": 4,
+        "HIGH": 43,
+        "MEDIUM": 33,
+        "LOW": 15
+      },
+      "sca_density": 1.244215938303342,
+      "iac_loc": 26199,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 2,
+        "MEDIUM": 2,
+        "LOW": 2
+      },
+      "iac_density": 0.9160654986831558
+    },
+    {
+      "name": "openclaw/openclaw",
+      "stars": 378395,
+      "loc": 3934618,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 62,
+        "MEDIUM": 181,
+        "LOW": 55
+      },
+      "sast_density": 0.308289140140161,
+      "dependencies": 466,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 58483,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 4,
+        "MEDIUM": 3,
+        "LOW": 16
+      },
+      "iac_density": 0.9575432176871912
+    },
+    {
+      "name": "nilbuild/developer-roadmap",
+      "stars": 356857,
+      "loc": 64312,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 51,
+        "LOW": 3
+      },
+      "sast_density": 3.3275282995397437,
+      "dependencies": 785,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 35,
+        "MEDIUM": 65,
+        "LOW": 24
+      },
+      "sca_density": 0.6738853503184713,
+      "iac_loc": 8481,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "vuejs/vue",
+      "stars": 209863,
+      "loc": 63528,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 11,
+        "LOW": 1
+      },
+      "sast_density": 0.7083490744238761,
+      "dependencies": 79,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 3,
+        "MEDIUM": 4,
+        "LOW": 0
+      },
+      "sca_density": 0.46835443037974683,
+      "iac_loc": 6181,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "n8n-io/n8n",
+      "stars": 192229,
+      "loc": 2317466,
+      "semgrep": {
+        "CRITICAL": 5,
+        "HIGH": 23,
+        "MEDIUM": 458,
+        "LOW": 28
+      },
+      "sast_density": 0.8914909647002373,
+      "dependencies": 1572,
+      "sca": {
+        "CRITICAL": 1,
+        "HIGH": 9,
+        "MEDIUM": 7,
+        "LOW": 3
+      },
+      "sca_density": 0.06552162849872774,
+      "iac_loc": 50227,
+      "iac": {
+        "CRITICAL": 2,
+        "HIGH": 4,
+        "MEDIUM": 7,
+        "LOW": 8
+      },
+      "iac_density": 1.6325880502518566
+    },
+    {
+      "name": "anomalyco/opencode",
+      "stars": 173712,
+      "loc": 441387,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 4,
+        "MEDIUM": 259,
+        "LOW": 9
+      },
+      "sast_density": 2.4309732728875115,
+      "dependencies": 646,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 2,
+        "MEDIUM": 3,
+        "LOW": 0
+      },
+      "sca_density": 0.04024767801857585,
+      "iac_loc": 2384,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 8,
+        "MEDIUM": 2,
+        "LOW": 7
+      },
+      "iac_density": 29.781879194630875
+    },
+    {
+      "name": "langgenius/dify",
+      "stars": 144995,
+      "loc": 902410,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 34,
+        "LOW": 13
+      },
+      "sast_density": 0.16511341851264946,
+      "dependencies": 292,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 36684,
+      "iac": {
+        "CRITICAL": 1,
+        "HIGH": 3,
+        "MEDIUM": 1,
+        "LOW": 5
+      },
+      "iac_density": 1.063133791298659
+    },
+    {
+      "name": "yangshun/tech-interview-handbook",
+      "stars": 140265,
+      "loc": 33209,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 4,
+        "LOW": 1
+      },
+      "sast_density": 0.7226956547923755,
+      "dependencies": 58,
+      "sca": {
+        "CRITICAL": 3,
+        "HIGH": 59,
+        "MEDIUM": 59,
+        "LOW": 10
+      },
+      "sca_density": 11.827586206896552,
+      "iac_loc": 10919,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "firecrawl/firecrawl",
+      "stars": 131976,
+      "loc": 141908,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 5,
+        "MEDIUM": 33,
+        "LOW": 13
+      },
+      "sast_density": 1.2684274318572597,
+      "dependencies": 96,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 6,
+        "MEDIUM": 3,
+        "LOW": 5
+      },
+      "sca_density": 0.6145833333333334,
+      "iac_loc": 28095,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 52,
+        "MEDIUM": 75,
+        "LOW": 153
+      },
+      "iac_density": 29.079907456842857
+    },
+    {
+      "name": "excalidraw/excalidraw",
+      "stars": 125210,
+      "loc": 146183,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 4,
+        "MEDIUM": 24,
+        "LOW": 11
+      },
+      "sast_density": 0.9234999965796297,
+      "dependencies": 154,
+      "sca": {
+        "CRITICAL": 4,
+        "HIGH": 97,
+        "MEDIUM": 128,
+        "LOW": 23
+      },
+      "sca_density": 8.116883116883116,
+      "iac_loc": 370,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 3,
+        "MEDIUM": 0,
+        "LOW": 2
+      },
+      "iac_density": 62.16216216216216
+    },
+    {
+      "name": "clash-verge-rev/clash-verge-rev",
+      "stars": 125182,
+      "loc": 43093,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 3,
+        "MEDIUM": 32,
+        "LOW": 20
+      },
+      "sast_density": 3.921750632353282,
+      "dependencies": 83,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 8,
+        "LOW": 0
+      },
+      "sca_density": 0.3855421686746988,
+      "iac_loc": 10181,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "iptv-org/iptv",
+      "stars": 118012,
+      "loc": 6084,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 2,
+        "LOW": 0
+      },
+      "sast_density": 1.314924391847469,
+      "dependencies": 663,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 6,
+        "MEDIUM": 2,
+        "LOW": 1
+      },
+      "sca_density": 0.07692307692307693,
+      "iac_loc": 464,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "shadcn-ui/ui",
+      "stars": 116420,
+      "loc": 433604,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 237,
+        "LOW": 2
+      },
+      "sast_density": 2.1909391979778787,
+      "dependencies": 719,
+      "sca": {
+        "CRITICAL": 3,
+        "HIGH": 33,
+        "MEDIUM": 43,
+        "LOW": 11
+      },
+      "sca_density": 0.6133518776077886,
+      "iac_loc": 46977,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 2,
+        "MEDIUM": 0,
+        "LOW": 2
+      },
+      "iac_density": 0.34059220469591506
+    },
+    {
+      "name": "garrytan/gstack",
+      "stars": 109528,
+      "loc": 122364,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 27,
+        "MEDIUM": 192,
+        "LOW": 1
+      },
+      "sast_density": 7.82910006210977,
+      "dependencies": 17,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 8,
+        "MEDIUM": 13,
+        "LOW": 1
+      },
+      "sca_density": 6.411764705882353,
+      "iac_loc": 878,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 9.111617312072893
+    },
+    {
+      "name": "microsoft/TypeScript",
+      "stars": 109210,
+      "loc": 2491602,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 3,
+        "MEDIUM": 32,
+        "LOW": 1
+      },
+      "sast_density": 0.060202231335502225,
+      "dependencies": 394,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 2832,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "google-gemini/gemini-cli",
+      "stars": 105208,
+      "loc": 521941,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 27,
+        "MEDIUM": 36,
+        "LOW": 21
+      },
+      "sast_density": 0.6782375785768889,
+      "dependencies": 1418,
+      "sca": {
+        "CRITICAL": 2,
+        "HIGH": 2,
+        "MEDIUM": 10,
+        "LOW": 0
+      },
+      "sca_density": 0.05077574047954866,
+      "iac_loc": 7708,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 2,
+        "MEDIUM": 0,
+        "LOW": 3
+      },
+      "iac_density": 2.2055007784120395
+    },
+    {
+      "name": "supabase/supabase",
+      "stars": 104099,
+      "loc": 791342,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 27,
+        "MEDIUM": 95,
+        "LOW": 41
+      },
+      "sast_density": 0.7708424423321396,
+      "dependencies": 1344,
+      "sca": {
+        "CRITICAL": 1,
+        "HIGH": 6,
+        "MEDIUM": 6,
+        "LOW": 1
+      },
+      "sca_density": 0.05654761904761905,
+      "iac_loc": 90763,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 2,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 0.16526558178993642
+    },
+    {
+      "name": "immich-app/immich",
+      "stars": 103180,
+      "loc": 130964,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 2,
+        "MEDIUM": 8,
+        "LOW": 4
+      },
+      "sast_density": 0.3817843071378394,
+      "dependencies": 324,
+      "sca": {
+        "CRITICAL": 1,
+        "HIGH": 3,
+        "MEDIUM": 4,
+        "LOW": 1
+      },
+      "sca_density": 0.14506172839506173,
+      "iac_loc": 25996,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 6,
+        "MEDIUM": 3,
+        "LOW": 4
+      },
+      "iac_density": 2.231112478842899
+    },
+    {
+      "name": "angular/angular",
+      "stars": 100318,
+      "loc": 848589,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 4,
+        "MEDIUM": 76,
+        "LOW": 12
+      },
+      "sast_density": 0.40537881117949914,
+      "dependencies": 4069,
+      "sca": {
+        "CRITICAL": 1,
+        "HIGH": 9,
+        "MEDIUM": 5,
+        "LOW": 1
+      },
+      "sca_density": 0.022855738510690587,
+      "iac_loc": 123297,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "ant-design/ant-design",
+      "stars": 98337,
+      "loc": 227874,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 3,
+        "MEDIUM": 17,
+        "LOW": 6
+      },
+      "sast_density": 0.4168970571456156,
+      "dependencies": 215,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 2039,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "tailwindlabs/tailwindcss",
+      "stars": 95507,
+      "loc": 105238,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 10,
+        "LOW": 1
+      },
+      "sast_density": 0.45610901005340276,
+      "dependencies": 138,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 1,
+        "LOW": 0
+      },
+      "sca_density": 0.028985507246376812,
+      "iac_loc": 5493,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "puppeteer/puppeteer",
+      "stars": 94531,
+      "loc": 76443,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 5,
+        "MEDIUM": 3,
+        "LOW": 4
+      },
+      "sast_density": 0.667163769082846,
+      "dependencies": 4546,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 2,
+        "MEDIUM": 5,
+        "LOW": 0
+      },
+      "sca_density": 0.007479102507699076,
+      "iac_loc": 1649,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 0.6064281382656155
+    },
+    {
+      "name": "microsoft/playwright",
+      "stars": 90831,
+      "loc": 389352,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 14,
+        "MEDIUM": 347,
+        "LOW": 1
+      },
+      "sast_density": 3.8191662043600654,
+      "dependencies": 803,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 2,
+        "LOW": 0
+      },
+      "sca_density": 0.0186799501867995,
+      "iac_loc": 6361,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 2,
+        "MEDIUM": 2,
+        "LOW": 2
+      },
+      "iac_density": 3.7729916679767332
+    },
+    {
+      "name": "storybookjs/storybook",
+      "stars": 90310,
+      "loc": 392021,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 5,
+        "MEDIUM": 150,
+        "LOW": 2
+      },
+      "sast_density": 1.6249129510919058,
+      "dependencies": 1020,
+      "sca": {
+        "CRITICAL": 7,
+        "HIGH": 104,
+        "MEDIUM": 86,
+        "LOW": 24
+      },
+      "sca_density": 1.1362745098039215,
+      "iac_loc": 4438,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "mermaid-js/mermaid",
+      "stars": 88617,
+      "loc": 148936,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 28,
+        "LOW": 5
+      },
+      "sast_density": 0.83257238008272,
+      "dependencies": 185,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 5,
+        "MEDIUM": 1,
+        "LOW": 0
+      },
+      "sca_density": 0.21081081081081082,
+      "iac_loc": 22424,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 0.35676061362825545
+    },
+    {
+      "name": "ChatGPTNextWeb/NextChat",
+      "stars": 88233,
+      "loc": 37751,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 3,
+        "MEDIUM": 0,
+        "LOW": 4
+      },
+      "sast_density": 0.6622341130036291,
+      "dependencies": 66,
+      "sca": {
+        "CRITICAL": 2,
+        "HIGH": 36,
+        "MEDIUM": 58,
+        "LOW": 6
+      },
+      "sca_density": 7.696969696969697,
+      "iac_loc": 621,
+      "iac": {
+        "CRITICAL": 2,
+        "HIGH": 2,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 53.14009661835749
+    },
+    {
+      "name": "modelcontextprotocol/servers",
+      "stars": 87129,
+      "loc": 8759,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 18,
+        "LOW": 6
+      },
+      "sast_density": 8.905126155953875,
+      "dependencies": 320,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 5,
+        "LOW": 0
+      },
+      "sca_density": 0.0625,
+      "iac_loc": 624,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 8,
+        "MEDIUM": 0,
+        "LOW": 10
+      },
+      "iac_density": 105.76923076923077
+    },
+    {
+      "name": "realworld-apps/realworld",
+      "stars": 83533,
+      "loc": 2527,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sast_density": 0.0,
+      "dependencies": 13,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 9,
+        "MEDIUM": 13,
+        "LOW": 5
+      },
+      "sca_density": 9.23076923076923,
+      "iac_loc": 1106,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "vitejs/vite",
+      "stars": 81430,
+      "loc": 77739,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 18,
+        "LOW": 0
+      },
+      "sast_density": 0.9261760506309574,
+      "dependencies": 474,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 2,
+        "LOW": 1
+      },
+      "sca_density": 0.03375527426160337,
+      "iac_loc": 12956,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "Stirling-Tools/Stirling-PDF",
+      "stars": 80713,
+      "loc": 347133,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 4,
+        "MEDIUM": 9,
+        "LOW": 75
+      },
+      "sast_density": 0.4004228926664996,
+      "dependencies": 1449,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 14,
+        "MEDIUM": 10,
+        "LOW": 1
+      },
+      "sca_density": 0.09592822636300898,
+      "iac_loc": 11164,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 7,
+        "MEDIUM": 2,
+        "LOW": 5
+      },
+      "iac_density": 5.553565030455034
+    },
+    {
+      "name": "hoppscotch/hoppscotch",
+      "stars": 79509,
+      "loc": 177404,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 3,
+        "MEDIUM": 24,
+        "LOW": 13
+      },
+      "sast_density": 0.7327906924308358,
+      "dependencies": 558,
+      "sca": {
+        "CRITICAL": 2,
+        "HIGH": 8,
+        "MEDIUM": 32,
+        "LOW": 3
+      },
+      "sca_density": 0.3673835125448029,
+      "iac_loc": 25456,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 4,
+        "MEDIUM": 4,
+        "LOW": 3
+      },
+      "iac_density": 1.8463230672532998
+    },
+    {
+      "name": "lobehub/lobehub",
+      "stars": 78574,
+      "loc": 1165625,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 5,
+        "MEDIUM": 45,
+        "LOW": 119
+      },
+      "sast_density": 0.2865415549597855,
+      "dependencies": 887,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 8244,
+      "iac": {
+        "CRITICAL": 83,
+        "HIGH": 0,
+        "MEDIUM": 2,
+        "LOW": 1
+      },
+      "iac_density": 91.70305676855895
+    },
+    {
+      "name": "coder/code-server",
+      "stars": 77924,
+      "loc": 8515,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 2,
+        "MEDIUM": 15,
+        "LOW": 2
+      },
+      "sast_density": 8.925425719318849,
+      "dependencies": 873,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 1611,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 5,
+        "MEDIUM": 9,
+        "LOW": 25
+      },
+      "iac_density": 59.5903165735568
+    },
+    {
+      "name": "nestjs/nest",
+      "stars": 75812,
+      "loc": 91593,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 4,
+        "MEDIUM": 12,
+        "LOW": 0
+      },
+      "sast_density": 0.829757732577817,
+      "dependencies": 2356,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 2,
+        "LOW": 1
+      },
+      "sca_density": 0.0038200339558573855,
+      "iac_loc": 643,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "grafana/grafana",
+      "stars": 74382,
+      "loc": 1148490,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 9,
+        "MEDIUM": 138,
+        "LOW": 33
+      },
+      "sast_density": 0.5642191050858083,
+      "dependencies": 1153,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 12,
+        "LOW": 1
+      },
+      "sca_density": 0.042497831743278404,
+      "iac_loc": 23112,
+      "iac": {
+        "CRITICAL": 2,
+        "HIGH": 36,
+        "MEDIUM": 10,
+        "LOW": 55
+      },
+      "iac_density": 15.792661820699205
+    },
+    {
+      "name": "apache/superset",
+      "stars": 73265,
+      "loc": 517610,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 5,
+        "MEDIUM": 73,
+        "LOW": 9
+      },
+      "sast_density": 0.6491373814261703,
+      "dependencies": 5390,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 2,
+        "LOW": 0
+      },
+      "sca_density": 0.0027829313543599257,
+      "iac_loc": 32023,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 18,
+        "MEDIUM": 1,
+        "LOW": 7
+      },
+      "iac_density": 4.278175061674421
+    },
+    {
+      "name": "abi/screenshot-to-code",
+      "stars": 72876,
+      "loc": 12620,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "sast_density": 0.0792393026941363,
+      "dependencies": 819,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 13,
+        "MEDIUM": 20,
+        "LOW": 4
+      },
+      "sca_density": 0.21367521367521367,
+      "iac_loc": 6878,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 2,
+        "MEDIUM": 0,
+        "LOW": 2
+      },
+      "iac_density": 2.326257633032858
+    },
+    {
+      "name": "daytonaio/daytona",
+      "stars": 72439,
+      "loc": 145610,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 2,
+        "MEDIUM": 35,
+        "LOW": 6
+      },
+      "sast_density": 1.098825630107822,
+      "dependencies": 434,
+      "sca": {
+        "CRITICAL": 4,
+        "HIGH": 84,
+        "MEDIUM": 83,
+        "LOW": 7
+      },
+      "sca_density": 2.21889400921659,
+      "iac_loc": 34117,
+      "iac": {
+        "CRITICAL": 1,
+        "HIGH": 16,
+        "MEDIUM": 6,
+        "LOW": 19
+      },
+      "iac_density": 4.806987718732597
+    },
+    {
+      "name": "strapi/strapi",
+      "stars": 72348,
+      "loc": 492975,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 17,
+        "MEDIUM": 273,
+        "LOW": 37
+      },
+      "sast_density": 2.5315685379583144,
+      "dependencies": 1081,
+      "sca": {
+        "CRITICAL": 2,
+        "HIGH": 31,
+        "MEDIUM": 34,
+        "LOW": 7
+      },
+      "sca_density": 0.34967622571692875,
+      "iac_loc": 4659,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "Eugeny/tabby",
+      "stars": 72087,
+      "loc": 25342,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 44,
+        "LOW": 4
+      },
+      "sast_density": 7.37905453397522,
+      "dependencies": 190,
+      "sca": {
+        "CRITICAL": 1,
+        "HIGH": 31,
+        "MEDIUM": 15,
+        "LOW": 6
+      },
+      "sca_density": 1.5368421052631578,
+      "iac_loc": 1250,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "paperclipai/paperclip",
+      "stars": 70208,
+      "loc": 582838,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 17,
+        "MEDIUM": 35,
+        "LOW": 11
+      },
+      "sast_density": 0.4632505087176883,
+      "dependencies": 308,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 19,
+        "MEDIUM": 30,
+        "LOW": 3
+      },
+      "sca_density": 0.8311688311688312,
+      "iac_loc": 15072,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 3,
+        "MEDIUM": 0,
+        "LOW": 13
+      },
+      "iac_density": 2.25583864118896
+    },
+    {
+      "name": "toeverything/AFFiNE",
+      "stars": 69320,
+      "loc": 745359,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 5,
+        "MEDIUM": 23,
+        "LOW": 33
+      },
+      "sast_density": 0.21466165968345455,
+      "dependencies": 1878,
+      "sca": {
+        "CRITICAL": 1,
+        "HIGH": 14,
+        "MEDIUM": 7,
+        "LOW": 2
+      },
+      "sca_density": 0.07294994675186368,
+      "iac_loc": 5066,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 6,
+        "MEDIUM": 8,
+        "LOW": 15
+      },
+      "iac_density": 17.568101065929728
+    },
+    {
+      "name": "apache/echarts",
+      "stars": 66574,
+      "loc": 488586,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 6,
+        "LOW": 0
+      },
+      "sast_density": 0.0491213419950633,
+      "dependencies": 1304,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 810,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "facebook/docusaurus",
+      "stars": 65189,
+      "loc": 99646,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 5,
+        "MEDIUM": 175,
+        "LOW": 6
+      },
+      "sast_density": 7.43632458904522,
+      "dependencies": 651,
+      "sca": {
+        "CRITICAL": 2,
+        "HIGH": 8,
+        "MEDIUM": 15,
+        "LOW": 0
+      },
+      "sca_density": 0.20583717357910905,
+      "iac_loc": 23135,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "nexu-io/open-design",
+      "stars": 63974,
+      "loc": 648654,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 2,
+        "MEDIUM": 117,
+        "LOW": 24
+      },
+      "sast_density": 0.7800768976989273,
+      "dependencies": 210,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 4,
+        "LOW": 0
+      },
+      "sca_density": 0.0761904761904762,
+      "iac_loc": 20060,
+      "iac": {
+        "CRITICAL": 1,
+        "HIGH": 5,
+        "MEDIUM": 11,
+        "LOW": 29
+      },
+      "iac_density": 5.832502492522433
+    },
+    {
+      "name": "nocodb/nocodb",
+      "stars": 63412,
+      "loc": 338702,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 7,
+        "MEDIUM": 119,
+        "LOW": 23
+      },
+      "sast_density": 1.6179414352439607,
+      "dependencies": 500,
+      "sca": {
+        "CRITICAL": 1,
+        "HIGH": 16,
+        "MEDIUM": 30,
+        "LOW": 6
+      },
+      "sca_density": 0.494,
+      "iac_loc": 43156,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "socketio/socket.io",
+      "stars": 63141,
+      "loc": 41864,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 2,
+        "MEDIUM": 28,
+        "LOW": 13
+      },
+      "sast_density": 3.3202751767628516,
+      "dependencies": 1821,
+      "sca": {
+        "CRITICAL": 8,
+        "HIGH": 73,
+        "MEDIUM": 68,
+        "LOW": 24
+      },
+      "sca_density": 0.4827018121911038,
+      "iac_loc": 946,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 7,
+        "MEDIUM": 0,
+        "LOW": 7
+      },
+      "iac_density": 59.19661733615222
+    },
+    {
+      "name": "earendil-works/pi",
+      "stars": 62074,
+      "loc": 163255,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 14,
+        "MEDIUM": 83,
+        "LOW": 12
+      },
+      "sast_density": 2.7074209059446877,
+      "dependencies": 494,
+      "sca": {
+        "CRITICAL": 1,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.018218623481781375,
+      "iac_loc": 715,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "code-yeongyu/oh-my-openagent",
+      "stars": 62029,
+      "loc": 339980,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 8,
+        "MEDIUM": 120,
+        "LOW": 5
+      },
+      "sast_density": 1.591270074710277,
+      "dependencies": 288,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 3093,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "reduxjs/redux",
+      "stars": 61484,
+      "loc": 9883,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 2,
+        "LOW": 0
+      },
+      "sast_density": 1.5177577658605688,
+      "dependencies": 18978,
+      "sca": {
+        "CRITICAL": 5,
+        "HIGH": 46,
+        "MEDIUM": 46,
+        "LOW": 13
+      },
+      "sca_density": 0.02971862156180841,
+      "iac_loc": 308,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "nuxt/nuxt",
+      "stars": 60425,
+      "loc": 56061,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 42,
+        "LOW": 3
+      },
+      "sast_density": 3.05024883608926,
+      "dependencies": 437,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 17317,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 2,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 0.866200843102154
+    },
+    {
+      "name": "withastro/astro",
+      "stars": 60095,
+      "loc": 187433,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 2,
+        "MEDIUM": 22,
+        "LOW": 1
+      },
+      "sast_density": 0.5495296986123042,
+      "dependencies": 1746,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 15,
+        "MEDIUM": 16,
+        "LOW": 0
+      },
+      "sca_density": 0.09679266895761741,
+      "iac_loc": 24274,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 23,
+        "MEDIUM": 0,
+        "LOW": 22
+      },
+      "iac_density": 7.538930542967784
+    },
+    {
+      "name": "ruvnet/ruflo",
+      "stars": 59154,
+      "loc": 542395,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 45,
+        "MEDIUM": 551,
+        "LOW": 192
+      },
+      "sast_density": 4.998202417057679,
+      "dependencies": 6609,
+      "sca": {
+        "CRITICAL": 9,
+        "HIGH": 176,
+        "MEDIUM": 201,
+        "LOW": 20
+      },
+      "sca_density": 0.3233469511272507,
+      "iac_loc": 27977,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 9,
+        "MEDIUM": 5,
+        "LOW": 13
+      },
+      "iac_density": 3.4313900704149836
+    },
+    {
+      "name": "pmndrs/zustand",
+      "stars": 58274,
+      "loc": 8455,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sast_density": 0.0,
+      "dependencies": 69,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 4712,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "Egonex-AI/Understand-Anything",
+      "stars": 58107,
+      "loc": 35330,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 5,
+        "LOW": 1
+      },
+      "sast_density": 0.5943956977073309,
+      "dependencies": 58,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 3,
+        "MEDIUM": 4,
+        "LOW": 0
+      },
+      "sca_density": 0.6379310344827587,
+      "iac_loc": 8388,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "marktext/marktext",
+      "stars": 57288,
+      "loc": 98299,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 2,
+        "MEDIUM": 64,
+        "LOW": 1
+      },
+      "sast_density": 2.7568947802113954,
+      "dependencies": 204,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 17335,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "upstash/context7",
+      "stars": 57255,
+      "loc": 11392,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 2,
+        "MEDIUM": 49,
+        "LOW": 5
+      },
+      "sast_density": 18.872893258426966,
+      "dependencies": 62,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 3,
+        "MEDIUM": 5,
+        "LOW": 1
+      },
+      "sca_density": 0.6774193548387096,
+      "iac_loc": 5413,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 1.4779235174579715
+    },
+    {
+      "name": "remix-run/react-router",
+      "stars": 56437,
+      "loc": 138332,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 7,
+        "LOW": 3
+      },
+      "sast_density": 0.22409854552814967,
+      "dependencies": 642,
+      "sca": {
+        "CRITICAL": 2,
+        "HIGH": 56,
+        "MEDIUM": 58,
+        "LOW": 17
+      },
+      "sca_density": 1.0264797507788161,
+      "iac_loc": 16517,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "koala73/worldmonitor",
+      "stars": 56361,
+      "loc": 486222,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 6,
+        "MEDIUM": 54,
+        "LOW": 86
+      },
+      "sast_density": 0.7074957529688085,
+      "dependencies": 3316,
+      "sca": {
+        "CRITICAL": 1,
+        "HIGH": 8,
+        "MEDIUM": 7,
+        "LOW": 1
+      },
+      "sca_density": 0.028347406513872134,
+      "iac_loc": 50631,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 7,
+        "MEDIUM": 0,
+        "LOW": 6
+      },
+      "iac_density": 1.0862910074855325
+    },
+    {
+      "name": "appwrite/appwrite",
+      "stars": 56294,
+      "loc": 7367,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 3,
+        "MEDIUM": 0,
+        "LOW": 3
+      },
+      "sast_density": 3.257771141577304,
+      "dependencies": 1019,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 8394,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 2,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 1.7869907076483202
+    },
+    {
+      "name": "OpenCut-app/OpenCut",
+      "stars": 55483,
+      "loc": 6389,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sast_density": 0.0,
+      "dependencies": 50,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 6,
+        "LOW": 0
+      },
+      "sca_density": 0.48,
+      "iac_loc": 177,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "laurent22/joplin",
+      "stars": 55177,
+      "loc": 282801,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 6,
+        "MEDIUM": 212,
+        "LOW": 16
+      },
+      "sast_density": 3.2036661822270784,
+      "dependencies": 11722,
+      "sca": {
+        "CRITICAL": 17,
+        "HIGH": 174,
+        "MEDIUM": 167,
+        "LOW": 39
+      },
+      "sca_density": 0.17727350281521925,
+      "iac_loc": 1184,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 2,
+        "MEDIUM": 0,
+        "LOW": 2
+      },
+      "iac_density": 13.513513513513514
+    },
+    {
+      "name": "Fission-AI/OpenSpec",
+      "stars": 54526,
+      "loc": 53217,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 183,
+        "LOW": 2
+      },
+      "sast_density": 13.792585076197456,
+      "dependencies": 353,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 3,
+        "MEDIUM": 4,
+        "LOW": 1
+      },
+      "sca_density": 0.10764872521246459,
+      "iac_loc": 3101,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "vuejs/core",
+      "stars": 53817,
+      "loc": 130057,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 3,
+        "LOW": 2
+      },
+      "sast_density": 0.16146766417801428,
+      "dependencies": 119,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 8,
+        "LOW": 0
+      },
+      "sca_density": 0.2689075630252101,
+      "iac_loc": 5328,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "FlowiseAI/Flowise",
+      "stars": 53524,
+      "loc": 262410,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 5,
+        "MEDIUM": 105,
+        "LOW": 25
+      },
+      "sast_density": 1.8291985823710986,
+      "dependencies": 396,
+      "sca": {
+        "CRITICAL": 15,
+        "HIGH": 128,
+        "MEDIUM": 151,
+        "LOW": 39
+      },
+      "sca_density": 4.2272727272727275,
+      "iac_loc": 42808,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 3,
+        "MEDIUM": 0,
+        "LOW": 3
+      },
+      "iac_density": 0.560642870491497
+    },
+    {
+      "name": "ionic-team/ionic-framework",
+      "stars": 52512,
+      "loc": 111404,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 9,
+        "LOW": 3
+      },
+      "sast_density": 0.41291156511435856,
+      "dependencies": 16524,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 2,
+        "LOW": 0
+      },
+      "sca_density": 0.0004841442749939482,
+      "iac_loc": 2219,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 3.605227579990987
+    },
+    {
+      "name": "lyswhut/lx-music-desktop",
+      "stars": 51528,
+      "loc": 41235,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 14,
+        "LOW": 1
+      },
+      "sast_density": 1.3823208439432522,
+      "dependencies": 1203,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 1,
+        "LOW": 0
+      },
+      "sca_density": 0.0033250207813798837,
+      "iac_loc": 521,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "DefinitelyTyped/DefinitelyTyped",
+      "stars": 51269,
+      "loc": 2915717,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 111,
+        "MEDIUM": 200,
+        "LOW": 75
+      },
+      "sast_density": 0.5665844799066576,
+      "dependencies": 17544,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 387,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "makeplane/plane",
+      "stars": 50735,
+      "loc": 230454,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 10,
+        "LOW": 6
+      },
+      "sast_density": 0.19960599512267088,
+      "dependencies": 440,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 16922,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 14,
+        "MEDIUM": 1,
+        "LOW": 10
+      },
+      "iac_density": 6.618603002009219
+    },
+    {
+      "name": "expo/expo",
+      "stars": 50030,
+      "loc": 803816,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 16,
+        "MEDIUM": 1525,
+        "LOW": 41
+      },
+      "sast_density": 7.779143485573813,
+      "dependencies": 2172,
+      "sca": {
+        "CRITICAL": 8,
+        "HIGH": 81,
+        "MEDIUM": 70,
+        "LOW": 7
+      },
+      "sca_density": 0.4263351749539595,
+      "iac_loc": 45789,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "remotion-dev/remotion",
+      "stars": 49926,
+      "loc": 907057,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 7,
+        "MEDIUM": 100,
+        "LOW": 11
+      },
+      "sast_density": 0.5071346122680273,
+      "dependencies": 1573,
+      "sca": {
+        "CRITICAL": 5,
+        "HIGH": 44,
+        "MEDIUM": 52,
+        "LOW": 9
+      },
+      "sca_density": 0.3623649078194533,
+      "iac_loc": 711,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 19,
+        "MEDIUM": 2,
+        "LOW": 9
+      },
+      "iac_density": 210.9704641350211
+    },
+    {
+      "name": "twentyhq/twenty",
+      "stars": 49790,
+      "loc": 1430852,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 25,
+        "MEDIUM": 182,
+        "LOW": 13
+      },
+      "sast_density": 0.6401780198091765,
+      "dependencies": 959,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 1,
+        "LOW": 0
+      },
+      "sca_density": 0.004171011470281543,
+      "iac_loc": 9254,
+      "iac": {
+        "CRITICAL": 1,
+        "HIGH": 26,
+        "MEDIUM": 46,
+        "LOW": 81
+      },
+      "iac_density": 49.2759887616166
+    },
+    {
+      "name": "cypress-io/cypress",
+      "stars": 49729,
+      "loc": 381287,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 26,
+        "MEDIUM": 492,
+        "LOW": 16
+      },
+      "sast_density": 5.680760162292446,
+      "dependencies": 54,
+      "sca": {
+        "CRITICAL": 14,
+        "HIGH": 316,
+        "MEDIUM": 327,
+        "LOW": 78
+      },
+      "sca_density": 68.96296296296296,
+      "iac_loc": 5613,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 1.4252627828255833
+    },
+    {
+      "name": "TanStack/query",
+      "stars": 49724,
+      "loc": 140804,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sast_density": 0.0497144967472515,
+      "dependencies": 930,
+      "sca": {
+        "CRITICAL": 1,
+        "HIGH": 36,
+        "MEDIUM": 33,
+        "LOW": 4
+      },
+      "sca_density": 0.4268817204301075,
+      "iac_loc": 27041,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "chenglou/pretext",
+      "stars": 48391,
+      "loc": 20028,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sast_density": 0.0,
+      "dependencies": 7,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 38,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "type-challenges/type-challenges",
+      "stars": 48205,
+      "loc": 5209,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 3,
+        "LOW": 0
+      },
+      "sast_density": 2.303705125743905,
+      "dependencies": 32,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 4,
+        "MEDIUM": 14,
+        "LOW": 4
+      },
+      "sca_density": 2.75,
+      "iac_loc": 4167,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "colbymchenry/codegraph",
+      "stars": 48205,
+      "loc": 52749,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 156,
+        "LOW": 3
+      },
+      "sast_density": 12.019185197823655,
+      "dependencies": 625,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 1,
+        "LOW": 0
+      },
+      "sca_density": 0.0176,
+      "iac_loc": 165,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "tldraw/tldraw",
+      "stars": 47753,
+      "loc": 318899,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 4,
+        "MEDIUM": 112,
+        "LOW": 16
+      },
+      "sast_density": 1.542808224547584,
+      "dependencies": 746,
+      "sca": {
+        "CRITICAL": 2,
+        "HIGH": 62,
+        "MEDIUM": 60,
+        "LOW": 17
+      },
+      "sca_density": 0.9504021447721179,
+      "iac_loc": 2221,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 3.6019810895992794
+    },
+    {
+      "name": "pixijs/pixijs",
+      "stars": 47390,
+      "loc": 115362,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 22,
+        "LOW": 3
+      },
+      "sast_density": 0.8494998353010523,
+      "dependencies": 1619,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 542,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "CherryHQ/cherry-studio",
+      "stars": 47251,
+      "loc": 522892,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 19,
+        "MEDIUM": 240,
+        "LOW": 22
+      },
+      "sast_density": 2.1323715031019788,
+      "dependencies": 40,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 41,
+        "MEDIUM": 40,
+        "LOW": 3
+      },
+      "sca_density": 11.25,
+      "iac_loc": 27943,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "slab/quill",
+      "stars": 47148,
+      "loc": 19710,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 3,
+        "LOW": 0
+      },
+      "sast_density": 0.9639776763064434,
+      "dependencies": 1496,
+      "sca": {
+        "CRITICAL": 1,
+        "HIGH": 27,
+        "MEDIUM": 25,
+        "LOW": 10
+      },
+      "sca_density": 0.20588235294117646,
+      "iac_loc": 171,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "slidevjs/slidev",
+      "stars": 47141,
+      "loc": 18708,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 2,
+        "LOW": 1
+      },
+      "sast_density": 0.48107761385503534,
+      "dependencies": 256,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 9,
+        "MEDIUM": 16,
+        "LOW": 0
+      },
+      "sca_density": 0.49609375,
+      "iac_loc": 13650,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "typescript-cheatsheets/react",
+      "stars": 47067,
+      "loc": 526,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 3,
+        "LOW": 0
+      },
+      "sast_density": 36.12167300380228,
+      "dependencies": 16,
+      "sca": {
+        "CRITICAL": 1,
+        "HIGH": 1,
+        "MEDIUM": 4,
+        "LOW": 0
+      },
+      "sca_density": 2.0,
+      "iac_loc": 25,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "prisma/prisma",
+      "stars": 46245,
+      "loc": 178161,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 99,
+        "LOW": 7
+      },
+      "sast_density": 2.301289283288711,
+      "dependencies": 1366,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 55960,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 4,
+        "MEDIUM": 1,
+        "LOW": 3
+      },
+      "iac_density": 0.6254467476769121
+    },
+    {
+      "name": "upscayl/upscayl",
+      "stars": 46015,
+      "loc": 6933,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 3,
+        "LOW": 1
+      },
+      "sast_density": 1.8750901485648348,
+      "dependencies": 1038,
+      "sca": {
+        "CRITICAL": 1,
+        "HIGH": 25,
+        "MEDIUM": 27,
+        "LOW": 4
+      },
+      "sca_density": 0.28516377649325625,
+      "iac_loc": 990,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "calcom/cal.diy",
+      "stars": 45466,
+      "loc": 470606,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 6,
+        "MEDIUM": 70,
+        "LOW": 33
+      },
+      "sast_density": 0.754346523418741,
+      "dependencies": 838,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 51,
+        "MEDIUM": 61,
+        "LOW": 21
+      },
+      "sca_density": 0.7422434367541766,
+      "iac_loc": 4671,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 2,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 3.211303789338471
+    },
+    {
+      "name": "RocketChat/Rocket.Chat",
+      "stars": 45450,
+      "loc": 617146,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 3,
+        "MEDIUM": 165,
+        "LOW": 21
+      },
+      "sast_density": 1.1374942072054264,
+      "dependencies": 54,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 3,
+        "MEDIUM": 34,
+        "LOW": 13
+      },
+      "sca_density": 3.1481481481481484,
+      "iac_loc": 4450,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 4,
+        "MEDIUM": 2,
+        "LOW": 11
+      },
+      "iac_density": 10.561797752808989
+    },
+    {
+      "name": "jestjs/jest",
+      "stars": 45430,
+      "loc": 132386,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 31,
+        "LOW": 12
+      },
+      "sast_density": 1.0801746408230477,
+      "dependencies": 806,
+      "sca": {
+        "CRITICAL": 1,
+        "HIGH": 1,
+        "MEDIUM": 3,
+        "LOW": 0
+      },
+      "sca_density": 0.034739454094292806,
+      "iac_loc": 910,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "react-hook-form/react-hook-form",
+      "stars": 44762,
+      "loc": 59811,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 2,
+        "LOW": 0
+      },
+      "sast_density": 0.1337546605139523,
+      "dependencies": 55,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 4,
+        "LOW": 0
+      },
+      "sca_density": 0.41818181818181815,
+      "iac_loc": 8205,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "DIYgod/RSSHub",
+      "stars": 44667,
+      "loc": 381530,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 21,
+        "MEDIUM": 56,
+        "LOW": 5
+      },
+      "sast_density": 0.9855057269415249,
+      "dependencies": 148,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 6,
+        "LOW": 0
+      },
+      "sca_density": 0.16216216216216217,
+      "iac_loc": 11322,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 0.7065889418830595
+    },
+    {
+      "name": "vercel/hyper",
+      "stars": 44597,
+      "loc": 113291,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 17,
+        "LOW": 0
+      },
+      "sast_density": 0.6620119868303749,
+      "dependencies": 133,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 14,
+        "MEDIUM": 25,
+        "LOW": 7
+      },
+      "sca_density": 1.5413533834586466,
+      "iac_loc": 9170,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "KeygraphHQ/shannon",
+      "stars": 44521,
+      "loc": 12857,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 8,
+        "LOW": 2
+      },
+      "sast_density": 2.6444738274869724,
+      "dependencies": 21,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 6,
+        "MEDIUM": 16,
+        "LOW": 1
+      },
+      "sca_density": 5.095238095238095,
+      "iac_loc": 3342,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 2,
+        "LOW": 1
+      },
+      "iac_density": 4.78755236385398
+    },
+    {
+      "name": "siyuan-note/siyuan",
+      "stars": 44418,
+      "loc": 127348,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 103,
+        "LOW": 10
+      },
+      "sast_density": 3.3137544366617457,
+      "dependencies": 31,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 5322,
+      "iac": {
+        "CRITICAL": 1,
+        "HIGH": 1,
+        "MEDIUM": 1,
+        "LOW": 5
+      },
+      "iac_density": 4.697482149567832
+    },
+    {
+      "name": "AykutSarac/jsoncrack.com",
+      "stars": 44120,
+      "loc": 8323,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 9,
+        "LOW": 0
+      },
+      "sast_density": 4.325363450678841,
+      "dependencies": 103,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 11,
+        "LOW": 0
+      },
+      "sca_density": 0.42718446601941745,
+      "iac_loc": 7316,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 1.0934937124111537
+    },
+    {
+      "name": "streamich/react-use",
+      "stars": 43978,
+      "loc": 13562,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 1,
+        "LOW": 2
+      },
+      "sast_density": 0.4424126235068574,
+      "dependencies": 72,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 2,
+        "LOW": 0
+      },
+      "sca_density": 0.20833333333333334,
+      "iac_loc": 228,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "babel/babel",
+      "stars": 43971,
+      "loc": 261928,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 20,
+        "LOW": 4
+      },
+      "sast_density": 0.3206988179957851,
+      "dependencies": 966,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 4,
+        "MEDIUM": 6,
+        "LOW": 1
+      },
+      "sca_density": 0.054865424430641824,
+      "iac_loc": 1655,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "fastapi/full-stack-fastapi-template",
+      "stars": 43641,
+      "loc": 8398,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sast_density": 0.0,
+      "dependencies": 47,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 1239,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 4,
+        "MEDIUM": 0,
+        "LOW": 3
+      },
+      "iac_density": 25.02017756255044
+    },
+    {
+      "name": "ChromeDevTools/chrome-devtools-mcp",
+      "stars": 43477,
+      "loc": 85286,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 2,
+        "MEDIUM": 1,
+        "LOW": 6
+      },
+      "sast_density": 0.28140609244190135,
+      "dependencies": 631,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 454,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "FuelLabs/fuels-ts",
+      "stars": 43139,
+      "loc": 81924,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 7,
+        "MEDIUM": 64,
+        "LOW": 1
+      },
+      "sast_density": 3.735169181192324,
+      "dependencies": 375,
+      "sca": {
+        "CRITICAL": 9,
+        "HIGH": 55,
+        "MEDIUM": 53,
+        "LOW": 11
+      },
+      "sca_density": 1.8373333333333333,
+      "iac_loc": 23804,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "janhq/jan",
+      "stars": 42987,
+      "loc": 103504,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 15,
+        "LOW": 33
+      },
+      "sast_density": 0.8985159993816664,
+      "dependencies": 291,
+      "sca": {
+        "CRITICAL": 6,
+        "HIGH": 117,
+        "MEDIUM": 156,
+        "LOW": 18
+      },
+      "sca_density": 5.206185567010309,
+      "iac_loc": 3427,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "payloadcms/payload",
+      "stars": 42982,
+      "loc": 721635,
+      "semgrep": {
+        "CRITICAL": 2,
+        "HIGH": 9,
+        "MEDIUM": 109,
+        "LOW": 8
+      },
+      "sast_density": 0.7275146022573739,
+      "dependencies": 1387,
+      "sca": {
+        "CRITICAL": 46,
+        "HIGH": 437,
+        "MEDIUM": 599,
+        "LOW": 74
+      },
+      "sca_density": 4.28478731074261,
+      "iac_loc": 122277,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 3,
+        "MEDIUM": 0,
+        "LOW": 11
+      },
+      "iac_density": 0.26170089223647947
+    },
+    {
+      "name": "colinhacks/zod",
+      "stars": 42951,
+      "loc": 59744,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 22,
+        "LOW": 1
+      },
+      "sast_density": 1.4896893411890735,
+      "dependencies": 96,
+      "sca": {
+        "CRITICAL": 3,
+        "HIGH": 19,
+        "MEDIUM": 25,
+        "LOW": 4
+      },
+      "sca_density": 2.75,
+      "iac_loc": 13480,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "HeyPuter/puter",
+      "stars": 42255,
+      "loc": 204051,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 173,
+        "LOW": 30
+      },
+      "sast_density": 3.5726362527015305,
+      "dependencies": 1667,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 14,
+        "MEDIUM": 2,
+        "LOW": 0
+      },
+      "sca_density": 0.0635872825434913,
+      "iac_loc": 561,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "abhigyanpatwari/GitNexus",
+      "stars": 42028,
+      "loc": 284754,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 23,
+        "MEDIUM": 282,
+        "LOW": 2
+      },
+      "sast_density": 4.53373789305857,
+      "dependencies": 1317,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 1,
+        "LOW": 0
+      },
+      "sca_density": 0.0030372057706909645,
+      "iac_loc": 4341,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 2,
+        "MEDIUM": 1,
+        "LOW": 4
+      },
+      "iac_density": 5.06795669200645
+    },
+    {
+      "name": "hexojs/hexo",
+      "stars": 41756,
+      "loc": 24617,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 43,
+        "LOW": 0
+      },
+      "sast_density": 6.987041475403176,
+      "dependencies": 693,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 442,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "mifi/lossless-cut",
+      "stars": 41250,
+      "loc": 22698,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 1,
+        "LOW": 0
+      },
+      "sast_density": 0.17622698035069168,
+      "dependencies": 115,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 14,
+        "MEDIUM": 2,
+        "LOW": 2
+      },
+      "sca_density": 0.9391304347826087,
+      "iac_loc": 350,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "styled-components/styled-components",
+      "stars": 41069,
+      "loc": 94032,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 3,
+        "MEDIUM": 4,
+        "LOW": 1
+      },
+      "sast_density": 0.40411774714990645,
+      "dependencies": 129,
+      "sca": {
+        "CRITICAL": 1,
+        "HIGH": 1,
+        "MEDIUM": 6,
+        "LOW": 0
+      },
+      "sca_density": 0.31007751937984496,
+      "iac_loc": 11308,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "vuetifyjs/vuetify",
+      "stars": 40997,
+      "loc": 96444,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 6,
+        "LOW": 2
+      },
+      "sast_density": 0.2695864957903032,
+      "dependencies": 201,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 20,
+        "MEDIUM": 18,
+        "LOW": 3
+      },
+      "sca_density": 1.0696517412935322,
+      "iac_loc": 14728,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 0.5431830526887561
+    },
+    {
+      "name": "moeru-ai/airi",
+      "stars": 40959,
+      "loc": 196097,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 20,
+        "MEDIUM": 16,
+        "LOW": 23
+      },
+      "sast_density": 1.1575903761913746,
+      "dependencies": 1308,
+      "sca": {
+        "CRITICAL": 4,
+        "HIGH": 38,
+        "MEDIUM": 63,
+        "LOW": 4
+      },
+      "sca_density": 0.42660550458715596,
+      "iac_loc": 54181,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 3,
+        "MEDIUM": 0,
+        "LOW": 3
+      },
+      "iac_density": 0.4429597091231244
+    },
+    {
+      "name": "MHSanaei/3x-ui",
+      "stars": 40466,
+      "loc": 44793,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 2,
+        "LOW": 2
+      },
+      "sast_density": 0.3795235862746411,
+      "dependencies": 573,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 1189,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 1,
+        "LOW": 1
+      },
+      "iac_density": 10.09251471825063
+    },
+    {
+      "name": "chatboxai/chatbox",
+      "stars": 40438,
+      "loc": 114288,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 17,
+        "MEDIUM": 40,
+        "LOW": 17
+      },
+      "sast_density": 2.5899482010359796,
+      "dependencies": 37,
+      "sca": {
+        "CRITICAL": 3,
+        "HIGH": 38,
+        "MEDIUM": 55,
+        "LOW": 6
+      },
+      "sca_density": 14.027027027027026,
+      "iac_loc": 23165,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 0.34534858622922515
+    },
+    {
+      "name": "chakra-ui/chakra-ui",
+      "stars": 40436,
+      "loc": 167871,
+      "semgrep": {
+        "CRITICAL": 1,
+        "HIGH": 4,
+        "MEDIUM": 26,
+        "LOW": 6
+      },
+      "sast_density": 0.8756723913004628,
+      "dependencies": 404,
+      "sca": {
+        "CRITICAL": 2,
+        "HIGH": 48,
+        "MEDIUM": 39,
+        "LOW": 4
+      },
+      "sca_density": 1.2722772277227723,
+      "iac_loc": 20072,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 0.3985651654045437
+    },
+    {
+      "name": "trpc/trpc",
+      "stars": 40322,
+      "loc": 81927,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 2,
+        "MEDIUM": 8,
+        "LOW": 9
+      },
+      "sast_density": 0.6713293541811612,
+      "dependencies": 811,
+      "sca": {
+        "CRITICAL": 6,
+        "HIGH": 120,
+        "MEDIUM": 88,
+        "LOW": 25
+      },
+      "sca_density": 1.5672009864364982,
+      "iac_loc": 37120,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "appsmithorg/appsmith",
+      "stars": 40038,
+      "loc": 804069,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 6,
+        "MEDIUM": 112,
+        "LOW": 1
+      },
+      "sast_density": 0.6106441113884505,
+      "dependencies": 531,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 7,
+        "MEDIUM": 10,
+        "LOW": 3
+      },
+      "sca_density": 0.17325800376647835,
+      "iac_loc": 9533,
+      "iac": {
+        "CRITICAL": 5,
+        "HIGH": 4,
+        "MEDIUM": 1,
+        "LOW": 4
+      },
+      "iac_density": 8.496800587433128
+    },
+    {
+      "name": "novuhq/novu",
+      "stars": 39107,
+      "loc": 654424,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 12,
+        "MEDIUM": 152,
+        "LOW": 22
+      },
+      "sast_density": 1.0910357810838234,
+      "dependencies": 1355,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 1,
+        "LOW": 1
+      },
+      "sca_density": 0.0036900369003690036,
+      "iac_loc": 56010,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 3,
+        "MEDIUM": 0,
+        "LOW": 7
+      },
+      "iac_density": 0.49991073022674526
+    },
+    {
+      "name": "danny-avila/LibreChat",
+      "stars": 38985,
+      "loc": 533589,
+      "semgrep": {
+        "CRITICAL": 7,
+        "HIGH": 33,
+        "MEDIUM": 166,
+        "LOW": 45
+      },
+      "sast_density": 1.879723907351913,
+      "dependencies": 3304,
+      "sca": {
+        "CRITICAL": 2,
+        "HIGH": 38,
+        "MEDIUM": 56,
+        "LOW": 5
+      },
+      "sca_density": 0.15526634382566587,
+      "iac_loc": 4910,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 4,
+        "MEDIUM": 0,
+        "LOW": 4
+      },
+      "iac_density": 6.517311608961303
+    },
+    {
+      "name": "outline/outline",
+      "stars": 38891,
+      "loc": 240738,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 50,
+        "LOW": 13
+      },
+      "sast_density": 0.9138565577515806,
+      "dependencies": 325,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 1,
+        "LOW": 1
+      },
+      "sca_density": 0.015384615384615385,
+      "iac_loc": 753,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 3,
+        "MEDIUM": 1,
+        "LOW": 1
+      },
+      "iac_density": 34.52855245683931
+    },
+    {
+      "name": "vadimdemedes/ink",
+      "stars": 38889,
+      "loc": 24130,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sast_density": 0.0,
+      "dependencies": 54,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 22,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "siddharthvaddem/openscreen",
+      "stars": 38512,
+      "loc": 41189,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 3,
+        "LOW": 12
+      },
+      "sast_density": 0.5826798417053096,
+      "dependencies": 852,
+      "sca": {
+        "CRITICAL": 1,
+        "HIGH": 4,
+        "MEDIUM": 6,
+        "LOW": 0
+      },
+      "sca_density": 0.0715962441314554,
+      "iac_loc": 1163,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "Kong/insomnia",
+      "stars": 38487,
+      "loc": 267660,
+      "semgrep": {
+        "CRITICAL": 1,
+        "HIGH": 7,
+        "MEDIUM": 14,
+        "LOW": 23
+      },
+      "sast_density": 0.5118433833968467,
+      "dependencies": 3658,
+      "sca": {
+        "CRITICAL": 1,
+        "HIGH": 20,
+        "MEDIUM": 20,
+        "LOW": 4
+      },
+      "sca_density": 0.0636960087479497,
+      "iac_loc": 10682,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 3,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 2.059539412095113
+    },
+    {
+      "name": "RSSNext/Folo",
+      "stars": 38467,
+      "loc": 191498,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 17,
+        "LOW": 34
+      },
+      "sast_density": 0.5691965451336307,
+      "dependencies": 761,
+      "sca": {
+        "CRITICAL": 4,
+        "HIGH": 90,
+        "MEDIUM": 90,
+        "LOW": 10
+      },
+      "sca_density": 1.3613666228646517,
+      "iac_loc": 33241,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "amruthpillai/reactive-resume",
+      "stars": 38397,
+      "loc": 70635,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 0,
+        "LOW": 3
+      },
+      "sast_density": 0.1415728746372195,
+      "dependencies": 352,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 1,
+        "LOW": 0
+      },
+      "sca_density": 0.03125,
+      "iac_loc": 12153,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 0.6582736772813297
+    },
+    {
+      "name": "ant-design/ant-design-pro",
+      "stars": 38384,
+      "loc": 68568,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 2,
+        "LOW": 0
+      },
+      "sast_density": 0.11667250029168126,
+      "dependencies": 2412,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 242,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "portainer/portainer",
+      "stars": 37715,
+      "loc": 229121,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 5,
+        "MEDIUM": 73,
+        "LOW": 0
+      },
+      "sast_density": 1.4271934916485176,
+      "dependencies": 206,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 6,
+        "MEDIUM": 21,
+        "LOW": 5
+      },
+      "sca_density": 0.6359223300970874,
+      "iac_loc": 15592,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 7,
+        "MEDIUM": 3,
+        "LOW": 6
+      },
+      "iac_density": 4.297075423293997
+    },
+    {
+      "name": "mattermost/mattermost",
+      "stars": 37618,
+      "loc": 688049,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 2,
+        "MEDIUM": 52,
+        "LOW": 15
+      },
+      "sast_density": 0.3444522119790887,
+      "dependencies": 5081,
+      "sca": {
+        "CRITICAL": 2,
+        "HIGH": 30,
+        "MEDIUM": 38,
+        "LOW": 5
+      },
+      "sca_density": 0.07577248573115529,
+      "iac_loc": 38723,
+      "iac": {
+        "CRITICAL": 1,
+        "HIGH": 12,
+        "MEDIUM": 1,
+        "LOW": 10
+      },
+      "iac_density": 2.763215659943703
+    },
+    {
+      "name": "NervJS/taro",
+      "stars": 37531,
+      "loc": 307725,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 10,
+        "MEDIUM": 85,
+        "LOW": 17
+      },
+      "sast_density": 1.387602567227232,
+      "dependencies": 1517,
+      "sca": {
+        "CRITICAL": 268,
+        "HIGH": 539,
+        "MEDIUM": 504,
+        "LOW": 137
+      },
+      "sca_density": 5.496374423203691,
+      "iac_loc": 28217,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "ueberdosis/tiptap",
+      "stars": 37212,
+      "loc": 94398,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 27,
+        "LOW": 2
+      },
+      "sast_density": 1.165278925400962,
+      "dependencies": 298,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 3,
+        "LOW": 1
+      },
+      "sca_density": 0.0436241610738255,
+      "iac_loc": 10715,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "umami-software/umami",
+      "stars": 37137,
+      "loc": 44904,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 1,
+        "LOW": 2
+      },
+      "sast_density": 0.2895065027614466,
+      "dependencies": 103,
+      "sca": {
+        "CRITICAL": 1,
+        "HIGH": 11,
+        "MEDIUM": 19,
+        "LOW": 1
+      },
+      "sca_density": 1.5825242718446602,
+      "iac_loc": 9510,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 0.10515247108307045
+    },
+    {
+      "name": "xyflow/xyflow",
+      "stars": 37039,
+      "loc": 28692,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 2
+      },
+      "sast_density": 0.06970584134950508,
+      "dependencies": 161,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 1,
+        "LOW": 0
+      },
+      "sca_density": 0.024844720496894408,
+      "iac_loc": 9618,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "date-fns/date-fns",
+      "stars": 36577,
+      "loc": 84018,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 11,
+        "LOW": 0
+      },
+      "sast_density": 0.5236973029588897,
+      "dependencies": 150,
+      "sca": {
+        "CRITICAL": 2,
+        "HIGH": 31,
+        "MEDIUM": 24,
+        "LOW": 4
+      },
+      "sca_density": 2.2333333333333334,
+      "iac_loc": 10100,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 1,
+        "LOW": 1
+      },
+      "iac_density": 1.188118811881188
+    },
+    {
+      "name": "typeorm/typeorm",
+      "stars": 36537,
+      "loc": 198437,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 26,
+        "LOW": 0
+      },
+      "sast_density": 0.5593714881801277,
+      "dependencies": 121,
+      "sca": {
+        "CRITICAL": 1,
+        "HIGH": 2,
+        "MEDIUM": 5,
+        "LOW": 0
+      },
+      "sca_density": 0.35537190082644626,
+      "iac_loc": 21295,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "inkonchain/ink-kit",
+      "stars": 36487,
+      "loc": 4854,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 15,
+        "LOW": 0
+      },
+      "sast_density": 12.360939431396785,
+      "dependencies": 38,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 10444,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 0.7659900421294522
+    },
+    {
+      "name": "TriliumNext/Trilium",
+      "stars": 36425,
+      "loc": 227005,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 9,
+        "MEDIUM": 115,
+        "LOW": 23
+      },
+      "sast_density": 2.405233364903857,
+      "dependencies": 516,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 2,
+        "MEDIUM": 3,
+        "LOW": 0
+      },
+      "sca_density": 0.050387596899224806,
+      "iac_loc": 31623,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 3,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.664073617303861
+    },
+    {
+      "name": "bytedance/UI-TARS-desktop",
+      "stars": 36330,
+      "loc": 143515,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 6,
+        "MEDIUM": 141,
+        "LOW": 119
+      },
+      "sast_density": 5.051736752255862,
+      "dependencies": 556,
+      "sca": {
+        "CRITICAL": 8,
+        "HIGH": 133,
+        "MEDIUM": 148,
+        "LOW": 27
+      },
+      "sca_density": 2.91726618705036,
+      "iac_loc": 65375,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 0,
+        "LOW": 3
+      },
+      "iac_density": 0.15296367112810708
+    },
+    {
+      "name": "Yeachan-Heo/oh-my-claudecode",
+      "stars": 36297,
+      "loc": 617607,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 27,
+        "MEDIUM": 1307,
+        "LOW": 23
+      },
+      "sast_density": 8.808190321677055,
+      "dependencies": 388,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 874,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 2,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 16.018306636155607
+    },
+    {
+      "name": "reworkd/AgentGPT",
+      "stars": 36186,
+      "loc": 8281,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 2,
+        "LOW": 0
+      },
+      "sast_density": 0.9660669001328341,
+      "dependencies": 1333,
+      "sca": {
+        "CRITICAL": 3,
+        "HIGH": 31,
+        "MEDIUM": 46,
+        "LOW": 11
+      },
+      "sca_density": 0.3293323330832708,
+      "iac_loc": 508,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 4,
+        "MEDIUM": 0,
+        "LOW": 4
+      },
+      "iac_density": 62.99212598425197
+    },
+    {
+      "name": "lerna/lerna",
+      "stars": 36065,
+      "loc": 42757,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 6,
+        "MEDIUM": 68,
+        "LOW": 0
+      },
+      "sast_density": 7.343826741820053,
+      "dependencies": 2840,
+      "sca": {
+        "CRITICAL": 2,
+        "HIGH": 41,
+        "MEDIUM": 33,
+        "LOW": 2
+      },
+      "sca_density": 0.15457746478873238,
+      "iac_loc": 491,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "directus/directus",
+      "stars": 36003,
+      "loc": 296208,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 10,
+        "MEDIUM": 164,
+        "LOW": 1
+      },
+      "sast_density": 2.454356398206665,
+      "dependencies": 779,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 28,
+        "LOW": 5
+      },
+      "sca_density": 0.15019255455712452,
+      "iac_loc": 154613,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 0.006467761443086933
+    },
+    {
+      "name": "solidjs/solid",
+      "stars": 35613,
+      "loc": 19152,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 1,
+        "LOW": 3
+      },
+      "sast_density": 0.3654970760233918,
+      "dependencies": 53,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 5609,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "nativefier/nativefier",
+      "stars": 35310,
+      "loc": 7856,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 44,
+        "LOW": 0
+      },
+      "sast_density": 23.29429735234216,
+      "dependencies": 43,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 366,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 21.85792349726776
+    },
+    {
+      "name": "alan2207/bulletproof-react",
+      "stars": 35310,
+      "loc": 13213,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 6,
+        "LOW": 0
+      },
+      "sast_density": 1.8163929463407251,
+      "dependencies": 271,
+      "sca": {
+        "CRITICAL": 5,
+        "HIGH": 75,
+        "MEDIUM": 100,
+        "LOW": 10
+      },
+      "sca_density": 3.6162361623616235,
+      "iac_loc": 186,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "ItzCrazyKns/Vane",
+      "stars": 35280,
+      "loc": 15548,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 8,
+        "LOW": 5
+      },
+      "sast_density": 2.379727296115256,
+      "dependencies": 60,
+      "sca": {
+        "CRITICAL": 1,
+        "HIGH": 27,
+        "MEDIUM": 27,
+        "LOW": 3
+      },
+      "sca_density": 5.15,
+      "iac_loc": 273,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 6,
+        "MEDIUM": 1,
+        "LOW": 2
+      },
+      "iac_density": 175.82417582417582
+    },
+    {
+      "name": "musistudio/claude-code-router",
+      "stars": 34933,
+      "loc": 25005,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 46,
+        "LOW": 10
+      },
+      "sast_density": 8.038392321535694,
+      "dependencies": 365,
+      "sca": {
+        "CRITICAL": 1,
+        "HIGH": 74,
+        "MEDIUM": 54,
+        "LOW": 7
+      },
+      "sca_density": 2.0547945205479454,
+      "iac_loc": 16569,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.4224757076468103
+    },
+    {
+      "name": "refinedev/refine",
+      "stars": 34877,
+      "loc": 489874,
+      "semgrep": {
+        "CRITICAL": 10,
+        "HIGH": 17,
+        "MEDIUM": 88,
+        "LOW": 4
+      },
+      "sast_density": 1.1533578022103643,
+      "dependencies": 5526,
+      "sca": {
+        "CRITICAL": 15,
+        "HIGH": 158,
+        "MEDIUM": 150,
+        "LOW": 53
+      },
+      "sca_density": 0.3427433948606587,
+      "iac_loc": 63666,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 3,
+        "MEDIUM": 5,
+        "LOW": 13
+      },
+      "iac_density": 0.8481764206955047
+    },
+    {
+      "name": "Dokploy/dokploy",
+      "stars": 34809,
+      "loc": 160884,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 4,
+        "MEDIUM": 8,
+        "LOW": 20
+      },
+      "sast_density": 0.49725267894880787,
+      "dependencies": 278,
+      "sca": {
+        "CRITICAL": 5,
+        "HIGH": 105,
+        "MEDIUM": 130,
+        "LOW": 14
+      },
+      "sca_density": 4.726618705035971,
+      "iac_loc": 18096,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 12,
+        "MEDIUM": 0,
+        "LOW": 5
+      },
+      "iac_density": 4.918213969938108
+    },
+    {
+      "name": "drizzle-team/drizzle-orm",
+      "stars": 34773,
+      "loc": 386920,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 55,
+        "LOW": 1
+      },
+      "sast_density": 0.5711775043936731,
+      "dependencies": 278,
+      "sca": {
+        "CRITICAL": 6,
+        "HIGH": 33,
+        "MEDIUM": 57,
+        "LOW": 16
+      },
+      "sca_density": 1.9028776978417266,
+      "iac_loc": 15441,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "ZuodaoTech/everyone-can-use-english",
+      "stars": 34717,
+      "loc": 55676,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 32,
+        "LOW": 0
+      },
+      "sast_density": 2.4247431568359796,
+      "dependencies": 201,
+      "sca": {
+        "CRITICAL": 6,
+        "HIGH": 62,
+        "MEDIUM": 57,
+        "LOW": 17
+      },
+      "sca_density": 3.646766169154229,
+      "iac_loc": 470,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "jaredpalmer/formik",
+      "stars": 34348,
+      "loc": 11730,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 6,
+        "LOW": 0
+      },
+      "sast_density": 2.6427962489343564,
+      "dependencies": 174,
+      "sca": {
+        "CRITICAL": 16,
+        "HIGH": 70,
+        "MEDIUM": 66,
+        "LOW": 12
+      },
+      "sca_density": 5.2298850574712645,
+      "iac_loc": 190,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "medusajs/medusa",
+      "stars": 34328,
+      "loc": 857550,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 10,
+        "MEDIUM": 342,
+        "LOW": 6
+      },
+      "sast_density": 1.6838668299224535,
+      "dependencies": 1248,
+      "sca": {
+        "CRITICAL": 8,
+        "HIGH": 120,
+        "MEDIUM": 134,
+        "LOW": 18
+      },
+      "sca_density": 1.1746794871794872,
+      "iac_loc": 394749,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "balena-io/etcher",
+      "stars": 33858,
+      "loc": 11792,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 3,
+        "MEDIUM": 16,
+        "LOW": 0
+      },
+      "sast_density": 7.208276797829037,
+      "dependencies": 70,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 14052,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "microsoft/playwright-mcp",
+      "stars": 33824,
+      "loc": 819,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sast_density": 0.0,
+      "dependencies": 97,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 233,
+      "iac": {
+        "CRITICAL": 1,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 42.918454935622314
+    },
+    {
+      "name": "blakeblackshear/frigate",
+      "stars": 33707,
+      "loc": 115335,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 3,
+        "MEDIUM": 7,
+        "LOW": 2
+      },
+      "sast_density": 0.4421901417609572,
+      "dependencies": 2697,
+      "sca": {
+        "CRITICAL": 1,
+        "HIGH": 32,
+        "MEDIUM": 53,
+        "LOW": 7
+      },
+      "sca_density": 0.16759362254356694,
+      "iac_loc": 9879,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 18,
+        "MEDIUM": 19,
+        "LOW": 5
+      },
+      "iac_density": 20.953537807470394
+    },
+    {
+      "name": "continuedev/continue",
+      "stars": 33664,
+      "loc": 263506,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 25,
+        "MEDIUM": 123,
+        "LOW": 58
+      },
+      "sast_density": 2.7513605003301635,
+      "dependencies": 12372,
+      "sca": {
+        "CRITICAL": 9,
+        "HIGH": 99,
+        "MEDIUM": 130,
+        "LOW": 15
+      },
+      "sca_density": 0.10580342709343679,
+      "iac_loc": 5107,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 8,
+        "MEDIUM": 1,
+        "LOW": 3
+      },
+      "iac_density": 12.336009398864304
+    },
+    {
+      "name": "backstage/backstage",
+      "stars": 33597,
+      "loc": 690642,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 16,
+        "MEDIUM": 60,
+        "LOW": 4
+      },
+      "sast_density": 0.5154624248163303,
+      "dependencies": 4002,
+      "sca": {
+        "CRITICAL": 2,
+        "HIGH": 55,
+        "MEDIUM": 53,
+        "LOW": 6
+      },
+      "sca_density": 0.15517241379310345,
+      "iac_loc": 20005,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 53,
+        "MEDIUM": 65,
+        "LOW": 127
+      },
+      "iac_density": 37.89052736815796
+    },
+    {
+      "name": "lissy93/web-check",
+      "stars": 33574,
+      "loc": 10870,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 4,
+        "LOW": 2
+      },
+      "sast_density": 1.655933762649494,
+      "dependencies": 50,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 4,
+        "MEDIUM": 7,
+        "LOW": 1
+      },
+      "sca_density": 1.14,
+      "iac_loc": 3828,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 2,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 3.918495297805643
+    },
+    {
+      "name": "mckaywrigley/chatbot-ui",
+      "stars": 33264,
+      "loc": 23477,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 1,
+        "LOW": 4
+      },
+      "sast_density": 0.34075904076330027,
+      "dependencies": 1469,
+      "sca": {
+        "CRITICAL": 3,
+        "HIGH": 53,
+        "MEDIUM": 58,
+        "LOW": 12
+      },
+      "sca_density": 0.43703199455411845,
+      "iac_loc": 1,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "NginxProxyManager/nginx-proxy-manager",
+      "stars": 33246,
+      "loc": 21182,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 8,
+        "LOW": 1
+      },
+      "sast_density": 1.5579265414030783,
+      "dependencies": 91,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 1680,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 3,
+        "MEDIUM": 2,
+        "LOW": 2
+      },
+      "iac_density": 18.452380952380953
+    },
+    {
+      "name": "immutable-js/immutable-js",
+      "stars": 33060,
+      "loc": 23197,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 3,
+        "MEDIUM": 8,
+        "LOW": 0
+      },
+      "sast_density": 2.2847782040781137,
+      "dependencies": 1009,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 223,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "remix-run/remix",
+      "stars": 33060,
+      "loc": 173213,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 7,
+        "MEDIUM": 23,
+        "LOW": 5
+      },
+      "sast_density": 0.8428928544624249,
+      "dependencies": 567,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 1,
+        "LOW": 0
+      },
+      "sca_density": 0.019400352733686066,
+      "iac_loc": 8859,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "floating-ui/floating-ui",
+      "stars": 32613,
+      "loc": 39580,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 2,
+        "LOW": 0
+      },
+      "sast_density": 0.37897928246589185,
+      "dependencies": 153,
+      "sca": {
+        "CRITICAL": 1,
+        "HIGH": 25,
+        "MEDIUM": 23,
+        "LOW": 7
+      },
+      "sca_density": 1.8496732026143792,
+      "iac_loc": 16615,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "vercel/swr",
+      "stars": 32400,
+      "loc": 18274,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sast_density": 0.38305789646492283,
+      "dependencies": 136,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 6011,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "motiondivision/motion",
+      "stars": 32308,
+      "loc": 82786,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 5,
+        "LOW": 1
+      },
+      "sast_density": 0.25366607880559516,
+      "dependencies": 102,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 2,
+        "LOW": 0
+      },
+      "sca_density": 0.0784313725490196,
+      "iac_loc": 162,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 49.382716049382715
+    },
+    {
+      "name": "hasura/graphql-engine",
+      "stars": 32054,
+      "loc": 507161,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 3,
+        "MEDIUM": 36,
+        "LOW": 13
+      },
+      "sast_density": 0.3509733595446022,
+      "dependencies": 3870,
+      "sca": {
+        "CRITICAL": 33,
+        "HIGH": 302,
+        "MEDIUM": 241,
+        "LOW": 65
+      },
+      "sca_density": 0.8888888888888888,
+      "iac_loc": 105464,
+      "iac": {
+        "CRITICAL": 1,
+        "HIGH": 53,
+        "MEDIUM": 31,
+        "LOW": 76
+      },
+      "iac_density": 5.499506940757036
+    },
+    {
+      "name": "pear-devs/pear-desktop",
+      "stars": 31914,
+      "loc": 28637,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 2,
+        "MEDIUM": 0,
+        "LOW": 2
+      },
+      "sast_density": 0.5587177427803192,
+      "dependencies": 113,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 2,
+        "MEDIUM": 12,
+        "LOW": 1
+      },
+      "sca_density": 0.5575221238938053,
+      "iac_loc": 7595,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "niklasvh/html2canvas",
+      "stars": 31873,
+      "loc": 11381,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 2,
+        "LOW": 1
+      },
+      "sast_density": 0.7907916703277392,
+      "dependencies": 4490,
+      "sca": {
+        "CRITICAL": 20,
+        "HIGH": 105,
+        "MEDIUM": 80,
+        "LOW": 26
+      },
+      "sca_density": 0.28084632516703784,
+      "iac_loc": 394,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "DayuanJiang/next-ai-draw-io",
+      "stars": 31870,
+      "loc": 28203,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 4,
+        "MEDIUM": 19,
+        "LOW": 14
+      },
+      "sast_density": 4.1839520618373935,
+      "dependencies": 1863,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 13,
+        "MEDIUM": 38,
+        "LOW": 3
+      },
+      "sca_density": 0.1320450885668277,
+      "iac_loc": 462,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 2.1645021645021645
+    },
+    {
+      "name": "gitroomhq/postiz-app",
+      "stars": 31837,
+      "loc": 100920,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 18,
+        "LOW": 7
+      },
+      "sast_density": 0.7827982560443916,
+      "dependencies": 270,
+      "sca": {
+        "CRITICAL": 4,
+        "HIGH": 67,
+        "MEDIUM": 110,
+        "LOW": 13
+      },
+      "sca_density": 3.5481481481481483,
+      "iac_loc": 33423,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 0.2393561320049068
+    },
+    {
+      "name": "codex-team/editor.js",
+      "stars": 31822,
+      "loc": 19705,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 1,
+        "LOW": 0
+      },
+      "sast_density": 0.20299416391778738,
+      "dependencies": 35,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 268,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "ianstormtaylor/slate",
+      "stars": 31691,
+      "loc": 50137,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sast_density": 0.0,
+      "dependencies": 129,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 2,
+        "MEDIUM": 5,
+        "LOW": 0
+      },
+      "sca_density": 0.26356589147286824,
+      "iac_loc": 259,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 2,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 57.915057915057915
+    },
+    {
+      "name": "ReactiveX/rxjs",
+      "stars": 31684,
+      "loc": 71034,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 34,
+        "MEDIUM": 24,
+        "LOW": 1
+      },
+      "sast_density": 4.716051468310949,
+      "dependencies": 151,
+      "sca": {
+        "CRITICAL": 4,
+        "HIGH": 26,
+        "MEDIUM": 20,
+        "LOW": 6
+      },
+      "sca_density": 2.013245033112583,
+      "iac_loc": 619,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 12.924071082390954
+    },
+    {
+      "name": "refined-github/refined-github",
+      "stars": 31503,
+      "loc": 18586,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 3,
+        "LOW": 1
+      },
+      "sast_density": 0.6994511998278274,
+      "dependencies": 802,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 476,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "shardeum/shardeum",
+      "stars": 31397,
+      "loc": 57104,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 28,
+        "LOW": 11
+      },
+      "sast_density": 2.1539646959932757,
+      "dependencies": 2289,
+      "sca": {
+        "CRITICAL": 7,
+        "HIGH": 56,
+        "MEDIUM": 45,
+        "LOW": 13
+      },
+      "sca_density": 0.28309305373525556,
+      "iac_loc": 265,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 3.773584905660377
+    },
+    {
+      "name": "mantinedev/mantine",
+      "stars": 31247,
+      "loc": 299300,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 60,
+        "LOW": 2
+      },
+      "sast_density": 0.8085532910123622,
+      "dependencies": 394,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 2,
+        "MEDIUM": 8,
+        "LOW": 0
+      },
+      "sca_density": 0.116751269035533,
+      "iac_loc": 189,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "fabricjs/fabric.js",
+      "stars": 31230,
+      "loc": 107869,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 4,
+        "MEDIUM": 10,
+        "LOW": 0
+      },
+      "sast_density": 0.6303942745367066,
+      "dependencies": 56,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 4262,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "pmndrs/react-three-fiber",
+      "stars": 31082,
+      "loc": 9365,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 4,
+        "LOW": 1
+      },
+      "sast_density": 1.815269620928991,
+      "dependencies": 78,
+      "sca": {
+        "CRITICAL": 1,
+        "HIGH": 14,
+        "MEDIUM": 26,
+        "LOW": 3
+      },
+      "sca_density": 2.7435897435897436,
+      "iac_loc": 133,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "honojs/hono",
+      "stars": 30940,
+      "loc": 54013,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 64,
+        "MEDIUM": 28,
+        "LOW": 1
+      },
+      "sast_density": 10.386388462036917,
+      "dependencies": 51,
+      "sca": {
+        "CRITICAL": 2,
+        "HIGH": 7,
+        "MEDIUM": 31,
+        "LOW": 5
+      },
+      "sca_density": 3.843137254901961,
+      "iac_loc": 563,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 14.209591474245117
+    },
+    {
+      "name": "Yeachan-Heo/oh-my-codex",
+      "stars": 30830,
+      "loc": 251183,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 21,
+        "MEDIUM": 989,
+        "LOW": 1
+      },
+      "sast_density": 16.338685340966546,
+      "dependencies": 157,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 5,
+        "LOW": 0
+      },
+      "sca_density": 0.12738853503184713,
+      "iac_loc": 1181,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "transloadit/uppy",
+      "stars": 30824,
+      "loc": 61517,
+      "semgrep": {
+        "CRITICAL": 1,
+        "HIGH": 1,
+        "MEDIUM": 22,
+        "LOW": 12
+      },
+      "sast_density": 1.8856576230960547,
+      "dependencies": 703,
+      "sca": {
+        "CRITICAL": 2,
+        "HIGH": 69,
+        "MEDIUM": 53,
+        "LOW": 24
+      },
+      "sca_density": 1.0483641536273116,
+      "iac_loc": 844,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 5,
+        "MEDIUM": 7,
+        "LOW": 11
+      },
+      "iac_density": 87.67772511848341
+    },
+    {
+      "name": "linshenkx/prompt-optimizer",
+      "stars": 30768,
+      "loc": 176152,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 5,
+        "MEDIUM": 14,
+        "LOW": 78
+      },
+      "sast_density": 0.9593987011217585,
+      "dependencies": 103,
+      "sca": {
+        "CRITICAL": 1,
+        "HIGH": 8,
+        "MEDIUM": 34,
+        "LOW": 1
+      },
+      "sca_density": 1.9611650485436893,
+      "iac_loc": 9537,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 0.8388382090804235
+    },
+    {
+      "name": "Crosstalk-Solutions/project-nomad",
+      "stars": 30634,
+      "loc": 30634,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 26,
+        "LOW": 9
+      },
+      "sast_density": 3.9172161650453745,
+      "dependencies": 1302,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 18,
+        "MEDIUM": 22,
+        "LOW": 1
+      },
+      "sca_density": 0.1651305683563748,
+      "iac_loc": 802,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 4,
+        "MEDIUM": 0,
+        "LOW": 6
+      },
+      "iac_density": 42.394014962593516
+    },
+    {
+      "name": "cheeriojs/cheerio",
+      "stars": 30370,
+      "loc": 9603,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 4,
+        "LOW": 0
+      },
+      "sast_density": 1.6661459960429033,
+      "dependencies": 1109,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 1,
+        "LOW": 0
+      },
+      "sca_density": 0.0036068530207394047,
+      "iac_loc": 355,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "sequelize/sequelize",
+      "stars": 30350,
+      "loc": 134640,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 12,
+        "LOW": 0
+      },
+      "sast_density": 0.3565062388591801,
+      "dependencies": 182,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 30,
+        "MEDIUM": 26,
+        "LOW": 5
+      },
+      "sca_density": 1.7527472527472527,
+      "iac_loc": 938,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "nanocoai/nanoclaw",
+      "stars": 29829,
+      "loc": 37450,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 22,
+        "MEDIUM": 157,
+        "LOW": 0
+      },
+      "sast_density": 20.881174899866487,
+      "dependencies": 27,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 2,
+        "MEDIUM": 10,
+        "LOW": 1
+      },
+      "sca_density": 2.037037037037037,
+      "iac_loc": 2676,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 0.37369207772795215
+    },
+    {
+      "name": "jamiepine/voicebox",
+      "stars": 29816,
+      "loc": 32111,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 1,
+        "LOW": 2
+      },
+      "sast_density": 0.1868518576188845,
+      "dependencies": 128,
+      "sca": {
+        "CRITICAL": 1,
+        "HIGH": 23,
+        "MEDIUM": 26,
+        "LOW": 7
+      },
+      "sca_density": 2.1953125,
+      "iac_loc": 397,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 1,
+        "LOW": 0
+      },
+      "iac_density": 10.075566750629722
+    },
+    {
+      "name": "statelyai/xstate",
+      "stars": 29705,
+      "loc": 80976,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 16,
+        "LOW": 1
+      },
+      "sast_density": 0.8027069749061451,
+      "dependencies": 261,
+      "sca": {
+        "CRITICAL": 11,
+        "HIGH": 82,
+        "MEDIUM": 147,
+        "LOW": 37
+      },
+      "sca_density": 4.973180076628353,
+      "iac_loc": 40035,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "the1812/Bilibili-Evolved",
+      "stars": 29518,
+      "loc": 41802,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 17,
+        "LOW": 7
+      },
+      "sast_density": 1.794172527630257,
+      "dependencies": 72,
+      "sca": {
+        "CRITICAL": 1,
+        "HIGH": 7,
+        "MEDIUM": 9,
+        "LOW": 1
+      },
+      "sca_density": 1.3194444444444444,
+      "iac_loc": 6774,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "lfnovo/open-notebook",
+      "stars": 29513,
+      "loc": 33990,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 1,
+        "LOW": 1
+      },
+      "sast_density": 0.14710208884966167,
+      "dependencies": 847,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 1,
+        "LOW": 0
+      },
+      "sca_density": 0.004722550177095631,
+      "iac_loc": 1158,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 3,
+        "MEDIUM": 0,
+        "LOW": 2
+      },
+      "iac_density": 19.86183074265976
+    },
+    {
+      "name": "jitsi/jitsi-meet",
+      "stars": 29407,
+      "loc": 144822,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 14,
+        "LOW": 0
+      },
+      "sast_density": 0.38668158152766846,
+      "dependencies": 2622,
+      "sca": {
+        "CRITICAL": 1,
+        "HIGH": 5,
+        "MEDIUM": 36,
+        "LOW": 2
+      },
+      "sca_density": 0.07246376811594203,
+      "iac_loc": 787,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "slymnoyann/hey-1",
+      "stars": 29396,
+      "loc": 44262,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 1,
+        "LOW": 0
+      },
+      "sast_density": 0.09037097284352266,
+      "dependencies": 73,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 4,
+        "MEDIUM": 12,
+        "LOW": 0
+      },
+      "sca_density": 1.0410958904109588,
+      "iac_loc": 10646,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "pmndrs/react-spring",
+      "stars": 29109,
+      "loc": 25238,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 1,
+        "LOW": 0
+      },
+      "sast_density": 0.15849116411760045,
+      "dependencies": 1455,
+      "sca": {
+        "CRITICAL": 2,
+        "HIGH": 4,
+        "MEDIUM": 8,
+        "LOW": 1
+      },
+      "sca_density": 0.05429553264604811,
+      "iac_loc": 10646,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 0,
+        "LOW": 1
+      },
+      "iac_density": 0.7514559458951718
+    },
+    {
+      "name": "langfuse/langfuse",
+      "stars": 28990,
+      "loc": 513457,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 21,
+        "LOW": 5
+      },
+      "sast_density": 0.18696794473539166,
+      "dependencies": 345,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 3,
+        "MEDIUM": 10,
+        "LOW": 4
+      },
+      "sca_density": 0.18840579710144928,
+      "iac_loc": 44018,
+      "iac": {
+        "CRITICAL": 1,
+        "HIGH": 1,
+        "MEDIUM": 0,
+        "LOW": 3
+      },
+      "iac_density": 0.4316416011631605
+    },
+    {
+      "name": "t3-oss/create-t3-app",
+      "stars": 28975,
+      "loc": 8480,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 53,
+        "LOW": 0
+      },
+      "sast_density": 25.825471698113205,
+      "dependencies": 112,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 52,
+        "MEDIUM": 54,
+        "LOW": 19
+      },
+      "sca_density": 5.348214285714286,
+      "iac_loc": 10964,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "postcss/postcss",
+      "stars": 28964,
+      "loc": 11917,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 3,
+        "LOW": 0
+      },
+      "sast_density": 1.0069648401443316,
+      "dependencies": 24,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "sca_density": 0.0,
+      "iac_loc": 2648,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "GitbookIO/gitbook",
+      "stars": 28898,
+      "loc": 76201,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 17,
+        "LOW": 1
+      },
+      "sast_density": 0.9054999278224696,
+      "dependencies": 215,
+      "sca": {
+        "CRITICAL": 2,
+        "HIGH": 19,
+        "MEDIUM": 23,
+        "LOW": 3
+      },
+      "sca_density": 1.1441860465116278,
+      "iac_loc": 2433,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "nrwl/nx",
+      "stars": 28897,
+      "loc": 775302,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 113,
+        "MEDIUM": 1460,
+        "LOW": 27
+      },
+      "sast_density": 8.587621339813388,
+      "dependencies": 1090,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 127,
+        "MEDIUM": 135,
+        "LOW": 36
+      },
+      "sca_density": 1.3440366972477065,
+      "iac_loc": 48166,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0
+      },
+      "iac_density": 0.0
+    },
+    {
+      "name": "voideditor/void",
+      "stars": 28816,
+      "loc": 1393388,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 18,
+        "MEDIUM": 274,
+        "LOW": 41
+      },
+      "sast_density": 0.9064237671057882,
+      "dependencies": 3518,
+      "sca": {
+        "CRITICAL": 1,
+        "HIGH": 77,
+        "MEDIUM": 55,
+        "LOW": 14
+      },
+      "sca_density": 0.2222853894258101,
+      "iac_loc": 4749,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 0,
+        "LOW": 2
+      },
+      "iac_density": 1.8951358180669615
+    },
+    {
+      "name": "simstudioai/sim",
+      "stars": 28756,
+      "loc": 1429578,
+      "semgrep": {
+        "CRITICAL": 0,
+        "HIGH": 6,
+        "MEDIUM": 126,
+        "LOW": 26
+      },
+      "sast_density": 0.40011807680308453,
+      "dependencies": 335,
+      "sca": {
+        "CRITICAL": 0,
+        "HIGH": 10,
+        "MEDIUM": 5,
+        "LOW": 1
+      },
+      "sca_density": 0.2716417910447761,
+      "iac_loc": 7356,
+      "iac": {
+        "CRITICAL": 0,
+        "HIGH": 1,
+        "MEDIUM": 1,
+        "LOW": 4
+      },
+      "iac_density": 2.039151712887439
+    }
+  ]
+}
